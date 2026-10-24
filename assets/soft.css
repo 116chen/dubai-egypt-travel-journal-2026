@@ -1,0 +1,211 @@
+:root{
+  --hairline:rgba(20,20,19,.12);
+  --on-dark-line:rgba(250,249,245,.14);
+  --soft-display:Poppins,"Songti SC","STSong",Georgia,serif;
+}
+h1,h2,.chapter h3,.story h3{
+  font-family:var(--soft-display);
+  font-weight:400;
+  letter-spacing:-.025em;
+}
+h1{line-height:1.2}
+h2{line-height:1.5}
+.chapter h3,.story h3{line-height:1.6}
+.opening{
+  border-radius:0 0 70px 70px / 0 0 40px 40px;
+}
+.opening-copy{padding-bottom:34px}
+.opening-foot{border:0;padding-top:10px}
+.cover-view{border:0;gap:13px}
+.cover-view>span,.edition>a>span{
+  display:grid;place-items:center;width:32px;height:32px;
+  border-radius:50%;background:rgba(250,249,245,.12);
+}
+.edition>a>span{background:var(--soft)}
+.button{
+  border-color:transparent;border-radius:999px;
+  padding-inline:25px;background:var(--soft);
+}
+.button:hover{background:#dddbd0}
+.button.primary{border-color:transparent}
+.button>span{font-size:20px}
+.main-nav{
+  border:0;background:rgba(250,249,245,.93);
+  backdrop-filter:blur(18px);
+}
+.nav-links a::after{
+  left:50%;right:auto;bottom:10px;width:5px;height:5px;
+  border-radius:50%;transform:translateX(-50%) scale(0);
+  transform-origin:center;
+}
+.nav-links a:hover::after,.nav-links a.active::after{
+  transform:translateX(-50%) scale(1);
+}
+.route-section{border:0;padding-top:15px}
+.route-place{padding:9px 14px;background:rgba(232,230,220,.55);border-radius:18px}
+.route-arrow{opacity:.5;width:17px;margin-inline:9px}
+.text-link,.reading-link{border:0;gap:10px}
+.text-link>span,.reading-link>span{
+  width:26px;height:26px;display:grid;place-items:center;
+  border-radius:50%;background:rgba(217,119,87,.11);
+  transition:transform .2s;
+}
+.text-link:hover>span,.reading-link:hover>span{transform:translate(2px,-2px)}
+.section-no,.eyebrow{letter-spacing:.1em}
+.chapter+.chapter{border:0}
+.chapter{padding-top:65px;padding-bottom:85px}
+.chapter-meta{gap:16px}
+.chapter-number,.story-number{
+  min-width:32px;min-height:32px;display:grid;place-items:center;
+  border-radius:50%;background:rgba(217,119,87,.12);
+}
+.chapter-museum .chapter-number{background:rgba(120,140,93,.13);color:#566746}
+.chapter-sea .chapter-number{background:rgba(106,155,204,.15);color:var(--blue)}
+.chapter-grid .photo-button{
+  border-radius:22px;
+}
+.chapter-museum .photo-1 .photo-button{
+  border-radius:46% 46% 22px 22px / 24% 24% 22px 22px;
+}
+.chapter-museum .photo-3 .photo-button{
+  border-radius:22px 70px 22px 22px;
+}
+.chapter-panorama .photo-1 .photo-button{
+  border-radius:70px 22px 70px 22px;
+}
+.chapter-sunset{
+  border-radius:65px 110px 65px 35px;
+  margin-inline:20px;
+}
+.chapter-sunset .photo-1 .photo-button{
+  border-radius:22px 85px 22px 22px;
+}
+.chapter-sky .photo-2 .photo-button{
+  border-radius:46% 46% 22px 22px / 18% 18% 22px 22px;
+}
+.chapter-sea{
+  margin-inline:20px;
+  border-radius:90px 38px 100px 38px;
+}
+.chapter-sea .photo-1 .photo-button{
+  border-radius:75px 22px 22px 22px;
+}
+.chapter-sea .photo-2 .photo-button{
+  border-radius:22px 22px 90px 22px;
+}
+.chapter-finale .photo-1 .photo-button{
+  border-radius:22px 90px 22px 22px;
+}
+.chapter-city .photo-4 .photo-button{
+  border-radius:45% 45% 22px 22px / 10% 10% 22px 22px;
+}
+.photo-zoom{border-radius:50%}
+.story-section{
+  background:linear-gradient(180deg,var(--bg),var(--soft) 27%,var(--soft) 78%,var(--bg));
+}
+.stories{gap:62px 74px}
+.story{border:0;padding-top:0}
+.story h3{font-size:31px}
+.story-top{gap:14px}
+.story .photo-button{border-radius:24px}
+.story-egyptmeal .photo-button{border-radius:65px 24px 24px 24px}
+.edit-note,.save-note,.cancel-note{border:0}
+.note-editor textarea{border-color:var(--hairline);border-radius:18px}
+.notes-foot{border:0;margin-top:34px}
+.history-section{
+  margin-inline:20px;
+  border-radius:90px 90px 40px 40px / 55px 55px 40px 40px;
+}
+.era-line{border:0;padding-bottom:15px}
+.era-point{position:relative;padding-left:16px}
+.era-point::before{
+  content:"";position:absolute;width:5px;height:5px;
+  border-radius:50%;background:var(--orange);left:0;top:12px;
+}
+.filter-tabs{gap:10px}
+.filter-tab{border:0;border-radius:999px;padding:10px 16px}
+.filter-tab:hover{background:var(--soft)}
+.filter-tab.active,.filter-tab[aria-pressed=true]{background:var(--soft);color:var(--accent)}
+.history-section .filter-tab:hover{background:rgba(250,249,245,.07)}
+.history-section .filter-tab.active{
+  background:rgba(217,119,87,.15);color:var(--orange);
+}
+.history-grid{gap:12px 65px}
+.history-card{border-top:1px solid var(--on-dark-line);padding-top:24px}
+.history-footnote{border-color:var(--on-dark-line)}
+.itinerary-toolbar{border:0;padding-bottom:20px}
+.day-index{gap:8px}
+.day-index a{border:0;border-radius:50%;min-width:44px;min-height:44px;background:rgba(232,230,220,.6)}
+.day-index a:hover{background:var(--soft)}
+.day{border-color:var(--hairline)}
+.day>summary{border-radius:18px;transition:background-color .2s}
+.day>summary:hover{background:rgba(232,230,220,.3)}
+.expand-icon{width:28px;height:28px;display:grid;place-items:center;border-radius:50%;background:var(--soft);font-size:22px}
+.schedule li{border:0;padding-left:20px}
+.schedule li::before{border-radius:50%;opacity:.75}
+.schedule .actual-visit{border:0;border-radius:20px;padding:18px 20px}
+.info-block{border-color:var(--hairline)}
+.record-block{border-radius:20px}
+.archive>summary,.options-group>summary{border-color:var(--hairline)}
+.table-wrap{border-radius:18px}
+th,td{border-color:var(--hairline)}
+.gallery-section{border:0}
+.gallery-controls select{border-color:var(--hairline);border-radius:999px;padding-inline:20px}
+.gallery-item .photo-button{border-radius:17px}
+.pagination button{border:0;border-radius:50%}
+.pagination button[aria-current=page]{background:var(--soft)}
+footer{border-radius:70px 70px 0 0 / 40px 40px 0 0}
+.source-details>summary,.colophon{border-color:var(--hairline)}
+dialog{border-radius:24px}
+.dialog-top{border-color:var(--hairline)}
+.close-dialog{border-radius:50%}
+.close-dialog:hover{background:var(--soft)}
+.reader-content h3{border-color:var(--hairline)}
+.viewer-dialog .dialog-top{border-color:var(--on-dark-line)}
+.viewer-dialog .close-dialog:hover{background:rgba(250,249,245,.12)}
+.viewer-arrow{border-radius:50%}
+.viewer-original{border:0}
+.toast{border-radius:999px}
+@media(max-width:1150px){
+  .chapter-sunset,.chapter-sea,.history-section{margin-inline:14px}
+}
+@media(max-width:600px){
+  .opening{border-radius:0 0 32px 32px / 0 0 20px 20px}
+  h1{font-size:clamp(45px,12.5vw,70px);line-height:1.25}
+  h2{font-size:31px;line-height:1.55}
+  .chapter h3{font-size:28px;line-height:1.6}
+  .opening-copy{padding-bottom:28px}
+  .opening-foot{padding-top:8px}
+  .cover-view>span{width:26px;height:26px}
+  .edition>a>span{width:24px;height:24px}
+  .route-place{padding:8px 12px;border-radius:15px}
+  .chapter{padding:38px 0 52px}
+  .chapter-sunset,.chapter-sea,.history-section{margin-inline:8px}
+  .chapter-sunset{border-radius:34px 55px 34px 22px}
+  .chapter-sea{border-radius:42px 22px 50px 22px;padding-block:52px}
+  .chapter-grid .photo-button{border-radius:16px}
+  .chapter-museum .photo-1 .photo-button{border-radius:46% 46% 16px 16px / 24% 24% 16px 16px}
+  .chapter-museum .photo-3 .photo-button{border-radius:16px 40px 16px 16px}
+  .chapter-panorama .photo-1 .photo-button{border-radius:40px 16px 40px 16px}
+  .chapter-sunset .photo-1 .photo-button{border-radius:16px 45px 16px 16px}
+  .chapter-sky .photo-2 .photo-button{border-radius:46% 46% 16px 16px / 18% 18% 16px 16px}
+  .chapter-sea .photo-1 .photo-button{border-radius:42px 16px 16px 16px}
+  .chapter-sea .photo-2 .photo-button{border-radius:16px 16px 45px 16px}
+  .chapter-finale .photo-1 .photo-button{border-radius:16px 45px 16px 16px}
+  .chapter-city .photo-4 .photo-button{border-radius:45% 45% 16px 16px / 10% 10% 16px 16px}
+  .stories{gap:40px}
+  .story h3{font-size:26px}
+  .story .photo-button{border-radius:18px}
+  .history-section{border-radius:40px 40px 25px 25px / 25px 25px 25px 25px}
+  .filter-tabs{gap:5px}
+  .filter-tab{padding:10px 13px}
+  .day-index{gap:8px}
+  .day-index a{min-width:40px}
+  .gallery-item .photo-button{border-radius:12px}
+  footer{border-radius:35px 35px 0 0 / 22px 22px 0 0}
+  dialog{border-radius:20px}
+}
+@media print{
+  .opening,.chapter-sunset,.chapter-sea,.history-section,footer{border-radius:0;margin-inline:0}
+  .chapter-grid .photo-button{border-radius:12px}
+}

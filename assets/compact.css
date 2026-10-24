@@ -1,0 +1,177 @@
+.masthead{height:76px}
+.edition>a{display:none}
+.opening{height:min(620px,calc(100svh - 141px));min-height:450px}
+.opening-copy .eyebrow{margin-bottom:20px}
+h1{font-size:clamp(48px,5vw,74px)}
+.opening-intro{font-size:16px;margin-top:20px}
+.opening-copy{padding-bottom:24px}
+.opening .button{margin-top:23px}
+.opening-foot{font-size:12px}
+.opening-foot p>span{font-size:11px}
+.nav-links{gap:34px}
+.section{padding:48px 0}
+.section-heading{margin-bottom:25px;gap:25px}
+.section-heading h2{font-family:var(--soft-display);font-size:32px;font-weight:400}
+.map-section{padding:40px 0 48px}
+.map-section .section-heading{margin-bottom:25px}
+.map-section h2{font-size:34px}
+.map-section .section-deck{font-size:13px}
+.map-section .section-no{font-size:11px;margin-bottom:10px}
+.map-layout{grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:30px}
+.map-stage{max-width:680px;padding:15px 18px;border-radius:30px}
+.map-view-tab{font-size:11px}
+.map-view-tabs{margin-bottom:12px}
+.map-detail{padding-top:7px}
+.map-detail h3{font-size:28px}
+.map-description{font-size:14px;margin-top:12px;min-height:0}
+.map-site-options{margin:14px 0 17px}
+.map-photo{margin-top:14px}
+.map-photo .photo-button{aspect-ratio:1.5}
+.map-photo-controls{margin-top:9px}
+.map-location-label{margin-top:12px}
+.map-legend{padding-top:12px}
+.map-detail-actions{margin-top:12px;gap:4px 16px}
+.map-detail-actions .reading-link{font-size:12px}
+.map-thumbnails-disclosure{margin-top:10px}
+.map-thumbnails-disclosure>summary{font-family:var(--heading);font-size:11px;color:var(--muted);min-height:40px;display:flex;gap:15px;align-items:center}
+.map-thumbnails-disclosure>summary>span{font-size:18px}
+.map-thumbnails-disclosure[open]>summary>span{transform:rotate(45deg)}
+.map-photo-thumbs{margin-top:4px}
+.map-note{font-size:11px;margin-top:12px}
+.compact-chapters{padding-top:15px}
+.chapter-disclosure{margin-top:8px}
+.chapter-disclosure>summary{
+  display:grid;grid-template-columns:72px 28px 1fr 106px 24px;
+  gap:19px;align-items:center;padding:13px 16px 13px 0;
+  border-radius:20px;transition:background-color .2s;
+}
+.chapter-disclosure>summary:hover{background:rgba(232,230,220,.4)}
+.chapter-disclosure>summary>img{width:72px;height:66px;object-fit:cover;border-radius:15px}
+.chapter-summary-number{font-family:var(--heading);font-size:12px;color:var(--accent)}
+.chapter-summary-title{font-family:var(--heading);font-size:16px;font-weight:600;line-height:1.65}
+.chapter-summary-date{font-family:var(--heading);font-size:12px;color:var(--muted);text-align:right}
+.disclosure-symbol{font-family:var(--heading);font-size:24px;color:var(--accent);font-weight:400;line-height:1;justify-self:end}
+.chapter-disclosure[open]>summary .disclosure-symbol,.content-disclosure[open]>summary .disclosure-symbol{transform:rotate(45deg)}
+.chapter-disclosure[open]>summary{background:rgba(232,230,220,.4)}
+.chapter-disclosure>.chapter{padding:28px 20px 35px;border-radius:25px;margin:15px 0 28px}
+.chapter-disclosure .chapter-meta{display:none}
+.chapter-disclosure .chapter h3{font-size:30px}
+.chapter-disclosure .chapter-description{font-size:15px}
+.chapter-disclosure .chapter-text{position:static}
+.chapter-disclosure .chapter-grid img{max-height:440px;object-fit:cover}
+.chapter-disclosure .photo-1 img{max-height:530px}
+.chapter-disclosure .chapter-inner{gap:30px}
+.story-section{padding:40px 0 45px}
+.story-section>.container>.section-heading{align-items:center;margin-bottom:25px}
+.story-section .section-heading .button{min-height:42px;font-size:12px;padding:10px 17px}
+.stories{gap:30px 55px}
+.story h3{font-size:24px;line-height:1.5}
+.story-top{margin-bottom:12px;font-size:11px}
+.story-number{min-height:27px;min-width:27px;font-size:11px}
+.story-text{font-size:15px;margin-top:13px;line-height:1.9}
+.story-controls{margin-top:7px}
+.story .journal-photo{margin-bottom:17px}
+.story .photo-button img{height:165px;aspect-ratio:auto}
+.story .journal-photo figcaption{display:none}
+.edit-note{font-size:11px}
+.content-disclosure>summary{display:flex;align-items:center;justify-content:space-between;gap:30px;min-height:90px;padding:22px 0}
+.content-disclosure>summary h2{font-family:var(--soft-display);font-size:28px;font-weight:400;line-height:1.5}
+.disclosure-description{font-family:var(--heading);font-size:12px;color:var(--muted);display:block;margin-top:5px;line-height:1.8}
+.content-disclosure>summary .disclosure-symbol{font-size:26px}
+.disclosure-content{padding-top:18px;padding-bottom:16px}
+#itinerary.section,#gallery.section{padding-block:0}
+.history-section{margin-inline:0;border-radius:0;background:var(--bg);color:var(--ink);padding-block:0}
+.history-section .disclosure-content{background:var(--ink);color:var(--bg);padding:28px 30px;border-radius:30px;margin-bottom:15px}
+.history-section .disclosure-description{color:var(--muted)}
+.history-section .filter-tabs{margin-top:10px}
+.history-section .era-line{margin-bottom:15px}
+.history-section .history-card h3{font-size:21px}
+.history-section .history-card{padding-block:22px}
+.history-footnote{font-size:12px}
+.day>summary{padding-block:21px}
+.day h3{font-size:18px}
+.archive>summary{padding-block:20px}
+.archive h3{font-size:22px}
+.gallery-grid{columns:4}
+footer{padding:38px 0 22px;background:linear-gradient(180deg,var(--bg),var(--soft));border-radius:0;margin-top:25px}
+footer h2{font-family:var(--soft-display);font-size:24px;font-weight:400}
+.source-intro{font-size:13px;margin:13px 0 16px}
+.source-details>summary{padding-block:16px;font-size:13px}
+.colophon{margin-top:22px;padding-top:18px;font-size:12px}
+@media(max-width:1150px){
+  .map-layout{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:25px}
+  .map-detail h3{font-size:25px}
+  .chapter-disclosure>summary{gap:15px}
+}
+@media(max-width:850px){
+  .map-layout{grid-template-columns:1fr}
+  .map-stage{max-width:none}
+  .map-detail{padding-top:0}
+  .map-photo .photo-button{aspect-ratio:1.8}
+  .gallery-grid{columns:3}
+}
+@media(max-width:600px){
+  .masthead{height:68px}
+  .opening{height:calc(83svh - 126px);min-height:450px}
+  h1{font-size:46px;line-height:1.23}
+  .opening-copy .eyebrow{font-size:10px;margin-bottom:17px}
+  .opening-intro{font-size:14px;margin-top:17px}
+  .opening-copy{padding-bottom:20px}
+  .opening .button{margin-top:20px}
+  .opening-foot{font-size:11px}
+  .opening-foot p>span{font-size:10px}
+  .nav-links{gap:26px}
+  .section{padding:32px 0}
+  .section-heading{display:flex;align-items:center;gap:20px;margin-bottom:20px}
+  .section-heading h2{font-size:27px}
+  .map-section{padding:28px 0 34px}
+  .map-section .section-heading{display:block;margin-bottom:20px}
+  .map-section h2{font-size:29px}
+  .map-section .section-deck{font-size:13px;margin-top:7px}
+  .map-stage{padding:10px 12px}
+  .map-detail h3{font-size:25px}
+  .map-description{font-size:14px}
+  .map-photo .photo-button{aspect-ratio:1.45}
+  .map-site-options{margin-bottom:12px}
+  .map-layout{gap:20px}
+  .map-location-label select{font-size:12px}
+  .map-note{font-size:11px}
+  .compact-chapters{padding-top:5px}
+  .compact-chapters .section-heading{display:block}
+  .compact-chapters .small{font-size:12px;display:block;margin-top:7px}
+  .chapter-disclosure>summary{grid-template-columns:58px 1fr 20px;gap:3px 14px;padding:12px 9px 12px 0}
+  .chapter-disclosure>summary>img{width:58px;height:60px;grid-row:1/3;border-radius:13px}
+  .chapter-summary-number{display:none}
+  .chapter-summary-title{font-size:14px;grid-column:2;grid-row:1}
+  .chapter-summary-date{text-align:left;font-size:11px;grid-column:2;grid-row:2}
+  .chapter-disclosure .disclosure-symbol{grid-column:3;grid-row:1/3;font-size:21px}
+  .chapter-disclosure>.chapter{padding:22px 10px 25px;margin-top:8px}
+  .chapter-disclosure .chapter h3{font-size:25px}
+  .chapter-disclosure .chapter-subtitle{font-size:12px}
+  .chapter-disclosure .chapter-description{font-size:15px}
+  .chapter-disclosure .chapter .chapter-meta{display:none}
+  .chapter-disclosure .chapter .chapter-inner{gap:13px}
+  .story-section{padding:26px 0 28px}
+  .story-section .section-heading{display:flex}
+  .story-section .section-heading h2{font-size:27px}
+  .story-section .section-heading .button{font-size:11px;padding:9px 12px}
+  .stories{gap:26px}
+  .story h3{font-size:23px}
+  .story-text{font-size:15px;margin-top:11px}
+  .story .photo-button img{height:150px}
+  .content-disclosure>summary{min-height:86px;padding:20px 0;gap:20px}
+  .content-disclosure>summary h2{font-size:25px}
+  .disclosure-description{font-size:11px}
+  .history-section .disclosure-content{padding:23px 17px;border-radius:24px;margin-inline:-5px}
+  .history-section .history-card h3{font-size:21px}
+  .day h3{font-size:17px}
+  .gallery-grid{columns:2}
+  footer{padding-top:27px}
+  footer h2{font-size:23px}
+  .source-intro{font-size:12px}
+}
+@media print{
+  .chapter-disclosure{break-inside:avoid}
+  .opening{height:380px;min-height:0}
+  .content-disclosure>summary h2{font-size:24px}
+}

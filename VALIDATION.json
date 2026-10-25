@@ -1136,6 +1136,47 @@
       "旅行图册-呼伦贝尔-手记.png",
       "旅行图册-新疆-手机阅读.png",
       "旅行图册-呼伦贝尔-手机阅读.png"
-    ]
+    ],
+    "publication": {
+      "sourceCommit": "4861d2571a0eda2c131acd47d5d6ff9c5beb6c41",
+      "deploymentCommit": "111902d107d86cb5db7d933514843e4deeba3929",
+      "base": "https://116chen.github.io/dubai-egypt-travel-journal-2026/",
+      "checks": [
+        "Public Pages URL returns HTTP 200",
+        "Online homepage contains seven volumes",
+        "Online photo total is 792",
+        "Online China filter shows both new volumes",
+        "xinjiang: online chapters complete",
+        "xinjiang: online daily entries complete",
+        "xinjiang: online photo count correct",
+        "xinjiang: all story and cover images load online",
+        "xinjiang: online location map complete",
+        "xinjiang: online map selection works",
+        "xinjiang: online full-size photo navigation works",
+        "xinjiang: photo close retains day reader",
+        "xinjiang: online reader restores on reload",
+        "xinjiang: online mobile reader fits",
+        "xinjiang: online 320px story fits",
+        "hulunbuir: online chapters complete",
+        "hulunbuir: online daily entries complete",
+        "hulunbuir: online photo count correct",
+        "hulunbuir: all story and cover images load online",
+        "hulunbuir: online location map complete",
+        "hulunbuir: online map selection works",
+        "hulunbuir: online full-size photo navigation works",
+        "hulunbuir: photo close retains day reader",
+        "hulunbuir: online reader restores on reload",
+        "hulunbuir: online mobile reader fits",
+        "hulunbuir: online 320px story fits",
+        "japan-spring: authored memories remain online",
+        "japan-summer: authored memories remain online",
+        "egypt-dubai: authored memories remain online",
+        "Online description includes both China trips",
+        "Online verification has no runtime errors or failed site assets"
+      ],
+      "errors": [],
+      "status": "success",
+      "workflowRun": "https://github.com/116chen/dubai-egypt-travel-journal-2026/actions/runs/40201910072"
+    }
   }
 }

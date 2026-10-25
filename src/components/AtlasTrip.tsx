@@ -1,10 +1,11 @@
 import { Button, Pagination, Select, Tabs, TextInput } from '@mantine/core';
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Camera, Map, MapPin, Search } from 'lucide-react';
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Camera, Map, MapPin, PenLine, Search } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { allPhotos, dateRange, type AtlasTrip as Trip } from '../atlas';
 import { shortDate, type Photo } from '../data';
 import { scrollToContent, useQueryState } from '../hooks';
 import { tripEditorial } from '../trip-editorial';
+import { tripMemories } from '../trip-memories';
 import JournalImage from './JournalImage';
 import PhotoViewer, { type ViewerState } from './PhotoViewer';
 import TripNotes from './TripNotes';
@@ -24,6 +25,7 @@ const mapLabels: Record<string, Record<string, [number, number]>> = {
 type Props = { trip: Trip };
 export default function AtlasTrip({ trip }: Props) {
   const editorial = tripEditorial[trip.id];
+  const memories = tripMemories[trip.id];
   const [view, setView] = useQueryState<string>('tripView', 'story', ['story', 'route', 'photos']);
   const coverPlace = trip.photos.find((photo) => photo.id === trip.coverId)?.placeId ?? trip.places[0].id;
   const [place, setPlace] = useQueryState<string>('stop', coverPlace, trip.places.map((item) => item.id));
@@ -80,7 +82,7 @@ export default function AtlasTrip({ trip }: Props) {
           <p className="trip-intro-subtitle">{trip.subtitle}</p>
           <p className="trip-intro-date">{dateRange(trip.start, trip.end)}</p>
           <div className="trip-intro-stats"><span><strong>{trip.days}</strong> 天</span><span><strong>{trip.photos.length}</strong> 张照片</span><span><strong>{trip.places.length}</strong> 处地点</span></div>
-          <button className="atlas-text-link" onClick={() => scrollToContent('#trip-explore')}>沿着照片旅行 <ArrowDown size={15} /></button>
+          <div className="trip-intro-links"><button className="atlas-text-link" onClick={() => scrollToContent('#trip-explore')}>沿着照片旅行 <ArrowDown size={15} /></button>{memories && <button className="trip-memory-link" onClick={() => scrollToContent('#trip-notes')}><PenLine size={14} />读我的小记<small>{memories.entries.length}</small></button>}</div>
         </div>
         <div className="trip-intro-images">
           <button className="trip-intro-main" onClick={() => openPhotos(trip.photos, trip.photos.findIndex((photo) => photo.id === trip.coverId))} aria-label={`放大封面：${allPhotos.get(trip.coverId)!.caption}`}>
@@ -146,7 +148,7 @@ export default function AtlasTrip({ trip }: Props) {
           </section>
         </Tabs.Panel>
       </Tabs>
-      <TripNotes trip={trip} prompts={editorial.notePrompts} />
+      <TripNotes trip={trip} prompts={editorial.notePrompts} memories={memories} />
       <footer className="atlas-footer"><span>{trip.country} · 旅行手记</span><p>{dateRange(trip.start, trip.end)}</p><span>留住风景，也留住日常。</span></footer>
       <TripDayReader trip={trip} days={editorial.days} date={readerDate} photoViewerOpened={Boolean(viewer)} onDate={setReaderDate} onPhotos={openPhotos} onGallery={dayGallery} />
       <PhotoViewer state={viewer} onClose={() => setViewer(null)} />

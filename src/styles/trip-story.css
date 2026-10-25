@@ -50,6 +50,22 @@
 .trip-day-places small { display: block; color: var(--atlas-muted); font-size: 9px; margin-top: 3px; }
 .trip-note-prompts { color: var(--atlas-body); font-size: 11px; line-height: 1.9; margin: -8px 0 19px; }
 .trip-note-prompts p::before { content: '·'; color: var(--atlas-accent); margin-right: 8px; }
+.trip-intro-links { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 20px; }
+.trip-memory-link { display: inline-flex; align-items: center; gap: 8px; padding: 10px 0; border: 0; background: transparent; color: var(--atlas-primary); font-size: 11px; }
+.trip-memory-link:hover { color: var(--atlas-accent); }
+.trip-memory-link small { color: var(--atlas-muted); font-size: 10px; }
+#trip-notes { scroll-margin-top: 82px; }
+.trip-notes-with-memories { padding: 32px; }
+.trip-memory-intro { display: flex; align-items: center; gap: 14px; color: var(--atlas-body); font-size: 12px; margin: 22px 0; }
+.trip-memory-intro > span { color: var(--atlas-muted); font-size: 10px; }
+.trip-memory-grid { list-style: none; padding: 0; margin: 0 0 26px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
+.trip-memory { min-width: 0; padding: 22px 25px; border-radius: 16px; background: var(--atlas-surface); scroll-margin-top: 85px; }
+.trip-memory:nth-child(3n + 2) { background: color-mix(in srgb, var(--atlas-primary-soft) 65%, var(--atlas-surface)); }
+.trip-memory:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.trip-memory-number { display: block; color: var(--atlas-accent); font-family: Lora, serif; font-size: 12px; margin-bottom: 12px; }
+.trip-memory h3 { color: var(--atlas-ink); font-size: 21px; line-height: 1.6; margin: 0 0 13px; }
+.trip-memory p { color: var(--atlas-body); font-size: 13px; line-height: 2.1; margin: 0; overflow-wrap: anywhere; }
+.trip-notes-with-memories .trip-note-text { margin: 25px 0; }
 .trip-day-reader-body { padding: 28px 32px 35px; }
 .trip-day-reader h2 { font-size: 29px; line-height: 1.65; margin: 11px 0; }
 .day-reader-route { color: var(--atlas-muted); font-size: 11px; display: flex; align-items: baseline; gap: 7px; line-height: 1.9; margin-bottom: 22px; }
@@ -109,6 +125,15 @@
   .trip-place-detail > p.place-story-meta { font-size: 9px; }
   .place-story-details > span { font-size: 9px; }
   .trip-note-prompts { font-size: 10px; }
+  .trip-intro-links { gap: 8px 16px; }
+  .trip-memory-link { font-size: 10px; gap: 6px; }
+  .trip-notes-with-memories { padding: 23px 17px; }
+  .trip-memory-intro { font-size: 11px; margin: 19px 0; }
+  .trip-memory-grid { grid-template-columns: 1fr; gap: 12px; }
+  .trip-memory { padding: 19px 17px; border-radius: 13px; }
+  .trip-memory-number { font-size: 11px; margin-bottom: 10px; }
+  .trip-memory h3 { font-size: 20px; margin-bottom: 10px; }
+  .trip-memory p { font-size: 12px; line-height: 2.05; }
   .trip-day-reader-body { padding: 22px 23px max(30px, env(safe-area-inset-bottom)); }
   .trip-day-reader h2 { font-size: 25px; }
   .day-reader-route { font-size: 10px; margin-bottom: 18px; }

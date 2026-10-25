@@ -1,5 +1,5 @@
 import { Button, Group, Loader, Tabs, Text } from '@mantine/core';
-import { ArrowDown, BookOpen, Camera, CalendarDays, Map } from 'lucide-react';
+import { ArrowDown, BookOpen, Camera, CalendarDays, Map, PenLine } from 'lucide-react';
 import { lazy, Suspense, useState } from 'react';
 import { content, journal, photoById, type Photo } from './data';
 import { scrollToContent, useQueryState } from './hooks';
@@ -65,6 +65,7 @@ export default function EgyptJournal() {
               </div>
               <Button className="intro-start" component="a" href="#explore" variant="subtle" color="dark"
                 rightSection={<ArrowDown size={14} aria-hidden="true" />}>沿地图重走</Button>
+              <button className="trip-memory-link" onClick={() => scrollToContent('#stories')}><PenLine size={14} />读我的小记<small>{journal.stories.length}</small></button>
             </div>
           </div>
           <div className="intro-photographs">

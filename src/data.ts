@@ -1,16 +1,17 @@
 import journalData from './data/journal.json';
 import mapJson from './data/map.json';
 import contentJson from './data/content.json';
+import { egyptStories, type EgyptStory } from './egypt-stories';
 
 export type Photo = (typeof journalData.photos)[number];
 export type Chapter = (typeof contentJson.chapters)[number];
 export type Reading = (typeof contentJson.readings)[number];
 export type Day = (typeof contentJson.days)[number];
-export type Story = (typeof journalData.stories)[number];
+export type Story = EgyptStory;
 export type Place = (typeof mapJson.locations)[number];
 export type MapView = (typeof mapJson.views)[number];
 export type RichSegment = Reading['paragraphs'][number][number];
-export const journal = journalData;
+export const journal = { ...journalData, stories: egyptStories };
 export const mapData = mapJson;
 export const content = contentJson;
 export const photoById = new Map(journal.photos.map((photo) => [photo.id, photo]));

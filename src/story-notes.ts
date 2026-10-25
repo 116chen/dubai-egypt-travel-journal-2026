@@ -34,6 +34,7 @@ export function useStoryNotes() {
   const [draft, setDraft] = useState('');
   const [draftStored, setDraftStored] = useState(true);
   const text = (story: Story) => typeof notes[story.id] === 'string' ? notes[story.id] : story.text;
+  const supplement = (story: Story) => typeof notes[story.id] === 'string' && notes[story.id] !== story.text ? notes[story.id] : '';
 
   useEffect(() => {
     const guard = (event: BeforeUnloadEvent) => {
@@ -48,13 +49,13 @@ export function useStoryNotes() {
 
   function edit(story: Story) {
     setEditing(story);
-    setDraft(drafts[story.id] ?? text(story));
+    setDraft(drafts[story.id] ?? (story.authored ? supplement(story) : text(story)));
   }
 
   function updateDraft(value: string) {
     if (!editing) return;
     const updated = { ...drafts };
-    if (value === text(editing)) delete updated[editing.id];
+    if (value === (editing.authored ? supplement(editing) : text(editing))) delete updated[editing.id];
     else updated[editing.id] = value;
     setDraft(value);
     setDrafts(updated);
@@ -78,7 +79,9 @@ export function useStoryNotes() {
 
   function exportNotes() {
     const body = ['# 埃及与迪拜 · 旅途小记', '', ...journal.stories.flatMap((story) => [
-      `## ${story.title}`, '', story.dateLabel, '', text(story), '',
+      `## ${story.title}`, '', story.dateLabel, '', story.authored ? story.text : text(story), '',
+      ...(story.sources?.length ? ['### 历史资料', '', ...story.sources.map((source) => `- [${source.title}](${source.url})`), ''] : []),
+      ...(story.authored && supplement(story) ? ['### 我的补写', '', supplement(story), ''] : []),
       ...(drafts[story.id] !== undefined ? ['### 暂存草稿', '', drafts[story.id], ''] : []),
     ])].join('\n');
     const url = URL.createObjectURL(new Blob(['\uFEFF' + body], { type: 'text/markdown;charset=utf-8' }));
@@ -90,7 +93,7 @@ export function useStoryNotes() {
   }
 
   return {
-    drafts, editing, draft, draftStored, text, edit, updateDraft, save, exportNotes,
+    drafts, editing, draft, draftStored, text, supplement, edit, updateDraft, save, exportNotes,
     close: () => setEditing(null),
   };
 }

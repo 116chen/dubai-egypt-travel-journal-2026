@@ -66,6 +66,18 @@
 .trip-memory h3 { color: var(--atlas-ink); font-size: 21px; line-height: 1.6; margin: 0 0 13px; }
 .trip-memory p { color: var(--atlas-body); font-size: 13px; line-height: 2.1; margin: 0; overflow-wrap: anywhere; }
 .trip-notes-with-memories .trip-note-text { margin: 25px 0; }
+#stories, .story-note { scroll-margin-top: 82px; }
+.stories-group-heading { display: flex; align-items: baseline; gap: 16px; margin: 24px 0 18px; }
+.stories-group-heading h3 { color: var(--atlas-ink); font-size: 20px; line-height: 1.7; }
+.stories-group-heading > span { color: var(--atlas-muted); font-size: 11px; }
+.stories-jokes-heading { margin-top: 35px; }
+.travel-atlas .story-note h3 { font-family: Lora, 'Songti SC', Georgia, serif; font-size: 21px; font-weight: 400; }
+.story-source-links { display: grid; gap: 7px; margin-top: 13px; }
+.story-source-links a { color: var(--atlas-primary); font-size: 10px; line-height: 1.9; overflow-wrap: anywhere; }
+.story-source-links a:hover { color: var(--atlas-accent); }
+.story-supplement { margin-top: 18px; }
+.story-supplement > span { display: block; color: var(--atlas-muted); font-size: 10px; margin-bottom: 7px; }
+.intro-meta > .trip-memory-link { margin-left: 18px; }
 .trip-day-reader-body { padding: 28px 32px 35px; }
 .trip-day-reader h2 { font-size: 29px; line-height: 1.65; margin: 11px 0; }
 .day-reader-route { color: var(--atlas-muted); font-size: 11px; display: flex; align-items: baseline; gap: 7px; line-height: 1.9; margin-bottom: 22px; }
@@ -134,6 +146,11 @@
   .trip-memory-number { font-size: 11px; margin-bottom: 10px; }
   .trip-memory h3 { font-size: 20px; margin-bottom: 10px; }
   .trip-memory p { font-size: 12px; line-height: 2.05; }
+  .stories-group-heading { gap: 10px; margin: 18px 0 15px; }
+  .stories-group-heading h3 { font-size: 18px; }
+  .stories-group-heading > span { font-size: 10px; }
+  .travel-atlas .story-note h3 { font-size: 20px; }
+  .intro-meta > .trip-memory-link { margin-left: 0; }
   .trip-day-reader-body { padding: 22px 23px max(30px, env(safe-area-inset-bottom)); }
   .trip-day-reader h2 { font-size: 25px; }
   .day-reader-route { font-size: 10px; margin-bottom: 18px; }

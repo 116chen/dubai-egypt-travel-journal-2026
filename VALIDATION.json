@@ -1196,6 +1196,21 @@
       "No runtime exceptions or missing local resources"
     ],
     "errors": [],
-    "contentPolicy": "Personal recollections supplied by the author; no unprovided date, road segment or accident detail assigned."
+    "contentPolicy": "Personal recollections supplied by the author; no unprovided date, road segment or accident detail assigned.",
+    "publication": {
+      "sourceCommit": "ad29ff3171910436c95a7d8645a5146e10e8ce63",
+      "deploymentCommit": "c8d8cb5d6a6b6b277f1b37b6ec3ecc753fb26cf8",
+      "base": "https://116chen.github.io/dubai-egypt-travel-journal-2026/?trip=xinjiang#trip-notes",
+      "workflowRun": "https://github.com/116chen/dubai-egypt-travel-journal-2026/actions/runs/40204722368",
+      "checks": [
+        "All three supplied Xinjiang recollections render online",
+        "Online hero shortcut shows three authored notes",
+        "Online notes have no horizontal overflow",
+        "Online images load without failures",
+        "Online console has no runtime errors"
+      ],
+      "errors": [],
+      "status": "success"
+    }
   }
 }

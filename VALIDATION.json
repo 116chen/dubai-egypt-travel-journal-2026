@@ -1178,5 +1178,24 @@
       "status": "success",
       "workflowRun": "https://github.com/116chen/dubai-egypt-travel-journal-2026/actions/runs/40201910072"
     }
+  },
+  "xinjiangMemoriesRevision": {
+    "date": "2026-10-25",
+    "memories": 3,
+    "checks": [
+      "All three supplied Xinjiang recollections render",
+      "Hero shortcut shows three authored notes",
+      "Direct trip-notes anchor opens the notes region",
+      "Markdown export contains all three recollections",
+      "Existing saved Xinjiang supplement remains unchanged",
+      "Existing pending Xinjiang draft remains unchanged",
+      "Export includes authored notes, saved supplement and pending draft",
+      "Xinjiang notes fit at 390px without horizontal overflow",
+      "Xinjiang notes fit at 320px without horizontal overflow",
+      "Production build passes",
+      "No runtime exceptions or missing local resources"
+    ],
+    "errors": [],
+    "contentPolicy": "Personal recollections supplied by the author; no unprovided date, road segment or accident detail assigned."
   }
 }

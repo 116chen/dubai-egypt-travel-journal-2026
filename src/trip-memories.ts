@@ -4,6 +4,26 @@ export type TripMemories = { title: string; entries: TripMemory[] };
 // Personal recollections supplied by the author. Keep uncertain details as
 // recollections, without assigning unprovided dates, currencies or identities.
 export const tripMemories: Record<string, TripMemories> = {
+  xinjiang: {
+    title: '新疆',
+    entries: [
+      {
+        id: 'highway-u-turn',
+        title: '高速掉头',
+        text: '在高速上掉了个头。',
+      },
+      {
+        id: 'checkpoint-at-ninety',
+        title: '90 码冲关',
+        text: '90 码冲关。第一次被缉毒犬闻了全身，警察还调侃了一嘴：“你这是要开飞机啊。”',
+      },
+      {
+        id: 'tollgate-reversing',
+        title: '高速口倒退，花销直接加 2k',
+        text: '在高速口倒退，把别人的车撞了，直接把这趟花销提了 2k。',
+      },
+    ],
+  },
   'japan-spring': {
     title: '第一次去日本',
     entries: [

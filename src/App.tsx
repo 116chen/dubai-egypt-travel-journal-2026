@@ -1,7 +1,7 @@
 import { Group, Loader } from '@mantine/core';
 import { ArrowLeft, ArrowUpRight, Compass } from 'lucide-react';
 import { lazy, Suspense, useEffect, useState } from 'react';
-import { atlas, countryValues, trips, tripValues } from './atlas';
+import { atlas, countryValues, trips, tripValues, yearRange } from './atlas';
 import { scrollToContent, useQueryState } from './hooks';
 import AtlasOverview from './components/AtlasOverview';
 
@@ -23,6 +23,7 @@ export default function App() {
   function navigate(id: string, destination?: string) {
     const url = new URL(location.href);
     url.searchParams.set('trip', id);
+    url.hash = '';
     if (destination) url.searchParams.set('destination', destination);
     for (const key of ['tripView', 'stop', 'tripDate', 'tripPlace', 'tripPage', 'tripRead']) url.searchParams.delete(key);
     if (url.href !== location.href) history.pushState(null, '', url);
@@ -38,7 +39,7 @@ export default function App() {
           <span className="atlas-brand-mark"><Compass size={26} strokeWidth={1.2} /></span><span>一路，记下来。<small>A PERSONAL TRAVEL ATLAS</small></span>
         </a>
         <nav aria-label="主导航"><button className={tripId === 'all' ? 'active' : ''} onClick={() => navigate('all')}>旅行图册</button><button onClick={() => { navigate('all'); requestAnimationFrame(() => scrollToContent('#footprints-title')); }}>我的足迹 <ArrowUpRight size={13} /></button></nav>
-        <span className="atlas-header-edition">2025 — 2026</span>
+        <span className="atlas-header-edition">{yearRange}</span>
       </header>
       {trip && <div className="atlas-breadcrumb"><button onClick={() => navigate('all')}><ArrowLeft size={14} /> 返回图册</button><span>{trip.country} <i>/</i> {trip.start.slice(0, 4)}</span><select aria-label="切换旅行" value={tripId} onChange={(event) => navigate(event.currentTarget.value)}>{trips.map((item) => <option key={item.id} value={item.id}>{item.country} · {item.start.slice(0, 7).replace('-', '.')}</option>)}</select></div>}
       <Suspense fallback={<Group justify="center" py={100}><Loader size="sm" aria-label="正在翻开旅行手记" /></Group>}>

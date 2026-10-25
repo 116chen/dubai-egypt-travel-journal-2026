@@ -21,6 +21,12 @@ const mapLabels: Record<string, Record<string, [number, number]>> = {
     queenstown: [215, 447], dunedin: [310, 447], oamaru: [356, 395],
     akaroa: [419, 360], kaikoura: [423, 255],
   },
+  xinjiang: {
+    altay: [483, 128], hemu: [465, 63], jiadengyu: [426, 115],
+    kanas: [377, 56], burqin: [374, 135], road: [391, 180],
+    yili: [251, 357], nalati: [283, 411], tianshan: [328, 351],
+  },
+  hulunbuir: { erguna: [443, 250], heishantou: [369, 260] },
 };
 type Props = { trip: Trip };
 export default function AtlasTrip({ trip }: Props) {
@@ -112,7 +118,7 @@ export default function AtlasTrip({ trip }: Props) {
                   </g>;
                 })}
               </svg>
-              <p className="route-map-note">地点依据照片定位整理。连线为浏览顺序示意。</p>
+              <p className="route-map-note">{trip.map.note ?? '地点依据照片定位整理。连线为浏览顺序示意。'}</p>
               <div className="trip-place-pills" aria-label="选择照片地点">{trip.places.map((item, index) => <button key={item.id} className={place === item.id ? 'active' : ''} aria-pressed={place === item.id} onClick={() => selectPlace(item.id)}><span>{String(index + 1).padStart(2, '0')}</span>{item.name}</button>)}</div>
             </div>
             <section className="trip-place-detail" id="trip-place-detail" aria-labelledby="trip-place-title">

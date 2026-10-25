@@ -2,8 +2,8 @@ import { countries, world } from '../atlas';
 import { leaderPath } from './route-path';
 
 type Props = { selected: string; onCountry: (country: string) => void };
-const highlights: Record<string, string> = { EGY: 'eg', ARE: 'eg', NZL: 'nz', KOR: 'kr', JPN: 'jp' };
-const labels: Record<string, [number, number]> = { eg: [14, 24], nz: [-96, -15], kr: [-90, 25], jp: [15, -15] };
+const highlights: Record<string, string> = { EGY: 'eg', ARE: 'eg', CHN: 'cn', NZL: 'nz', KOR: 'kr', JPN: 'jp' };
+const labels: Record<string, [number, number]> = { eg: [14, 24], cn: [-35, -25], nz: [-96, -15], kr: [-90, 25], jp: [15, -15] };
 
 export default function WorldMap({ selected, onCountry }: Props) {
   return (

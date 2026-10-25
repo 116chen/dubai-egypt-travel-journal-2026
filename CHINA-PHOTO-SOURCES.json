@@ -1,0 +1,2753 @@
+{
+  "library": "Apple Photos",
+  "selectionDate": "2026-10-25",
+  "datePolicy": "Photos capture timestamp converted to Asia/Shanghai; only dates with selected travel photographs are included.",
+  "selectionPolicy": "Contact-sheet visual review; prefer JPEG over matching RAW; retain one of identical filename/timestamp copies; exclude screenshots, tickets, later collages and repeated captures.",
+  "locationPolicy": "Original photo GPS retained. Unlocated photographs grouped by visible landmarks and adjacent geotagged captures. Flight photographs grouped with arrival without replacing their GPS. Broad road/forest groups and map anchors are regional references, not exact capture coordinates.",
+  "uncertainties": [
+    "Xinjiang Sep 10 slopes grouped as Yili en route; no specific attraction asserted.",
+    "Xinjiang Sep 12 mountains grouped as Tianshan en route; no exact highway asserted. Map point is a regional reference near the preceding Nalati area.",
+    "Hulunbuir Oct 5–6 forest photographs grouped as Erguna forest region using nearby phone GPS; no exact forest park asserted.",
+    "Hulunbuir Oct 8 water views have no GPS and are grouped as westbound en route; no lake name asserted. Map point represents the corridor toward Manzhouli.",
+    "Later Xinjiang Sep 13 station images and Sep 14 collage, and Hulunbuir Oct 10 incidental objects excluded from the photo-date interval."
+  ],
+  "mapSources": [
+    {
+      "region": "新疆",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/650000_full.json",
+      "crop": [
+        79.4,
+        42.1,
+        91.8,
+        49.3
+      ]
+    },
+    {
+      "region": "呼伦贝尔",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/150700_full.json",
+      "crop": [
+        116.3,
+        48.6,
+        122.0,
+        52.0
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "id": "0DE90776-7F0E-41A9-8660-FA51F943DDFF/L0/001",
+      "filename": "IMG_5997.JPG",
+      "dateUTC": "2024-09-04T07:01:25.000Z",
+      "date": "2024-09-04",
+      "location": [
+        30.635828333333333,
+        120.01754716666666
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-002",
+      "galleryId": "xinjiang-002",
+      "displayPlaceId": "altay",
+      "evidence": "arrival-flight-group-original-gps-preserved"
+    },
+    {
+      "id": "918B28FF-CB75-4AAC-AACD-4F2917F47B95/L0/001",
+      "filename": "IMG_6015.JPG",
+      "dateUTC": "2024-09-04T10:15:48.000Z",
+      "date": "2024-09-04",
+      "location": [
+        40.203311666666664,
+        95.13619166666666
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-019",
+      "galleryId": "xinjiang-019",
+      "displayPlaceId": "altay",
+      "evidence": "arrival-flight-group-original-gps-preserved"
+    },
+    {
+      "id": "465A98C8-9A3C-4F62-8DDF-F0BBEFC3E0F4/L0/001",
+      "filename": "IMG_6019.JPG",
+      "dateUTC": "2024-09-04T11:00:44.000Z",
+      "date": "2024-09-04",
+      "location": [
+        43.54862,
+        90.23465
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-023",
+      "galleryId": "xinjiang-023",
+      "displayPlaceId": "altay",
+      "evidence": "arrival-flight-group-original-gps-preserved"
+    },
+    {
+      "id": "577CDC11-F766-4A82-9964-F357CF885432/L0/001",
+      "filename": "P1001080.RW2",
+      "dateUTC": "2024-09-05T00:57:56.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-026",
+      "galleryId": "xinjiang-026",
+      "displayPlaceId": "altay",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "391CB79C-84F6-4CDD-9950-F9527BD0A106/L0/001",
+      "filename": "P1001081.jpg",
+      "dateUTC": "2024-09-05T00:58:24.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-027",
+      "galleryId": "xinjiang-027",
+      "displayPlaceId": "altay",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "8FC6E35B-CCBD-4E6B-881A-0F951AFDD39A/L0/001",
+      "filename": "IMG_6021.JPG",
+      "dateUTC": "2024-09-05T01:29:35.000Z",
+      "date": "2024-09-05",
+      "location": [
+        47.753771666666665,
+        88.09375833333333
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-029",
+      "galleryId": "xinjiang-029",
+      "displayPlaceId": "altay",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "ED5BB782-D65B-4AFA-BBEB-2CEA66864265/L0/001",
+      "filename": "P1001102.jpg",
+      "dateUTC": "2024-09-05T02:10:25.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-031",
+      "galleryId": "xinjiang-031",
+      "displayPlaceId": "altay",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "964B955D-E839-42A4-8CC0-BE3BDC41627E/L0/001",
+      "filename": "P1001109.jpg",
+      "dateUTC": "2024-09-05T04:04:43.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-037",
+      "galleryId": "xinjiang-037",
+      "displayPlaceId": "hemu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "1E1D8299-5425-45DD-A5F6-1A07603A3F0C/L0/001",
+      "filename": "P1001127.RW2",
+      "dateUTC": "2024-09-05T08:08:43.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-038",
+      "galleryId": "xinjiang-038",
+      "displayPlaceId": "hemu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "3F7E8EDA-EFA4-4AC9-B1CE-AECB47AFFA50/L0/001",
+      "filename": "P1001130.jpg",
+      "dateUTC": "2024-09-05T08:11:08.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-039",
+      "galleryId": "xinjiang-039",
+      "displayPlaceId": "hemu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "5B9045E0-6E9E-4D6B-8E4D-A1D090A940A7/L0/001",
+      "filename": "P1001149.RW2",
+      "dateUTC": "2024-09-05T09:00:28.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-040",
+      "galleryId": "xinjiang-040",
+      "displayPlaceId": "hemu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "E687C3B5-FA7D-40F0-912E-301E397075A6/L0/001",
+      "filename": "P1001161.jpg",
+      "dateUTC": "2024-09-05T09:13:40.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-042",
+      "galleryId": "xinjiang-042",
+      "displayPlaceId": "hemu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "80B5BC68-D85D-48E7-AFDF-BE6BDAB8473C/L0/001",
+      "filename": "P1001163.jpg",
+      "dateUTC": "2024-09-05T09:14:39.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-043",
+      "galleryId": "xinjiang-043",
+      "displayPlaceId": "hemu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "E0374CA8-8720-4FBD-9FD7-F6DC19EBBF9C/L0/001",
+      "filename": "P1001189.jpg",
+      "dateUTC": "2024-09-05T09:53:56.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-046",
+      "galleryId": "xinjiang-046",
+      "displayPlaceId": "hemu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "7DA3DE63-D1EE-44E5-8561-E55D384EB61B/L0/001",
+      "filename": "P1001208.jpg",
+      "dateUTC": "2024-09-05T10:12:19.000Z",
+      "date": "2024-09-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-048",
+      "galleryId": "xinjiang-048",
+      "displayPlaceId": "hemu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "649C13FF-426A-4F8D-8939-A3A83F4AC91F/L0/001",
+      "filename": "IMG_6030.JPG",
+      "dateUTC": "2024-09-05T14:08:56.000Z",
+      "date": "2024-09-05",
+      "location": [
+        48.51072833333333,
+        87.16095833333334
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-051",
+      "galleryId": "xinjiang-051",
+      "displayPlaceId": "jiadengyu",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "067A6E74-2883-4DA6-81B5-D13DBB60027C/L0/001",
+      "filename": "IMG_6033.JPG",
+      "dateUTC": "2024-09-06T04:17:56.000Z",
+      "date": "2024-09-06",
+      "location": [
+        48.51053666666667,
+        87.167495
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-054",
+      "galleryId": "xinjiang-054",
+      "displayPlaceId": "jiadengyu",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "27855758-6D8C-4C2A-B185-C2EB771E3315/L0/001",
+      "filename": "P1001211.jpg",
+      "dateUTC": "2024-09-06T04:22:16.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-056",
+      "galleryId": "xinjiang-056",
+      "displayPlaceId": "jiadengyu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "4EEC58DC-D038-47FA-9509-231CD5A37B98/L0/001",
+      "filename": "P1001264.jpg",
+      "dateUTC": "2024-09-06T05:09:12.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-059",
+      "galleryId": "xinjiang-059",
+      "displayPlaceId": "jiadengyu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "C117879B-AD49-4E99-AC79-BE07D2199E5C/L0/001",
+      "filename": "IMG_6035.JPG",
+      "dateUTC": "2024-09-06T05:28:13.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-063",
+      "galleryId": "xinjiang-063",
+      "displayPlaceId": "jiadengyu",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "A8479902-1317-4A73-B07D-43FF4A3E7BDD/L0/001",
+      "filename": "P1001325.jpg",
+      "dateUTC": "2024-09-06T08:44:52.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-067",
+      "galleryId": "xinjiang-067",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "3635AE09-162A-406A-8C16-DC52CD9978E2/L0/001",
+      "filename": "IMG_6038.JPG",
+      "dateUTC": "2024-09-06T09:16:55.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-069",
+      "galleryId": "xinjiang-069",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "C324EFFA-7AEC-4295-8B11-40CE2851AC5B/L0/001",
+      "filename": "P1001360.jpg",
+      "dateUTC": "2024-09-06T10:37:02.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-070",
+      "galleryId": "xinjiang-070",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "4EFB3CDF-73D4-4712-9146-48D4362A3B55/L0/001",
+      "filename": "P1001392.RW2",
+      "dateUTC": "2024-09-06T10:54:02.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-071",
+      "galleryId": "xinjiang-071",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "4E47153E-6E93-4CC7-ACFA-169C65344A16/L0/001",
+      "filename": "P1001411.jpg",
+      "dateUTC": "2024-09-06T11:09:57.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-074",
+      "galleryId": "xinjiang-074",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "40ADA390-5EBC-448C-A492-ED7D47CDDA48/L0/001",
+      "filename": "IMG_6041.JPG",
+      "dateUTC": "2024-09-06T11:31:00.000Z",
+      "date": "2024-09-06",
+      "location": [
+        48.63345,
+        87.0468055
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-076",
+      "galleryId": "xinjiang-076",
+      "displayPlaceId": "kanas",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "A01E9FA0-3CC8-4A9C-8DB0-E8839BDD90E2/L0/001",
+      "filename": "P1001429.jpg",
+      "dateUTC": "2024-09-06T11:41:04.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-079",
+      "galleryId": "xinjiang-079",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "EB21A843-8CB6-4A56-85C5-E7D5C77D5D86/L0/001",
+      "filename": "P1001433.RW2",
+      "dateUTC": "2024-09-06T11:43:08.000Z",
+      "date": "2024-09-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-080",
+      "galleryId": "xinjiang-080",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "2B9C19B5-56C8-4181-8592-7D2DEFC0F65B/L0/001",
+      "filename": "P1001465.RW2",
+      "dateUTC": "2024-09-07T06:54:57.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-084",
+      "galleryId": "xinjiang-084",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "041700B0-D765-4E81-8FB9-AD3F672FACE8/L0/001",
+      "filename": "P1001476.RW2",
+      "dateUTC": "2024-09-07T07:08:01.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-085",
+      "galleryId": "xinjiang-085",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "3E02C759-6309-48C3-8646-7BCA626A3AE5/L0/001",
+      "filename": "P1001497.jpg",
+      "dateUTC": "2024-09-07T07:20:02.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-087",
+      "galleryId": "xinjiang-087",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "0CDAF87D-80B3-411C-901E-7A147AABF4D5/L0/001",
+      "filename": "P1001509.RW2",
+      "dateUTC": "2024-09-07T07:27:07.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-088",
+      "galleryId": "xinjiang-088",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "6B30F12C-3D53-47E7-AB78-DDC6F703948B/L0/001",
+      "filename": "P1001520.jpg",
+      "dateUTC": "2024-09-07T07:34:25.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-090",
+      "galleryId": "xinjiang-090",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "671D8D35-3EFA-47EA-94BB-3C8E1DD0A69E/L0/001",
+      "filename": "P1001528.RW2",
+      "dateUTC": "2024-09-07T07:37:39.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-092",
+      "galleryId": "xinjiang-092",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "E2F9F2B2-41DF-4E1B-9527-6D5FE4E5EC66/L0/001",
+      "filename": "P1001534.jpg",
+      "dateUTC": "2024-09-07T07:43:06.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-094",
+      "galleryId": "xinjiang-094",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "B75A7DB5-9412-4037-BC18-EE6433E2BF97/L0/001",
+      "filename": "P1001557.jpg",
+      "dateUTC": "2024-09-07T07:56:26.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-095",
+      "galleryId": "xinjiang-095",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "CBDB0DFA-944D-4610-B653-7CFF9156F600/L0/001",
+      "filename": "IMG_6045.JPG",
+      "dateUTC": "2024-09-07T08:53:04.000Z",
+      "date": "2024-09-07",
+      "location": [
+        48.718763333333335,
+        86.991495
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-098",
+      "galleryId": "xinjiang-098",
+      "displayPlaceId": "kanas",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "7A0B4532-7ABB-4F4C-A8BB-ADD2BFDEB26C/L0/001",
+      "filename": "P1001590.RW2",
+      "dateUTC": "2024-09-07T09:02:01.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-100",
+      "galleryId": "xinjiang-100",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "AE90484C-CA71-4B01-A20F-DD7ACDF3CCA0/L0/001",
+      "filename": "P1001608.jpg",
+      "dateUTC": "2024-09-07T12:12:14.000Z",
+      "date": "2024-09-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-102",
+      "galleryId": "xinjiang-102",
+      "displayPlaceId": "kanas",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "7A2AA51B-2BC8-4885-9FCB-C1212FE20C00/L0/001",
+      "filename": "IMG_6046.JPG",
+      "dateUTC": "2024-09-07T13:49:17.000Z",
+      "date": "2024-09-07",
+      "location": [
+        47.699558333333336,
+        86.84973
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-103",
+      "galleryId": "xinjiang-103",
+      "displayPlaceId": "burqin",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "EC637249-9275-47BF-A5BA-662C62D7BE5A/L0/001",
+      "filename": "IMG_6047.JPG",
+      "dateUTC": "2024-09-07T14:02:39.000Z",
+      "date": "2024-09-07",
+      "location": [
+        47.6987,
+        86.85157833333334
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-104",
+      "galleryId": "xinjiang-104",
+      "displayPlaceId": "burqin",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "D40013D8-E90B-46CA-A96D-9A985A270EFD/L0/001",
+      "filename": "P1001622.jpg",
+      "dateUTC": "2024-09-08T04:15:16.000Z",
+      "date": "2024-09-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-110",
+      "galleryId": "xinjiang-110",
+      "displayPlaceId": "road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "67A98059-B8A6-452F-BAB5-ABD5C715E7FF/L0/001",
+      "filename": "IMG_6054.JPG",
+      "dateUTC": "2024-09-08T04:18:26.000Z",
+      "date": "2024-09-08",
+      "location": [
+        47.505305,
+        86.82161666666667
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-112",
+      "galleryId": "xinjiang-112",
+      "displayPlaceId": "road",
+      "evidence": "gps-and-visual-review; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "1F1F3279-B83B-4A80-96A8-18521AF2E247/L0/001",
+      "filename": "P1001672.RW2",
+      "dateUTC": "2024-09-08T05:49:34.000Z",
+      "date": "2024-09-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-116",
+      "galleryId": "xinjiang-116",
+      "displayPlaceId": "road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "C1902964-BAB8-4A0F-8D9A-08C9EA4079B2/L0/001",
+      "filename": "P1001690.jpg",
+      "dateUTC": "2024-09-08T06:01:44.000Z",
+      "date": "2024-09-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-118",
+      "galleryId": "xinjiang-118",
+      "displayPlaceId": "road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "A7573A94-6D45-4E95-B040-FC44DE2BB424/L0/001",
+      "filename": "IMG_6058.JPG",
+      "dateUTC": "2024-09-08T07:54:56.000Z",
+      "date": "2024-09-08",
+      "location": [
+        46.13623883333333,
+        85.73300333333333
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-120",
+      "galleryId": "xinjiang-120",
+      "displayPlaceId": "urho",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "18FFA57C-A5A7-41FF-8BAA-ABC04030E896/L0/001",
+      "filename": "P1001713.jpg",
+      "dateUTC": "2024-09-08T08:17:53.000Z",
+      "date": "2024-09-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-121",
+      "galleryId": "xinjiang-121",
+      "displayPlaceId": "urho",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "91957407-31EB-43F6-9670-5C5A87969459/L0/001",
+      "filename": "P1001733.RW2",
+      "dateUTC": "2024-09-08T08:26:49.000Z",
+      "date": "2024-09-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-123",
+      "galleryId": "xinjiang-123",
+      "displayPlaceId": "urho",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "B3CFEB6C-1A3B-43BA-8B0F-E66E7AD0B689/L0/001",
+      "filename": "P1001738.jpg",
+      "dateUTC": "2024-09-08T08:34:01.000Z",
+      "date": "2024-09-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-124",
+      "galleryId": "xinjiang-124",
+      "displayPlaceId": "urho",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "675E47D0-8A28-402D-A034-8B66C99B2CC4/L0/001",
+      "filename": "P1001751.jpg",
+      "dateUTC": "2024-09-08T08:43:27.000Z",
+      "date": "2024-09-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-126",
+      "galleryId": "xinjiang-126",
+      "displayPlaceId": "urho",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "33F30BA9-85BB-4E2D-B476-B1C3553F5E41/L0/001",
+      "filename": "P1001758.jpg",
+      "dateUTC": "2024-09-08T12:38:09.000Z",
+      "date": "2024-09-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-127",
+      "galleryId": "xinjiang-127",
+      "displayPlaceId": "road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "4519BE7C-CF5B-4B99-A439-94588B4D2DC8/L0/001",
+      "filename": "IMG_6059.JPG",
+      "dateUTC": "2024-09-08T13:09:56.000Z",
+      "date": "2024-09-08",
+      "location": [
+        44.841408333333334,
+        84.85201333333333
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-130",
+      "galleryId": "xinjiang-130",
+      "displayPlaceId": "road",
+      "evidence": "gps-and-visual-review; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "2F89EFDF-29BC-4E8B-A903-E8EA21C029AD/L0/001",
+      "filename": "IMG_6063.JPG",
+      "dateUTC": "2024-09-09T03:10:23.000Z",
+      "date": "2024-09-09",
+      "location": [
+        44.614171666666664,
+        81.36291333333334
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-134",
+      "galleryId": "xinjiang-134",
+      "displayPlaceId": "sayram",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "03543865-137A-4BB5-98CC-F76A1BF49036/L0/001",
+      "filename": "P1001841.jpg",
+      "dateUTC": "2024-09-09T03:43:17.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-136",
+      "galleryId": "xinjiang-136",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "C749391C-B213-42E5-ADED-A75CAEA3167C/L0/001",
+      "filename": "P1001850.RW2",
+      "dateUTC": "2024-09-09T03:45:41.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-138",
+      "galleryId": "xinjiang-138",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "3C7FABA3-DC30-41E2-9E1B-0FB136865EC3/L0/001",
+      "filename": "P1001874.jpg",
+      "dateUTC": "2024-09-09T03:52:15.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-142",
+      "galleryId": "xinjiang-142",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "8F961014-000C-4026-9BAD-6E0BAEBC1627/L0/001",
+      "filename": "P1001882.RW2",
+      "dateUTC": "2024-09-09T03:55:51.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-143",
+      "galleryId": "xinjiang-143",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "3695B2BF-33F9-44B5-A74A-E683F0985DBF/L0/001",
+      "filename": "P1001889.RW2",
+      "dateUTC": "2024-09-09T04:00:40.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-145",
+      "galleryId": "xinjiang-145",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "3CDDC96B-C385-40AD-A8F7-057649C5ED9F/L0/001",
+      "filename": "P1001900.RW2",
+      "dateUTC": "2024-09-09T04:05:46.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-147",
+      "galleryId": "xinjiang-147",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "5A6696C4-DD59-4F83-95FF-BCB6FAECAA37/L0/001",
+      "filename": "IMG_6064.JPG",
+      "dateUTC": "2024-09-09T04:23:27.000Z",
+      "date": "2024-09-09",
+      "location": [
+        44.628546666666665,
+        81.33718
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-150",
+      "galleryId": "xinjiang-150",
+      "displayPlaceId": "sayram",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "DE928EB9-416C-4AE0-A866-395C61967337/L0/001",
+      "filename": "IMG_6069.JPG",
+      "dateUTC": "2024-09-09T05:03:59.000Z",
+      "date": "2024-09-09",
+      "location": [
+        44.62755333333333,
+        81.33248833333333
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-155",
+      "galleryId": "xinjiang-155",
+      "displayPlaceId": "sayram",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "D9AB6A78-1FE1-4DDF-8271-ED953B2A8FFB/L0/001",
+      "filename": "IMG_6071.JPG",
+      "dateUTC": "2024-09-09T06:39:54.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-157",
+      "galleryId": "xinjiang-157",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "9F96DADD-5B3C-40ED-9D9E-33F1821FDE14/L0/001",
+      "filename": "P1001909.RW2",
+      "dateUTC": "2024-09-09T06:43:00.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-158",
+      "galleryId": "xinjiang-158",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "E1507E0B-9D4E-489B-903E-E136038C2F56/L0/001",
+      "filename": "P1001935.RW2",
+      "dateUTC": "2024-09-09T07:39:09.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-160",
+      "galleryId": "xinjiang-160",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "6E542614-0204-489D-B973-17A0B08C0273/L0/001",
+      "filename": "P1001956.RW2",
+      "dateUTC": "2024-09-09T08:05:15.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-161",
+      "galleryId": "xinjiang-161",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "0DCD8DAE-9305-4E03-A986-FBAD2E0A0A85/L0/001",
+      "filename": "P1001973.RW2",
+      "dateUTC": "2024-09-09T08:11:26.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-164",
+      "galleryId": "xinjiang-164",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "D4CA113F-8B5B-4B73-8698-5BFD1D553BF2/L0/001",
+      "filename": "P1002009.jpg",
+      "dateUTC": "2024-09-09T08:49:24.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-167",
+      "galleryId": "xinjiang-167",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "0D36F009-0C76-4604-BE38-740EDAC05BE3/L0/001",
+      "filename": "P1002068.jpg",
+      "dateUTC": "2024-09-09T11:48:00.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-169",
+      "galleryId": "xinjiang-169",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "D0AD72BA-5348-4CE6-A89D-601A88592DA6/L0/001",
+      "filename": "P1002083.RW2",
+      "dateUTC": "2024-09-09T11:59:20.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-171",
+      "galleryId": "xinjiang-171",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "5FCD3794-604C-4D9A-A698-1954EDE6F689/L0/001",
+      "filename": "P1002104.RW2",
+      "dateUTC": "2024-09-09T12:17:00.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-174",
+      "galleryId": "xinjiang-174",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "EA619664-ECC8-4702-80A6-3BAFCBC760EA/L0/001",
+      "filename": "P1002120.jpg",
+      "dateUTC": "2024-09-09T12:30:24.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-177",
+      "galleryId": "xinjiang-177",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "6C789793-F5A6-4687-81B4-2A30F73BD925/L0/001",
+      "filename": "IMG_6074.JPG",
+      "dateUTC": "2024-09-09T12:31:45.000Z",
+      "date": "2024-09-09",
+      "location": [
+        44.495778333333334,
+        81.14591116666666
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-178",
+      "galleryId": "xinjiang-178",
+      "displayPlaceId": "sayram",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "47E4CD9A-3506-4231-B987-BD123E82FB3F/L0/001",
+      "filename": "P1002122.jpg",
+      "dateUTC": "2024-09-09T12:32:38.000Z",
+      "date": "2024-09-09",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-184",
+      "galleryId": "xinjiang-184",
+      "displayPlaceId": "sayram",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "C359080E-E925-4C26-9362-07D5C55592DD/L0/001",
+      "filename": "P1002133.RW2",
+      "dateUTC": "2024-09-10T10:41:46.000Z",
+      "date": "2024-09-10",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-188",
+      "galleryId": "xinjiang-188",
+      "displayPlaceId": "yili",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "563FEEBD-7ADA-41FA-B4F2-9508092600F4/L0/001",
+      "filename": "P1002142.RW2",
+      "dateUTC": "2024-09-10T10:43:56.000Z",
+      "date": "2024-09-10",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-190",
+      "galleryId": "xinjiang-190",
+      "displayPlaceId": "yili",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "CB8FEE15-FA16-450D-8CE2-51FA35769FF9/L0/001",
+      "filename": "P1002146.jpg",
+      "dateUTC": "2024-09-10T10:47:14.000Z",
+      "date": "2024-09-10",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-192",
+      "galleryId": "xinjiang-192",
+      "displayPlaceId": "yili",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "6A54D04B-3CB7-45BD-9041-DC5C525E446B/L0/001",
+      "filename": "P1002154.jpg",
+      "dateUTC": "2024-09-10T10:50:42.000Z",
+      "date": "2024-09-10",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-193",
+      "galleryId": "xinjiang-193",
+      "displayPlaceId": "yili",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "9FBCEE33-06B1-4572-A426-13D09AF0D302/L0/001",
+      "filename": "IMG_6084.JPG",
+      "dateUTC": "2024-09-10T11:53:25.000Z",
+      "date": "2024-09-10",
+      "location": [
+        43.736095,
+        83.43254666666667
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-194",
+      "galleryId": "xinjiang-194",
+      "displayPlaceId": "yili",
+      "evidence": "gps-and-visual-review; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "6FADAD4A-62DA-4140-9BD6-2DEB0BEDE56C/L0/001",
+      "filename": "P1002166.jpg",
+      "dateUTC": "2024-09-10T12:03:09.000Z",
+      "date": "2024-09-10",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-196",
+      "galleryId": "xinjiang-196",
+      "displayPlaceId": "yili",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "DCAD3662-FD40-4439-8EF2-26ADA19F8075/L0/001",
+      "filename": "P1002179.RW2",
+      "dateUTC": "2024-09-11T03:17:54.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-197",
+      "galleryId": "xinjiang-197",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "815FEE4C-AFB3-4911-953E-C2ABE7410D6A/L0/001",
+      "filename": "P1002185.RW2",
+      "dateUTC": "2024-09-11T03:29:19.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-198",
+      "galleryId": "xinjiang-198",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "91A6F769-5D02-4C42-822E-C7303C2A6F50/L0/001",
+      "filename": "P1002198.RW2",
+      "dateUTC": "2024-09-11T06:49:54.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-203",
+      "galleryId": "xinjiang-203",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "5B6FAB34-EC4D-451A-995D-B6D25824DEA5/L0/001",
+      "filename": "P1002208.RW2",
+      "dateUTC": "2024-09-11T06:57:48.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-204",
+      "galleryId": "xinjiang-204",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "AB44A474-B249-4258-BC0B-7F39CCA84E94/L0/001",
+      "filename": "P1002212.RW2",
+      "dateUTC": "2024-09-11T07:13:32.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-206",
+      "galleryId": "xinjiang-206",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "84EC6F76-E25D-49EF-AB99-D757C3FC3F99/L0/001",
+      "filename": "P1002214.jpg",
+      "dateUTC": "2024-09-11T07:14:37.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-207",
+      "galleryId": "xinjiang-207",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "B05757EE-5CB3-488C-9B65-9DF48076794A/L0/001",
+      "filename": "P1002218.jpg",
+      "dateUTC": "2024-09-11T07:20:06.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-209",
+      "galleryId": "xinjiang-209",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "36BB2A47-2B50-4D31-BFE5-FA5CDB580EF9/L0/001",
+      "filename": "P1002238.RW2",
+      "dateUTC": "2024-09-11T08:44:18.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-212",
+      "galleryId": "xinjiang-212",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "C91495B9-FAFB-413F-A5F1-2A4BCAC04415/L0/001",
+      "filename": "P1002244.jpg",
+      "dateUTC": "2024-09-11T09:18:35.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-213",
+      "galleryId": "xinjiang-213",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "405E7BA5-DBD7-4507-87DB-AF373F883E41/L0/001",
+      "filename": "P1002251.RW2",
+      "dateUTC": "2024-09-11T09:21:49.000Z",
+      "date": "2024-09-11",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-214",
+      "galleryId": "xinjiang-214",
+      "displayPlaceId": "nalati",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "292282BB-7C1A-4985-A5D5-F0998406AE2F/L0/001",
+      "filename": "P1002257.jpg",
+      "dateUTC": "2024-09-12T03:13:17.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-217",
+      "galleryId": "xinjiang-217",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "37A3AD6F-6EF3-4B7A-92BF-C0A7FF5AB262/L0/001",
+      "filename": "P1002265.jpg",
+      "dateUTC": "2024-09-12T03:28:25.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-218",
+      "galleryId": "xinjiang-218",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "D1CC7DA3-1B07-4859-8FAD-56CC5C5BC0D7/L0/001",
+      "filename": "P1002269.jpg",
+      "dateUTC": "2024-09-12T03:34:41.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-220",
+      "galleryId": "xinjiang-220",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "F1ECC684-29C3-4069-BD5C-5FAF35617D7E/L0/001",
+      "filename": "P1002299.jpg",
+      "dateUTC": "2024-09-12T04:06:39.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-223",
+      "galleryId": "xinjiang-223",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "BF5A1FBC-B6DA-483E-B538-CD520220715C/L0/001",
+      "filename": "P1002307.jpg",
+      "dateUTC": "2024-09-12T05:23:13.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-225",
+      "galleryId": "xinjiang-225",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "E4CC93CA-2082-45E2-8C04-AF7E506E0753/L0/001",
+      "filename": "P1002309.jpg",
+      "dateUTC": "2024-09-12T05:36:19.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-226",
+      "galleryId": "xinjiang-226",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "FD31C556-16F9-4D42-A2BC-8C3D8DED916F/L0/001",
+      "filename": "P1002313.jpg",
+      "dateUTC": "2024-09-12T05:41:18.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-227",
+      "galleryId": "xinjiang-227",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "08432389-B847-4B7E-99B2-2C1DA3801100/L0/001",
+      "filename": "P1002316.RW2",
+      "dateUTC": "2024-09-12T05:52:30.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-228",
+      "galleryId": "xinjiang-228",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "1048ADB9-76A9-4BC7-BEB9-DD3CFB2EF433/L0/001",
+      "filename": "P1002323.RW2",
+      "dateUTC": "2024-09-12T05:57:51.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-229",
+      "galleryId": "xinjiang-229",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "5C3CE060-0FAB-4D4B-98D2-A4BDAFEEEB7F/L0/001",
+      "filename": "P1002339.RW2",
+      "dateUTC": "2024-09-12T07:29:43.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-231",
+      "galleryId": "xinjiang-231",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "06FA83E5-A168-4410-9BBD-057206FB2D3E/L0/001",
+      "filename": "P1002346.jpg",
+      "dateUTC": "2024-09-12T12:08:37.000Z",
+      "date": "2024-09-12",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "xinjiang",
+      "candidate": "xinjiang-235",
+      "galleryId": "xinjiang-235",
+      "displayPlaceId": "tianshan",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "356AD29A-4710-47F0-9E88-6E97A516624E/L0/001",
+      "filename": "IMG_7537.JPG",
+      "dateUTC": "2025-10-03T08:23:03.000Z",
+      "date": "2025-10-03",
+      "location": [
+        44.96959666666667,
+        120.42858
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-001",
+      "galleryId": "hulunbuir-001",
+      "displayPlaceId": "hailar",
+      "evidence": "arrival-flight-group-original-gps-preserved"
+    },
+    {
+      "id": "CEBF646F-3722-4620-A9CB-B7AE33CEC285/L0/001",
+      "filename": "IMG_7538.JPG",
+      "dateUTC": "2025-10-03T09:39:45.000Z",
+      "date": "2025-10-03",
+      "location": [
+        49.21098,
+        119.81717833333333
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-002",
+      "galleryId": "hulunbuir-002",
+      "displayPlaceId": "hailar",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "769A6CB2-C4DA-4129-BC1D-CF53B6B9F0FF/L0/001",
+      "filename": "P1005391.jpg",
+      "dateUTC": "2025-10-03T09:45:42.000Z",
+      "date": "2025-10-03",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-003",
+      "galleryId": "hulunbuir-003",
+      "displayPlaceId": "hailar",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "5C671815-56E4-44DB-8E67-D0C3724D3CA6/L0/001",
+      "filename": "P1005408.jpg",
+      "dateUTC": "2025-10-04T04:34:32.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-005",
+      "galleryId": "hulunbuir-005",
+      "displayPlaceId": "morigele",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "1B14943B-2D19-4202-BA40-7BBF5540F8A1/L0/001",
+      "filename": "P1005427.jpg",
+      "dateUTC": "2025-10-04T04:54:19.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-007",
+      "galleryId": "hulunbuir-007",
+      "displayPlaceId": "morigele",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "DD0903A7-226F-42F9-81CD-6B99A371625E/L0/001",
+      "filename": "P1005431.jpg",
+      "dateUTC": "2025-10-04T04:59:55.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-008",
+      "galleryId": "hulunbuir-008",
+      "displayPlaceId": "morigele",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "FB79D6C6-413B-4917-BE6F-397BECE3A67C/L0/001",
+      "filename": "P1005450.jpg",
+      "dateUTC": "2025-10-04T06:15:07.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-011",
+      "galleryId": "hulunbuir-011",
+      "displayPlaceId": "morigele",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "68D44B86-DF8B-4B70-B57A-E63E916D3156/L0/001",
+      "filename": "01-morigele.jpeg",
+      "dateUTC": "2025-10-04T06:18:16.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-014",
+      "galleryId": "hulunbuir-014",
+      "displayPlaceId": "morigele",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "27DF0CCD-4FEE-498F-9D9D-626A02B23B6A/L0/001",
+      "filename": "P1005468.RW2",
+      "dateUTC": "2025-10-04T06:21:00.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-015",
+      "galleryId": "hulunbuir-015",
+      "displayPlaceId": "morigele",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "7B272373-BE8A-45D9-9334-02032BE1623C/L0/001",
+      "filename": "02-erguna-wetland.jpeg",
+      "dateUTC": "2025-10-04T09:24:52.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-018",
+      "galleryId": "hulunbuir-018",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "37AC5B70-26C0-483D-B0EB-14C378036E67/L0/001",
+      "filename": "03-sunset.jpeg",
+      "dateUTC": "2025-10-04T09:30:29.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-024",
+      "galleryId": "hulunbuir-024",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "58399933-B26D-4FFF-B476-2A3DE4A422AB/L0/001",
+      "filename": "04-moonrise.jpeg",
+      "dateUTC": "2025-10-04T09:33:57.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-027",
+      "galleryId": "hulunbuir-027",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "2FF4353C-BE85-4A22-B30D-0B68299C3E05/L0/001",
+      "filename": "05-river-at-dusk.jpeg",
+      "dateUTC": "2025-10-04T09:40:36.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-028",
+      "galleryId": "hulunbuir-028",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "6403EF81-B33E-48BE-BECB-CFF6F83608ED/L0/001",
+      "filename": "06-moon-pines.jpeg",
+      "dateUTC": "2025-10-04T09:42:24.000Z",
+      "date": "2025-10-04",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-030",
+      "galleryId": "hulunbuir-030",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "9BFCE15B-F75F-4492-A122-92A1B69AFF54/L0/001",
+      "filename": "P1005510.RW2",
+      "dateUTC": "2025-10-05T03:20:40.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-032",
+      "galleryId": "hulunbuir-032",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "A0A1E632-02A3-4F1A-82D1-00C59625162F/L0/001",
+      "filename": "P1005519.RW2",
+      "dateUTC": "2025-10-05T03:53:32.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-033",
+      "galleryId": "hulunbuir-033",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "9CDE8AC4-D82B-42EA-8E61-54199C2037A2/L0/001",
+      "filename": "P1005522.RW2",
+      "dateUTC": "2025-10-05T03:54:01.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-034",
+      "galleryId": "hulunbuir-034",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "7F43677E-F532-4247-96C5-50BCFEC4E06A/L0/001",
+      "filename": "P1005524.jpg",
+      "dateUTC": "2025-10-05T04:05:12.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-035",
+      "galleryId": "hulunbuir-035",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "B067E792-66C9-4C14-8A3D-D8AC56EBB840/L0/001",
+      "filename": "IMG_7548.JPG",
+      "dateUTC": "2025-10-05T04:13:06.000Z",
+      "date": "2025-10-05",
+      "location": [
+        50.34935333333333,
+        120.44716666666666
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-037",
+      "galleryId": "hulunbuir-037",
+      "displayPlaceId": "erguna",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "316DC8FB-EBD3-47B4-8F48-9DE90777E047/L0/001",
+      "filename": "P1005535.jpg",
+      "dateUTC": "2025-10-05T04:22:44.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-039",
+      "galleryId": "hulunbuir-039",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "A6FA7E2B-A582-4829-BEB9-6D055B1A0ECD/L0/001",
+      "filename": "P1005552.jpg",
+      "dateUTC": "2025-10-05T04:48:52.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-040",
+      "galleryId": "hulunbuir-040",
+      "displayPlaceId": "erguna",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "982F81C7-27C0-4FAF-9BE0-969C435D8E84/L0/001",
+      "filename": "P1005561.jpg",
+      "dateUTC": "2025-10-05T06:40:37.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-044",
+      "galleryId": "hulunbuir-044",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "EAC8D06F-4F67-43B1-B5AC-15790178C910/L0/001",
+      "filename": "P1005564.RW2",
+      "dateUTC": "2025-10-05T06:41:52.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-045",
+      "galleryId": "hulunbuir-045",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "096E020D-F899-4A5F-88FC-392849518B3A/L0/001",
+      "filename": "P1005570.jpg",
+      "dateUTC": "2025-10-05T06:47:34.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-046",
+      "galleryId": "hulunbuir-046",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "0D0959A2-48AB-4CC6-A4BA-3DF0BE4E5DD1/L0/001",
+      "filename": "P1005586.jpg",
+      "dateUTC": "2025-10-05T07:08:28.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-050",
+      "galleryId": "hulunbuir-050",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "DFAC4AC6-CE3B-42E5-A9E9-E3DE4453572C/L0/001",
+      "filename": "P1005590.RW2",
+      "dateUTC": "2025-10-05T07:09:23.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-052",
+      "galleryId": "hulunbuir-052",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "21C7A40F-E8AE-491C-9939-633774477B5E/L0/001",
+      "filename": "P1005591.jpg",
+      "dateUTC": "2025-10-05T07:09:33.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-053",
+      "galleryId": "hulunbuir-053",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "49D87658-C06C-452A-97E9-52B2414761B7/L0/001",
+      "filename": "P1005593.jpg",
+      "dateUTC": "2025-10-05T07:09:51.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-055",
+      "galleryId": "hulunbuir-055",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "5E36D0EE-1416-4F55-B1E9-A91D667C35AC/L0/001",
+      "filename": "IMG_7552.JPG",
+      "dateUTC": "2025-10-05T08:21:20.000Z",
+      "date": "2025-10-05",
+      "location": [
+        50.80280333333333,
+        121.20347
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-060",
+      "galleryId": "hulunbuir-060",
+      "displayPlaceId": "forest",
+      "evidence": "gps-and-visual-review; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "B662D0A1-03C1-4D09-B095-5184B4D34C31/L0/001",
+      "filename": "P1005614.jpg",
+      "dateUTC": "2025-10-05T08:52:07.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-064",
+      "galleryId": "hulunbuir-064",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "05F5CB69-63A6-4CDE-92F1-141137EB562B/L0/001",
+      "filename": "P1005615.jpg",
+      "dateUTC": "2025-10-05T08:52:31.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-065",
+      "galleryId": "hulunbuir-065",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "7220358D-6BC6-4FF5-AA81-AB3C4C7AF0AC/L0/001",
+      "filename": "P1005619.jpg",
+      "dateUTC": "2025-10-05T08:53:40.000Z",
+      "date": "2025-10-05",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-067",
+      "galleryId": "hulunbuir-067",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "6C5CB06B-A081-4003-A2C9-0742C12CDE87/L0/001",
+      "filename": "IMG_7558.JPG",
+      "dateUTC": "2025-10-05T11:30:03.000Z",
+      "date": "2025-10-05",
+      "location": [
+        51.25843833333333,
+        120.77204666666667
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-071",
+      "galleryId": "hulunbuir-071",
+      "displayPlaceId": "forest",
+      "evidence": "gps-and-visual-review; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "BC82D8C6-9FE9-4B2B-BAD7-48D04FF155CA/L0/001",
+      "filename": "P1005639.jpg",
+      "dateUTC": "2025-10-06T04:29:27.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-073",
+      "galleryId": "hulunbuir-073",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "EAF3FB94-03DB-40D4-92F1-F4A8EE903A33/L0/001",
+      "filename": "P1005648.jpg",
+      "dateUTC": "2025-10-06T05:51:15.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-074",
+      "galleryId": "hulunbuir-074",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "B392E348-73CB-4BB5-9B1A-120D93634779/L0/001",
+      "filename": "P1005659.jpg",
+      "dateUTC": "2025-10-06T06:17:30.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-075",
+      "galleryId": "hulunbuir-075",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "1BF836BB-B420-4CB4-8545-B0DC6D6CD25E/L0/001",
+      "filename": "P1005663.jpg",
+      "dateUTC": "2025-10-06T06:21:46.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-077",
+      "galleryId": "hulunbuir-077",
+      "displayPlaceId": "forest",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "22C003AE-0938-404F-BED4-67F5C7FA60ED/L0/001",
+      "filename": "P1005701.jpg",
+      "dateUTC": "2025-10-06T08:53:51.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-079",
+      "galleryId": "hulunbuir-079",
+      "displayPlaceId": "shiwei",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "F6C4FE3C-64F6-4F57-AE28-BD21AA05DDD7/L0/001",
+      "filename": "P1005712.jpg",
+      "dateUTC": "2025-10-06T09:09:56.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-080",
+      "galleryId": "hulunbuir-080",
+      "displayPlaceId": "shiwei",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "ECB6578D-1737-4B12-8343-E08F421E6FAA/L0/001",
+      "filename": "IMG_7562.JPG",
+      "dateUTC": "2025-10-06T09:20:48.000Z",
+      "date": "2025-10-06",
+      "location": [
+        51.262388333333334,
+        119.84472833333334
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-081",
+      "galleryId": "hulunbuir-081",
+      "displayPlaceId": "shiwei",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "6D1EBCB0-32B0-4215-9615-68F19D2C2915/L0/001",
+      "filename": "P1005736.jpg",
+      "dateUTC": "2025-10-06T09:28:26.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-084",
+      "galleryId": "hulunbuir-084",
+      "displayPlaceId": "shiwei",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "F2DFC968-037B-4888-B769-B7D6351E4BFF/L0/001",
+      "filename": "P1005739.jpg",
+      "dateUTC": "2025-10-06T09:31:13.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-085",
+      "galleryId": "hulunbuir-085",
+      "displayPlaceId": "shiwei",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "7E1A302F-BD6A-4EAF-BE81-A1D20FCF0733/L0/001",
+      "filename": "IMG_7564.JPG",
+      "dateUTC": "2025-10-06T12:28:57.000Z",
+      "date": "2025-10-06",
+      "location": [
+        51.33643333333333,
+        119.89931333333334
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-086",
+      "galleryId": "hulunbuir-086",
+      "displayPlaceId": "shiwei",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "BDEE5B12-64DC-4C7B-8702-3DCE4948E921/L0/001",
+      "filename": "P1005742.jpg",
+      "dateUTC": "2025-10-06T13:56:34.000Z",
+      "date": "2025-10-06",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-087",
+      "galleryId": "hulunbuir-087",
+      "displayPlaceId": "shiwei",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "F6724038-3E3D-45EF-9B3D-67497E28788E/L0/001",
+      "filename": "P1005755.jpg",
+      "dateUTC": "2025-10-07T02:42:24.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-088",
+      "galleryId": "hulunbuir-088",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "4E806A9D-0CF3-4BD2-ABAA-6BFFF5FB20A0/L0/001",
+      "filename": "P1005776.jpg",
+      "dateUTC": "2025-10-07T03:41:58.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-091",
+      "galleryId": "hulunbuir-091",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "8EAEEDE0-153B-4DA6-B879-EE8F371A71AD/L0/001",
+      "filename": "P1005784.jpg",
+      "dateUTC": "2025-10-07T03:52:13.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-092",
+      "galleryId": "hulunbuir-092",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "48428343-BDA2-42E4-BCEC-C32DE3D0C483/L0/001",
+      "filename": "P1005797.jpg",
+      "dateUTC": "2025-10-07T04:18:09.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-093",
+      "galleryId": "hulunbuir-093",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "BD59C2A2-69F6-4499-9509-7B44B8C02347/L0/001",
+      "filename": "P1005798.RW2",
+      "dateUTC": "2025-10-07T04:19:10.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-094",
+      "galleryId": "hulunbuir-094",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "E4DC1BB5-D3CE-4DC2-B88F-57CCCACAEE60/L0/001",
+      "filename": "P1005809.jpg",
+      "dateUTC": "2025-10-07T05:19:11.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-096",
+      "galleryId": "hulunbuir-096",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "56DEE94D-5A8E-4915-9670-8C396808CBC0/L0/001",
+      "filename": "P1005814.jpg",
+      "dateUTC": "2025-10-07T05:40:59.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-098",
+      "galleryId": "hulunbuir-098",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "225D6863-1790-41D9-AB4E-88291199B550/L0/001",
+      "filename": "P1005816.RW2",
+      "dateUTC": "2025-10-07T05:54:31.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-099",
+      "galleryId": "hulunbuir-099",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "0F650B37-1DB7-496C-B329-D3E9956878DF/L0/001",
+      "filename": "P1005822.jpg",
+      "dateUTC": "2025-10-07T05:57:16.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-101",
+      "galleryId": "hulunbuir-101",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "EF8DB069-5F9D-4EE5-8889-8090E6968C80/L0/001",
+      "filename": "P1005827.jpg",
+      "dateUTC": "2025-10-07T05:58:51.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-102",
+      "galleryId": "hulunbuir-102",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "3C77A51C-EC15-4BE9-ABAE-C6BADB423500/L0/001",
+      "filename": "P1005832.jpg",
+      "dateUTC": "2025-10-07T06:03:02.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-104",
+      "galleryId": "hulunbuir-104",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "0F5519F0-9ADF-4104-84BA-E0BDFB41FFA6/L0/001",
+      "filename": "P1005838.RW2",
+      "dateUTC": "2025-10-07T06:06:09.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-106",
+      "galleryId": "hulunbuir-106",
+      "displayPlaceId": "border-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "14DAE438-B511-4850-AE03-305398F4751E/L0/001",
+      "filename": "P1005842.jpg",
+      "dateUTC": "2025-10-07T08:15:42.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-107",
+      "galleryId": "hulunbuir-107",
+      "displayPlaceId": "heishantou",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "3946EF03-44B9-4FE8-ABAF-3661874EAA88/L0/001",
+      "filename": "P1005850.jpg",
+      "dateUTC": "2025-10-07T08:38:47.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-111",
+      "galleryId": "hulunbuir-111",
+      "displayPlaceId": "heishantou",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "3DC3CD46-7135-4D52-AFE9-03318D6CE341/L0/001",
+      "filename": "P1005856.jpg",
+      "dateUTC": "2025-10-07T09:18:13.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-112",
+      "galleryId": "hulunbuir-112",
+      "displayPlaceId": "heishantou",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "0611C7E4-5A8E-44BC-A731-EF9A398046A7/L0/001",
+      "filename": "P1005862.jpg",
+      "dateUTC": "2025-10-07T09:38:35.000Z",
+      "date": "2025-10-07",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-113",
+      "galleryId": "hulunbuir-113",
+      "displayPlaceId": "heishantou",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "EF285C02-E0C5-46F1-AA26-1F81996B0A03/L0/001",
+      "filename": "IMG_7578.JPG",
+      "dateUTC": "2025-10-07T12:59:39.000Z",
+      "date": "2025-10-07",
+      "location": [
+        50.21550333333333,
+        119.58893666666667
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-116",
+      "galleryId": "hulunbuir-116",
+      "displayPlaceId": "heishantou",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "DDA5E86B-DD32-450B-8DF2-329BC89B09E6/L0/001",
+      "filename": "IMG_7582.JPG",
+      "dateUTC": "2025-10-07T13:14:32.000Z",
+      "date": "2025-10-07",
+      "location": [
+        50.21545,
+        119.58888
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-118",
+      "galleryId": "hulunbuir-118",
+      "displayPlaceId": "heishantou",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "44D9E3E9-BDD8-4E36-818E-8FF225C9A4F5/L0/001",
+      "filename": "P1005873.RW2",
+      "dateUTC": "2025-10-08T03:00:20.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-124",
+      "galleryId": "hulunbuir-124",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "16F35E53-DEDA-4C17-802A-6062E0C8132D/L0/001",
+      "filename": "P1005885.RW2",
+      "dateUTC": "2025-10-08T03:55:09.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-126",
+      "galleryId": "hulunbuir-126",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "B4CA8E18-2EF1-4431-9E8B-C1F2F3BEE5AD/L0/001",
+      "filename": "P1005892.jpg",
+      "dateUTC": "2025-10-08T07:48:57.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-127",
+      "galleryId": "hulunbuir-127",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "1483B02A-0258-4A13-9AE0-173C33FE87B2/L0/001",
+      "filename": "P1005901.jpg",
+      "dateUTC": "2025-10-08T08:05:00.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-129",
+      "galleryId": "hulunbuir-129",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "8CFB8A65-A85E-418E-8279-B2AF40CFCA10/L0/001",
+      "filename": "P1005905.jpg",
+      "dateUTC": "2025-10-08T08:32:20.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-130",
+      "galleryId": "hulunbuir-130",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "229B3DF8-D8FD-4E93-B53B-EEF2F94D8C2C/L0/001",
+      "filename": "P1005911.RW2",
+      "dateUTC": "2025-10-08T09:00:10.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-131",
+      "galleryId": "hulunbuir-131",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "ED656EBA-D686-4A90-BD5C-0568B9130659/L0/001",
+      "filename": "P1005919.jpg",
+      "dateUTC": "2025-10-08T09:08:42.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-132",
+      "galleryId": "hulunbuir-132",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "F2DB624D-4B76-47D7-8A04-CD78698B4129/L0/001",
+      "filename": "P1005929.jpg",
+      "dateUTC": "2025-10-08T09:13:10.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-134",
+      "galleryId": "hulunbuir-134",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "56D32B10-7F40-455A-938A-30B298F46918/L0/001",
+      "filename": "P1005934.jpg",
+      "dateUTC": "2025-10-08T09:33:16.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-136",
+      "galleryId": "hulunbuir-136",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "4CCE72A6-3A02-4619-93DA-6E07931C5FDE/L0/001",
+      "filename": "P1005942.jpg",
+      "dateUTC": "2025-10-08T09:35:30.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-138",
+      "galleryId": "hulunbuir-138",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "E43D040A-528D-4124-9462-152B80FF4BD0/L0/001",
+      "filename": "P1005952.jpg",
+      "dateUTC": "2025-10-08T09:50:00.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-139",
+      "galleryId": "hulunbuir-139",
+      "displayPlaceId": "west-road",
+      "evidence": "visual-review-and-nearby-geotagged-captures; broad-en-route-region-not-exact-landmark"
+    },
+    {
+      "id": "4FA63768-38D0-4EB3-B359-A31B7EB96EAC/L0/001",
+      "filename": "IMG_7589.JPG",
+      "dateUTC": "2025-10-08T10:56:05.000Z",
+      "date": "2025-10-08",
+      "location": [
+        49.59106333333333,
+        117.43981166666667
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-140",
+      "galleryId": "hulunbuir-140",
+      "displayPlaceId": "manzhouli",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "4E4D6DCC-A2BD-48B7-A39D-B7FA6C07C8B1/L0/001",
+      "filename": "P1005963.RW2",
+      "dateUTC": "2025-10-08T11:43:21.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-141",
+      "galleryId": "hulunbuir-141",
+      "displayPlaceId": "manzhouli",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "FA34C73C-8B0A-4D47-8349-B4B57C6F143D/L0/001",
+      "filename": "P1005972.RW2",
+      "dateUTC": "2025-10-08T11:50:12.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-143",
+      "galleryId": "hulunbuir-143",
+      "displayPlaceId": "manzhouli",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "C06FD433-13E7-4574-8AE8-B383D56C8A7E/L0/001",
+      "filename": "P1005974.jpg",
+      "dateUTC": "2025-10-08T11:51:38.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-145",
+      "galleryId": "hulunbuir-145",
+      "displayPlaceId": "manzhouli",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "2D0D0835-BD45-4484-A7F7-7DD7943115D2/L0/001",
+      "filename": "IMG_7591.JPG",
+      "dateUTC": "2025-10-08T12:03:30.000Z",
+      "date": "2025-10-08",
+      "location": [
+        49.58973666666667,
+        117.44065333333333
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-146",
+      "galleryId": "hulunbuir-146",
+      "displayPlaceId": "manzhouli",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "DF4C0EEA-16BE-4715-B668-48F2D938E190/L0/001",
+      "filename": "P1005977.jpg",
+      "dateUTC": "2025-10-08T12:42:36.000Z",
+      "date": "2025-10-08",
+      "location": [
+        null,
+        null
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-147",
+      "galleryId": "hulunbuir-147",
+      "displayPlaceId": "manzhouli",
+      "evidence": "visual-review-and-nearby-geotagged-captures"
+    },
+    {
+      "id": "E1504B85-7DC5-4E8D-81BA-1A934CCEBAAA/L0/001",
+      "filename": "IMG_7593.JPG",
+      "dateUTC": "2025-10-09T04:54:48.000Z",
+      "date": "2025-10-09",
+      "location": [
+        49.624955,
+        117.350595
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-150",
+      "galleryId": "hulunbuir-150",
+      "displayPlaceId": "manzhouli",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "id": "335E3628-D23C-4BE6-8B4F-EBBDD02D165A/L0/001",
+      "filename": "IMG_7594.JPG",
+      "dateUTC": "2025-10-09T05:00:31.000Z",
+      "date": "2025-10-09",
+      "location": [
+        49.625855,
+        117.34848
+      ],
+      "trip": "hulunbuir",
+      "candidate": "hulunbuir-151",
+      "galleryId": "hulunbuir-151",
+      "displayPlaceId": "manzhouli",
+      "evidence": "gps-and-visual-review"
+    }
+  ]
+}

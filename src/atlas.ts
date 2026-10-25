@@ -1,4 +1,5 @@
 import atlasJson from './data/atlas.json';
+import chinaJson from './data/china.json';
 import worldJson from './data/world.json';
 import { journal, photoById, type Photo } from './data';
 
@@ -25,13 +26,13 @@ export type AtlasTrip = {
   tags: string[];
   places: AtlasPlace[];
   photos: AtlasPhoto[];
-  map: { paths: string[]; points: { id: string; x: number; y: number }[] };
+  map: { paths: string[]; points: { id: string; x: number; y: number }[]; note?: string };
 };
 export type TripCard = Omit<AtlasTrip, 'map' | 'places' | 'photos'> & { photos: Photo[] };
 const sourceAtlas = atlasJson as unknown as { trips: AtlasTrip[] };
 const arrivalIds = new Set(['japan-summer-001', 'japan-summer-007', 'japan-summer-008']);
 export const atlas = {
-  trips: sourceAtlas.trips.map((trip): AtlasTrip => {
+  trips: [...sourceAtlas.trips, ...chinaJson.trips as unknown as AtlasTrip[]].map((trip): AtlasTrip => {
     if (trip.id !== 'japan-summer') return trip;
     // IMG_7048/7049 GPS: 34.4302 N, 135.2386 E (Kansai Airport).
     // Keep the source snapshot; correct the earlier nearest-city grouping here.
@@ -67,10 +68,13 @@ export const allPhotos = new Map<string, Photo>([
 ]);
 export const totalPhotos = trips.reduce((total, trip) => total + trip.photos.length, 0);
 export const totalDays = trips.reduce((total, trip) => total + trip.days, 0);
+export const totalCountries = new Set(trips.flatMap((trip) => trip.countryCode === 'eg' ? ['eg', 'ae'] : [trip.countryCode])).size;
+export const yearRange = `${Math.min(...trips.map((trip) => Number(trip.start.slice(0, 4))))}—${Math.max(...trips.map((trip) => Number(trip.end.slice(0, 4))))}`;
 export const tripValues = ['all', ...trips.map((trip) => trip.id)];
 export const countries = [
   { id: 'all', name: '全部旅程', english: 'ALL', coordinate: [0, 0] },
   { id: 'eg', name: '埃及与迪拜', english: 'EGYPT & DUBAI', coordinate: [31, 29] },
+  { id: 'cn', name: '中国', english: 'CHINA', coordinate: [103, 39] },
   { id: 'nz', name: '新西兰', english: 'NEW ZEALAND', coordinate: [171, -42] },
   { id: 'kr', name: '韩国', english: 'SOUTH KOREA', coordinate: [126.5, 33.4] },
   { id: 'jp', name: '日本', english: 'JAPAN', coordinate: [138, 36] },

@@ -1,5 +1,5 @@
 import { ArrowDown, ArrowUpRight, Camera, Compass, MapPin } from 'lucide-react';
-import { allPhotos, countries, dateRange, totalDays, totalPhotos, trips } from '../atlas';
+import { allPhotos, countries, dateRange, totalCountries, totalDays, totalPhotos, trips, yearRange } from '../atlas';
 import { scrollToContent } from '../hooks';
 import JournalImage from './JournalImage';
 import WorldMap from './WorldMap';
@@ -17,16 +17,16 @@ export default function AtlasOverview({ country, onCountry, onTrip }: Props) {
         <div className="atlas-hero-copy">
           <p className="atlas-kicker"><span /> A PERSONAL TRAVEL ATLAS</p>
           <h1 id="atlas-title">去过的地方，<br />都有故事。</h1>
-          <p className="atlas-lead">从尼罗河到南半球，从海岛到街巷。<br />把照片铺开，再走一遍。</p>
+          <p className="atlas-lead">从新疆湖山到呼伦贝尔，从尼罗河到南半球。<br />把照片铺开，再走一遍。</p>
           <div className="atlas-stats">
-            <span><strong>05</strong> 个国家</span>
-            <span><strong>05</strong> 段旅程</span>
+            <span><strong>{String(totalCountries).padStart(2, '0')}</strong> 个国家</span>
+            <span><strong>{String(trips.length).padStart(2, '0')}</strong> 段旅程</span>
             <span><strong>{totalPhotos}</strong> 张照片</span>
           </div>
           <button className="atlas-text-link" onClick={() => scrollToContent('#atlas-journeys')}>
             翻开旅行图册 <ArrowDown size={15} aria-hidden="true" />
           </button>
-          <span className="hero-edition">VOL. 01—05 <i /> 2025—2026</span>
+          <span className="hero-edition">VOL. 01—{String(trips.length).padStart(2, '0')} <i /> {yearRange}</span>
         </div>
         <div className="atlas-hero-images">
           <button className="atlas-featured-photo" onClick={() => onTrip(featured.id)} aria-label="翻开新西兰旅行">
@@ -84,7 +84,7 @@ export default function AtlasOverview({ country, onCountry, onTrip }: Props) {
           <div className="footprints-country-links" aria-label="查看足迹中的旅程">{countries.filter((item) => item.id !== 'all').map((item) => <button key={item.id} aria-pressed={country === item.id} onClick={() => { onCountry(item.id); requestAnimationFrame(() => scrollToContent('#atlas-journeys')); }}><i />{item.name}<ArrowUpRight size={12} /></button>)}</div>
         </div>
       </section>
-      <footer className="atlas-footer"><span><MapPin size={14} /> 一路，记下来。</span><p>2025—2026 · 私人的旅行图册</p><span>照片里的旅程，慢慢看。</span></footer>
+      <footer className="atlas-footer"><span><MapPin size={14} /> 一路，记下来。</span><p>{yearRange} · 私人的旅行图册</p><span>照片里的旅程，慢慢看。</span></footer>
     </main>
   );
 }

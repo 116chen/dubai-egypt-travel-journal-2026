@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>翻开埃及与迪拜手记</title>
+    <style>
+      body { margin: 0; padding: 15vh 8vw; background: #f7f3ea; color: #3d3b32; font-family: "PingFang SC", sans-serif; }
+      a { color: #4b624b; }
+    </style>
+  </head>
+  <body>
+    <p>正在翻开新版旅行手记。</p>
+    <a href="./?trip=egypt-dubai">查看埃及与迪拜手记</a>
+    <script>
+      const destination = new URL('./', location.href);
+      destination.search = location.search;
+      if (!destination.searchParams.has('trip')) destination.searchParams.set('trip', 'egypt-dubai');
+      destination.hash = location.hash;
+      location.replace(destination.href);
+    </script>
+  </body>
+</html>

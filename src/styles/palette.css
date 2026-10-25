@@ -1,0 +1,202 @@
+/* Natural travel palette. All color values are defined in theme.ts. */
+.travel-atlas {
+  background: radial-gradient(ellipse at 18% 5%, var(--atlas-paper-glow), transparent 42%), var(--atlas-paper);
+  color: var(--atlas-ink);
+}
+
+.atlas-header { border-color: color-mix(in srgb, var(--atlas-line) 65%, transparent); }
+.atlas-brand-mark { border-color: var(--atlas-map-border); color: var(--atlas-primary); }
+.atlas-header nav button { color: var(--atlas-muted); }
+.atlas-header nav button.active, .atlas-header nav button:hover { color: var(--atlas-primary-deep); }
+.atlas-header nav button.active::after, .atlas-kicker > span { background: var(--atlas-accent); }
+.atlas-kicker { color: var(--atlas-accent); }
+
+.atlas-header-edition, .atlas-brand small, .hero-edition, .hero-photo-note,
+.atlas-stats, .atlas-section-heading > p, .trip-card-date, .trip-card-bottom,
+.atlas-footer, .atlas-breadcrumb, .trip-intro-date, .trip-intro-stats,
+.trip-tabs-bar > span, .route-map-heading small, .route-map-note, .trip-day-count,
+.gallery-photo-meta, .trip-notes-actions > span {
+  color: var(--atlas-muted);
+}
+.atlas-stats strong, .trip-intro-stats strong, .trip-card-copy h3,
+.travel-atlas .intro-copy h1, .trip-notes-heading h2, .trip-place-detail h2 {
+  color: var(--atlas-ink);
+}
+.atlas-lead, .trip-card-copy > p, .trip-intro-subtitle,
+.trip-place-detail > p:not(.atlas-kicker), .trip-note-text, .trip-note-empty {
+  color: var(--atlas-body);
+}
+.hero-edition i { background: var(--atlas-line); }
+.atlas-text-link { background: var(--atlas-primary-soft); color: var(--atlas-primary-deep); }
+.atlas-text-link:hover { background: var(--atlas-sand); color: var(--mantine-color-clay-7); }
+.atlas-filter button { background: var(--atlas-primary-soft); color: var(--atlas-body); }
+.atlas-filter button span { color: var(--atlas-muted); }
+.atlas-filter button.active { background: var(--atlas-primary); border-color: var(--atlas-primary); color: var(--atlas-on-dark); }
+.atlas-filter button.active span { color: var(--atlas-on-dark); }
+.atlas-trip-card, .travel-atlas .reading-card {
+  background: var(--atlas-surface);
+  box-shadow: 0 4px 20px color-mix(in srgb, var(--atlas-primary-deep) 4%, transparent);
+}
+.atlas-trip-card:hover { box-shadow: 0 15px 35px color-mix(in srgb, var(--atlas-primary-deep) 9%, transparent); }
+.atlas-featured-photo, .trip-card-image, .trip-intro-images button, .trip-place-photo-grid button {
+  background: var(--atlas-primary-soft);
+}
+.atlas-featured-photo { box-shadow: 0 15px 40px color-mix(in srgb, var(--atlas-primary-deep) 8%, transparent); }
+.atlas-featured-photo::after { background: linear-gradient(transparent, color-mix(in srgb, var(--atlas-viewer-dark) 68%, transparent)); }
+.trip-card-image::after { background: linear-gradient(transparent, color-mix(in srgb, var(--atlas-viewer-dark) 58%, transparent)); }
+.atlas-inset-photo { background: var(--atlas-surface); box-shadow: 0 12px 30px color-mix(in srgb, var(--atlas-primary-deep) 13%, transparent); }
+.atlas-inset-photo > span, .trip-card-bottom > span:last-child,
+.atlas-footer > span:first-child, .atlas-breadcrumb > button {
+  color: var(--atlas-primary);
+}
+.atlas-breadcrumb i { color: var(--atlas-map-border); }
+.atlas-breadcrumb select { background: var(--atlas-primary-soft); color: var(--atlas-primary-deep); }
+.trip-intro-main > span { background: color-mix(in srgb, var(--atlas-viewer-dark) 45%, transparent); }
+
+.trip-tabs-bar, .travel-atlas .tabs-bar {
+  background: color-mix(in srgb, var(--atlas-paper) 96%, transparent);
+  border-color: color-mix(in srgb, var(--atlas-line) 65%, transparent);
+}
+.trip-tabs-bar .mantine-Tabs-tab { color: var(--atlas-muted); }
+.trip-tabs-bar .mantine-Tabs-tab[data-active], .travel-atlas .tabs-bar .mantine-Tabs-tab[data-active] {
+  color: var(--atlas-primary); border-color: var(--atlas-primary);
+}
+.trip-tabs-bar .mantine-Tabs-tab:hover { color: var(--atlas-primary-deep); }
+.atlas-tab-count, .travel-atlas .tab-count { background: var(--atlas-primary-soft); color: var(--atlas-primary); }
+
+.trip-route-map {
+  background: radial-gradient(ellipse at 50% 40%, var(--atlas-map-glow), var(--atlas-map-water));
+  box-shadow: 0 4px 24px color-mix(in srgb, var(--atlas-primary-deep) 4%, transparent);
+}
+.route-map-heading { color: var(--atlas-primary); }
+.trip-land { fill: var(--atlas-map-land); stroke: var(--atlas-map-border); }
+.trip-route-line { stroke: var(--atlas-accent); }
+.trip-marker-leader { stroke: var(--atlas-primary); }
+.trip-marker-anchor { fill: var(--atlas-primary); }
+.trip-marker-dot { fill: var(--atlas-surface); stroke: var(--atlas-primary); }
+.trip-map-marker text { fill: var(--atlas-primary-deep); }
+.trip-map-marker.active .trip-marker-dot { fill: var(--atlas-primary); stroke: var(--atlas-map-land); }
+.trip-map-marker.active text { fill: var(--atlas-on-dark); }
+.trip-map-marker:hover .trip-marker-dot, .trip-map-marker:focus-visible .trip-marker-dot { stroke: var(--atlas-accent); }
+.trip-place-pills { background: color-mix(in srgb, var(--atlas-map-land) 65%, transparent); }
+.trip-place-pills button { background: var(--atlas-surface); color: var(--atlas-body); }
+.trip-place-pills button > span { color: var(--atlas-muted); }
+.trip-place-pills button.active { background: var(--atlas-primary); border-color: var(--atlas-primary); color: var(--atlas-on-dark); }
+.trip-place-pills button.active > span { color: var(--atlas-on-dark); }
+.trip-day-list button { color: var(--atlas-body); border-color: color-mix(in srgb, var(--atlas-line) 65%, transparent); }
+.trip-day-list button:hover { color: var(--mantine-color-clay-7); background: var(--atlas-primary-soft); }
+.trip-day-number { color: var(--atlas-accent); }
+.trip-day-date { color: var(--atlas-primary); }
+.atlas-gallery-filter .mantine-InputWrapper-label { color: var(--atlas-muted); }
+.atlas-gallery-filter .mantine-Input-input { background: var(--atlas-surface); border-color: var(--atlas-line); color: var(--atlas-ink); }
+.atlas-gallery-photo > div { background: var(--atlas-sand); }
+.gallery-photo-caption { color: var(--atlas-body); }
+.atlas-gallery-empty { color: var(--atlas-muted); }
+.atlas-trip-notes { background: linear-gradient(120deg, var(--atlas-sand), var(--atlas-accent-soft)); }
+.trip-notes-heading { color: var(--atlas-accent); }
+
+.atlas-footprints { background: radial-gradient(ellipse at 78% 26%, var(--atlas-dark-glow), var(--atlas-dark) 76%); color: var(--atlas-on-dark); }
+.footprints-heading .atlas-kicker { color: var(--atlas-gold); }
+.footprints-heading p:not(.atlas-kicker), .footprints-legend { color: var(--atlas-on-dark-muted); }
+.footprints-heading > svg { color: var(--atlas-world-visited); }
+.footprints-legend i, .marker-core { fill: var(--atlas-gold); background: var(--atlas-gold); }
+.world-country { fill: var(--atlas-world-land); stroke: var(--atlas-world-border); }
+.world-country.visited { fill: var(--atlas-world-visited); }
+.world-country.selected { fill: var(--atlas-gold); }
+.marker-halo { fill: color-mix(in srgb, var(--atlas-gold) 15%, transparent); stroke: color-mix(in srgb, var(--atlas-gold) 65%, transparent); }
+.marker-line { stroke: color-mix(in srgb, var(--atlas-gold) 65%, transparent); }
+.world-marker text { fill: var(--atlas-on-dark-muted); }
+.world-marker:hover .marker-halo, .world-marker:focus-visible .marker-halo, .world-marker.selected .marker-halo {
+  fill: color-mix(in srgb, var(--atlas-gold) 35%, transparent); stroke: var(--atlas-on-dark);
+}
+.world-marker:hover text, .world-marker:focus-visible text, .world-marker.selected text { fill: var(--atlas-on-dark); }
+
+.travel-atlas .intro-stats strong, .travel-atlas .footer-title, .travel-atlas .chapter-number,
+.travel-atlas .day-number, .travel-atlas .day-date { color: var(--atlas-primary); }
+.travel-atlas .intro-photo { background: var(--atlas-sand); }
+.travel-atlas .intro-photo::after { background: linear-gradient(transparent, color-mix(in srgb, var(--atlas-viewer-dark) 74%, transparent)); }
+.travel-atlas .chapter-index-grid small, .travel-atlas .chapter-index-grid svg,
+.travel-atlas .day-description small, .travel-atlas .day-row > svg { color: var(--atlas-muted); }
+.travel-atlas .gallery-photo figcaption { color: var(--atlas-body); }
+.travel-atlas .gallery-photo figcaption span { color: var(--atlas-muted); }
+.travel-atlas .gallery-photo button, .travel-atlas .empty-gallery { background: var(--atlas-primary-soft); }
+.travel-atlas .site-footer, .travel-atlas .chapter-index, .travel-atlas .chapter-index-grid button,
+.travel-atlas .day-row { border-color: color-mix(in srgb, var(--atlas-line) 65%, transparent); }
+.travel-atlas .day-row:hover { background: var(--atlas-primary-soft); }
+.travel-atlas .map-workspace, .travel-atlas .mobile-place-summary { background: var(--atlas-surface); }
+.travel-atlas .map-workspace { box-shadow: 0 4px 24px color-mix(in srgb, var(--atlas-primary-deep) 4%, transparent); }
+.travel-atlas .map-surface, .travel-atlas .map-bottom { background: var(--atlas-map-water); }
+.travel-atlas .geo-water { fill: var(--atlas-map-water); }
+.travel-atlas .geo-land, .travel-atlas .geo-land.highlight { fill: var(--atlas-map-land); stroke: var(--atlas-map-border); }
+.travel-atlas .geo-grid { stroke: var(--atlas-map-border); }
+.travel-atlas .geo-label { fill: var(--atlas-muted); }
+.travel-atlas .geo-pin-label { fill: var(--atlas-primary-deep); }
+.travel-atlas .geo-line, .travel-atlas .geo-road, .travel-atlas .geo-tour { stroke: var(--atlas-primary); }
+.travel-atlas .geo-river { stroke: var(--atlas-map-border); }
+.travel-atlas .geo-return, .travel-atlas .geo-flight { stroke: var(--atlas-accent); }
+.travel-atlas .geo-leader { stroke: var(--atlas-primary); }
+.travel-atlas .geo-coordinate { fill: var(--atlas-primary); }
+.travel-atlas .geo-pin { background: var(--atlas-surface); border-color: var(--atlas-surface); color: var(--atlas-primary); }
+.travel-atlas .geo-pin.selected { border-color: var(--atlas-primary); outline-color: color-mix(in srgb, var(--atlas-primary) 18%, transparent); }
+.travel-atlas .map-toolbar .mantine-Badge-root { background: var(--atlas-surface); color: var(--atlas-primary); }
+.travel-atlas .map-toolbar .mantine-SegmentedControl-root,
+.travel-atlas .gallery-toolbar .mantine-SegmentedControl-root,
+.travel-atlas .itinerary-section .mantine-SegmentedControl-root { background: var(--atlas-primary-soft); }
+.travel-atlas .place-select input { background: var(--atlas-surface); border-color: var(--atlas-map-border); }
+.travel-atlas .map-featured-photo, .travel-atlas .map-no-photo { background: var(--atlas-primary-soft); color: var(--atlas-primary); }
+.travel-atlas .zoom-affordance { background: var(--atlas-surface); color: var(--atlas-primary); }
+.travel-atlas .compass, .travel-atlas .mobile-place-summary > svg { color: var(--atlas-primary); }
+.travel-atlas .story-note { background: var(--atlas-sand); }
+.travel-atlas .story-note-orange { background: var(--atlas-accent-soft); }
+.travel-atlas .story-note-green, .travel-atlas .story-note-blue { background: var(--atlas-primary-soft); }
+.travel-atlas .story-note-paper { background: var(--atlas-sand); }
+.travel-atlas .story-note-top > span { color: var(--atlas-accent); }
+.travel-atlas .story-text { color: var(--atlas-body); }
+.travel-atlas .story-image { background: var(--atlas-primary-soft); }
+.travel-atlas .story-expand, .travel-atlas .edit-note, .travel-atlas .draft-status svg { color: var(--atlas-primary); }
+.travel-atlas .story-expand:hover, .travel-atlas .edit-note:hover { color: var(--atlas-accent); }
+.travel-atlas .details-accordion .mantine-Accordion-item { background: var(--atlas-surface); }
+.travel-atlas .travel-table th { background: var(--atlas-primary-soft); color: var(--atlas-primary-deep); }
+.travel-atlas .travel-table td:first-child, .travel-atlas .travel-table td:last-child { color: var(--atlas-body); }
+.travel-atlas .itinerary-footnote { color: var(--atlas-primary); }
+
+/* Portalled readers and editors also use the same warm surfaces. */
+.mantine-Modal-content, .mantine-Modal-header, .mantine-Drawer-content, .mantine-Drawer-header {
+  background: var(--atlas-paper); color: var(--atlas-ink);
+}
+.mantine-Input-input { background: var(--atlas-surface); border-color: var(--atlas-line); color: var(--atlas-ink); }
+.mantine-Input-input::placeholder { color: var(--atlas-muted); }
+.mantine-Pagination-control { background: var(--atlas-surface); border-color: var(--atlas-line); color: var(--atlas-primary); }
+.mantine-Pagination-control[data-active] { background: var(--atlas-primary); border-color: var(--atlas-primary); color: var(--atlas-on-dark); }
+.reader-content, .reader-content .mantine-Drawer-header { background: var(--atlas-paper); }
+.reader-paragraph { color: var(--atlas-body); }
+.reader-photos button { background: var(--atlas-primary-soft); }
+.observation-box { background: var(--atlas-primary-soft); color: var(--atlas-primary-deep); }
+.day-note { background: var(--atlas-sand); color: var(--atlas-body); }
+.source-list a, .day-practical svg { color: var(--atlas-primary); }
+.source-list a:hover { color: var(--atlas-accent); }
+.viewer-content, .viewer-header { background: var(--atlas-paper); color: var(--atlas-ink); }
+.swipe-hint { color: var(--atlas-muted); }
+
+@media (min-width: 761px) {
+  .viewer-stage { background: var(--atlas-primary-soft); }
+  .viewer-stage .mantine-ActionIcon-root { background: var(--atlas-surface); color: var(--atlas-primary); }
+}
+@media (max-width: 760px) {
+  .footprints-country-links button { background: var(--atlas-world-border); color: var(--atlas-on-dark); }
+  .footprints-country-links button svg { color: var(--atlas-on-dark-muted); }
+  .footprints-country-links button i { background: var(--atlas-gold); }
+  .footprints-country-links button[aria-pressed="true"] { border-color: var(--atlas-gold); color: var(--atlas-on-dark); }
+  .viewer-content, .viewer-header {
+    --mantine-color-dimmed: var(--atlas-on-dark-muted);
+    background: var(--atlas-viewer-dark); color: var(--atlas-on-dark);
+  }
+  .viewer-header { border-color: var(--atlas-world-border); }
+  .viewer-stage { background: transparent; }
+  .viewer-header .mantine-Modal-close, .viewer-stage .mantine-ActionIcon-root {
+    background: color-mix(in srgb, var(--atlas-dark) 80%, transparent); color: var(--atlas-on-dark);
+  }
+  .viewer-caption .mantine-Text-root { color: var(--atlas-on-dark); }
+  .viewer-caption .mantine-Text-root + .mantine-Text-root,
+  .viewer-caption .mantine-Button-root, .swipe-hint { color: var(--atlas-on-dark-muted); }
+}

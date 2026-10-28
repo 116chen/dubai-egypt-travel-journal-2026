@@ -1283,5 +1283,23 @@
       "No broken images or desktop horizontal overflow"
     ],
     "errors": []
+  },
+  "jakartaYunnanPublication": {
+    "date": "2026-10-28",
+    "sourceCommit": "ea0625571e28207504e98fed2c04b4881c1fd734",
+    "deploymentCommit": "81b28ed1bc92699205792320a6356295caa914a0",
+    "base": "https://116chen.github.io/dubai-egypt-travel-journal-2026/",
+    "workflowRun": "https://github.com/116chen/dubai-egypt-travel-journal-2026/actions/runs/40661132045",
+    "checks": [
+      "Public homepage shows 7 countries, 9 trips and 872 photos",
+      "All nine public trip cards are ordered newest first",
+      "Jakarta renders three chapters, twelve daily stories and two authored memories",
+      "Yunnan renders 54 photos and four selectable map places",
+      "China filter is ordered Hulunbuir, Xinjiang, Yunnan",
+      "Public images load without failures",
+      "Public console has no runtime errors"
+    ],
+    "errors": [],
+    "status": "success"
   }
 }

@@ -1,0 +1,1066 @@
+{
+  "trips": [
+    {
+      "id": "yunnan",
+      "country": "中国 · 云南",
+      "countryCode": "cn",
+      "english": "YUNNAN",
+      "title": "从滇池，到雪山脚下。",
+      "subtitle": "海鸥、古城与洱海之后，玉龙雪山从云层里出现。",
+      "start": "2024-05-01",
+      "end": "2024-05-05",
+      "days": 5,
+      "coverId": "yunnan-041",
+      "secondaryId": "yunnan-003",
+      "tags": [
+        "湖泊",
+        "古城",
+        "雪山"
+      ],
+      "places": [
+        {
+          "id": "kunming",
+          "name": "昆明",
+          "description": "滇池、海鸥与西南联大旧址。",
+          "coordinates": [
+            25.04,
+            102.71
+          ],
+          "photoIds": [
+            "yunnan-001",
+            "yunnan-002",
+            "yunnan-003",
+            "yunnan-004",
+            "yunnan-005",
+            "yunnan-006",
+            "yunnan-007",
+            "yunnan-008",
+            "yunnan-009",
+            "yunnan-010",
+            "yunnan-011",
+            "yunnan-012",
+            "yunnan-013"
+          ]
+        },
+        {
+          "id": "dali",
+          "name": "大理",
+          "description": "大理古城、扎染巷与洱海。",
+          "coordinates": [
+            25.69,
+            100.17
+          ],
+          "photoIds": [
+            "yunnan-014",
+            "yunnan-015",
+            "yunnan-016",
+            "yunnan-017",
+            "yunnan-018",
+            "yunnan-019",
+            "yunnan-020",
+            "yunnan-021",
+            "yunnan-022",
+            "yunnan-023",
+            "yunnan-024",
+            "yunnan-025",
+            "yunnan-026",
+            "yunnan-027",
+            "yunnan-028",
+            "yunnan-029",
+            "yunnan-030",
+            "yunnan-031"
+          ]
+        },
+        {
+          "id": "lijiang",
+          "name": "丽江",
+          "description": "玉龙雪山、丽江古城与夜色。",
+          "coordinates": [
+            26.87,
+            100.23
+          ],
+          "photoIds": [
+            "yunnan-032",
+            "yunnan-033",
+            "yunnan-034",
+            "yunnan-035",
+            "yunnan-036",
+            "yunnan-037",
+            "yunnan-038",
+            "yunnan-039",
+            "yunnan-040",
+            "yunnan-041",
+            "yunnan-042",
+            "yunnan-043",
+            "yunnan-044",
+            "yunnan-045",
+            "yunnan-046",
+            "yunnan-047",
+            "yunnan-048",
+            "yunnan-049",
+            "yunnan-050",
+            "yunnan-051",
+            "yunnan-052",
+            "yunnan-053"
+          ]
+        },
+        {
+          "id": "road",
+          "name": "返程沿途",
+          "description": "离开丽江后的山谷与水面。",
+          "coordinates": [
+            26.47,
+            99.95
+          ],
+          "photoIds": [
+            "yunnan-054"
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "id": "yunnan-001",
+          "file": "IMG_5536.JPG",
+          "src": "assets/photos/yunnan-001.webp",
+          "thumb": "assets/thumbs/yunnan-001.webp",
+          "width": 1920,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-01",
+          "place": "昆明",
+          "caption": "抵达昆明，先好好吃一顿",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-002",
+          "file": "IMG_5537.JPG",
+          "src": "assets/photos/yunnan-002.webp",
+          "thumb": "assets/thumbs/yunnan-002.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-01",
+          "place": "昆明",
+          "caption": "船从滇池的水面慢慢驶开",
+          "placeId": "kunming",
+          "location": [
+            24.961361666666665,
+            102.65727166666667
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-003",
+          "file": "IMG_5553.JPG",
+          "src": "assets/photos/yunnan-003.webp",
+          "thumb": "assets/thumbs/yunnan-003.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-01",
+          "place": "昆明",
+          "caption": "一只海鸥从镜头前飞过",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-004",
+          "file": "IMG_5540.JPG",
+          "src": "assets/photos/yunnan-004.webp",
+          "thumb": "assets/thumbs/yunnan-004.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-01",
+          "place": "昆明",
+          "caption": "海鸥低低掠过水面",
+          "placeId": "kunming",
+          "location": [
+            24.94412,
+            102.659225
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-005",
+          "file": "IMG_5543.JPG",
+          "src": "assets/photos/yunnan-005.webp",
+          "thumb": "assets/thumbs/yunnan-005.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-01",
+          "place": "昆明",
+          "caption": "船尾的水纹一直延伸向远处",
+          "placeId": "kunming",
+          "location": [
+            24.94327,
+            102.65961333333334
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-006",
+          "file": "IMG_5548.JPG",
+          "src": "assets/photos/yunnan-006.webp",
+          "thumb": "assets/thumbs/yunnan-006.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-01",
+          "place": "昆明",
+          "caption": "“我在滇池很想你”",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-007",
+          "file": "IMG_5547.JPG",
+          "src": "assets/photos/yunnan-007.webp",
+          "thumb": "assets/thumbs/yunnan-007.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-01",
+          "place": "昆明",
+          "caption": "蓝色路牌，把想念留在滇池",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-008",
+          "file": "IMG_5569.JPG",
+          "src": "assets/photos/yunnan-008.webp",
+          "thumb": "assets/thumbs/yunnan-008.webp",
+          "width": 1920,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "昆明",
+          "caption": "走进西南联大旧址",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-009",
+          "file": "IMG_5570.JPG",
+          "src": "assets/photos/yunnan-009.webp",
+          "thumb": "assets/thumbs/yunnan-009.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "昆明",
+          "caption": "西南联大旧址里的校园入口",
+          "placeId": "kunming",
+          "location": [
+            25.058827833333332,
+            102.69602166666667
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-010",
+          "file": "IMG_5580.JPG",
+          "src": "assets/photos/yunnan-010.webp",
+          "thumb": "assets/thumbs/yunnan-010.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "昆明",
+          "caption": "云南师范大学的校门",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-011",
+          "file": "IMG_5581.JPG",
+          "src": "assets/photos/yunnan-011.webp",
+          "thumb": "assets/thumbs/yunnan-011.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "昆明",
+          "caption": "黄色墙面上，留着联大的名字",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-012",
+          "file": "IMG_5578.JPG",
+          "src": "assets/photos/yunnan-012.webp",
+          "thumb": "assets/thumbs/yunnan-012.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "昆明",
+          "caption": "屋檐与红灯笼，留下一角昆明",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-013",
+          "file": "IMG_5575.JPG",
+          "src": "assets/photos/yunnan-013.webp",
+          "thumb": "assets/thumbs/yunnan-013.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "昆明",
+          "caption": "一片红色花丛",
+          "placeId": "kunming",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-014",
+          "file": "IMG_5582.JPG",
+          "src": "assets/photos/yunnan-014.webp",
+          "thumb": "assets/thumbs/yunnan-014.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "大理",
+          "caption": "大理古城的牌楼在夜里亮起",
+          "placeId": "dali",
+          "location": [
+            25.475888333333334,
+            100.55595333333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-015",
+          "file": "IMG_5585.JPG",
+          "src": "assets/photos/yunnan-015.webp",
+          "thumb": "assets/thumbs/yunnan-015.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "大理",
+          "caption": "夜色中的古城门",
+          "placeId": "dali",
+          "location": [
+            25.47842,
+            100.55603
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-016",
+          "file": "IMG_5587.JPG",
+          "src": "assets/photos/yunnan-016.webp",
+          "thumb": "assets/thumbs/yunnan-016.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-02",
+          "place": "大理",
+          "caption": "从灯火下穿过大理古城",
+          "placeId": "dali",
+          "location": [
+            25.478866666666665,
+            100.55603
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-017",
+          "file": "IMG_5594.JPG",
+          "src": "assets/photos/yunnan-017.webp",
+          "thumb": "assets/thumbs/yunnan-017.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "扎染布在巷子上方随风展开",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-018",
+          "file": "IMG_5595.JPG",
+          "src": "assets/photos/yunnan-018.webp",
+          "thumb": "assets/thumbs/yunnan-018.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "蓝白扎染，把天空分成几条长线",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-019",
+          "file": "55b25a4e7c7bf43b804151a30164743c.jpg",
+          "src": "assets/photos/yunnan-019.webp",
+          "thumb": "assets/thumbs/yunnan-019.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "在“诗人巷”前留一张照片",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-020",
+          "file": "IMG_5592.JPG",
+          "src": "assets/photos/yunnan-020.webp",
+          "thumb": "assets/thumbs/yunnan-020.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "古城街头，大家各自走着",
+          "placeId": "dali",
+          "location": [
+            25.696788333333334,
+            100.15840283333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-021",
+          "file": "IMG_5593.JPG",
+          "src": "assets/photos/yunnan-021.webp",
+          "thumb": "assets/thumbs/yunnan-021.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "大理古城的城楼",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-022",
+          "file": "IMG_5599.JPG",
+          "src": "assets/photos/yunnan-022.webp",
+          "thumb": "assets/thumbs/yunnan-022.webp",
+          "width": 1920,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "坐下来，喝一壶热茶",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-023",
+          "file": "IMG_5602.JPG",
+          "src": "assets/photos/yunnan-023.webp",
+          "thumb": "assets/thumbs/yunnan-023.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "洱海边，云层压得很低",
+          "placeId": "dali",
+          "location": [
+            25.63601166666667,
+            100.19722833333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-024",
+          "file": "IMG_5606.JPG",
+          "src": "assets/photos/yunnan-024.webp",
+          "thumb": "assets/thumbs/yunnan-024.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "山与水之间，洱海安静地铺开",
+          "placeId": "dali",
+          "location": [
+            25.69412,
+            100.25928666666667
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-025",
+          "file": "IMG_5607.JPG",
+          "src": "assets/photos/yunnan-025.webp",
+          "thumb": "assets/thumbs/yunnan-025.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "傍晚的洱海，岛屿留在水面上",
+          "placeId": "dali",
+          "location": [
+            25.700408333333332,
+            100.26683833333334
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-026",
+          "file": "IMG_5688.JPG",
+          "src": "assets/photos/yunnan-026.webp",
+          "thumb": "assets/thumbs/yunnan-026.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "白色露台朝向洱海",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-027",
+          "file": "IMG_5685.JPG",
+          "src": "assets/photos/yunnan-027.webp",
+          "thumb": "assets/thumbs/yunnan-027.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "蓝白窗边，躲一会儿太阳",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-028",
+          "file": "e3fd27d63e05a690e1671eb7195df5e7.jpg",
+          "src": "assets/photos/yunnan-028.webp",
+          "thumb": "assets/thumbs/yunnan-028.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "坐在彩色台阶上",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-029",
+          "file": "E72EC217-5ADD-4128-9DFA-69AB4657B56D.jpeg",
+          "src": "assets/photos/yunnan-029.webp",
+          "thumb": "assets/thumbs/yunnan-029.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "举起相机，拍下洱海边的光",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-030",
+          "file": "IMG_5609.JPG",
+          "src": "assets/photos/yunnan-030.webp",
+          "thumb": "assets/thumbs/yunnan-030.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "晚上的摊位摆满小吃",
+          "placeId": "dali",
+          "location": [
+            25.701078333333335,
+            100.26587833333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-031",
+          "file": "IMG_5689.JPG",
+          "src": "assets/photos/yunnan-031.webp",
+          "thumb": "assets/thumbs/yunnan-031.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-03",
+          "place": "大理",
+          "caption": "日落落在山与车之间",
+          "placeId": "dali",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-032",
+          "file": "IMG_5616.JPG",
+          "src": "assets/photos/yunnan-032.webp",
+          "thumb": "assets/thumbs/yunnan-032.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "去往丽江，先经过一座石牌坊",
+          "placeId": "lijiang",
+          "location": [
+            26.604338333333335,
+            100.17424666666666
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-033",
+          "file": "IMG_5690.JPG",
+          "src": "assets/photos/yunnan-033.webp",
+          "thumb": "assets/thumbs/yunnan-033.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "车窗外，绿色山坡靠近了",
+          "placeId": "lijiang",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-034",
+          "file": "IMG_5618.JPG",
+          "src": "assets/photos/yunnan-034.webp",
+          "thumb": "assets/thumbs/yunnan-034.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "院子里的水、花与木屋",
+          "placeId": "lijiang",
+          "location": [
+            26.605028333333333,
+            100.17118
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-035",
+          "file": "IMG_5624.JPG",
+          "src": "assets/photos/yunnan-035.webp",
+          "thumb": "assets/thumbs/yunnan-035.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "玉龙雪山从林梢上方出现",
+          "placeId": "lijiang",
+          "location": [
+            26.972671666666667,
+            100.23599166666666
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-036",
+          "file": "IMG_5628.JPG",
+          "src": "assets/photos/yunnan-036.webp",
+          "thumb": "assets/thumbs/yunnan-036.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "云影走过雪山脚下的旷野",
+          "placeId": "lijiang",
+          "location": [
+            26.99795,
+            100.24238666666666
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-037",
+          "file": "IMG_5630.JPG",
+          "src": "assets/photos/yunnan-037.webp",
+          "thumb": "assets/thumbs/yunnan-037.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "雪峰离车窗越来越近",
+          "placeId": "lijiang",
+          "location": [
+            27.024838833333334,
+            100.261245
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-038",
+          "file": "IMG_5637.JPG",
+          "src": "assets/photos/yunnan-038.webp",
+          "thumb": "assets/thumbs/yunnan-038.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "玉龙雪山的白色山脊",
+          "placeId": "lijiang",
+          "location": [
+            27.0827445,
+            100.26467833333334
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-039",
+          "file": "IMG_5642.JPG",
+          "src": "assets/photos/yunnan-039.webp",
+          "thumb": "assets/thumbs/yunnan-039.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "云层在雪峰之间散开",
+          "placeId": "lijiang",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-040",
+          "file": "IMG_5640.JPG",
+          "src": "assets/photos/yunnan-040.webp",
+          "thumb": "assets/thumbs/yunnan-040.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "雪山与一树花，留在同一张照片里",
+          "placeId": "lijiang",
+          "location": [
+            27.101591666666668,
+            100.25730833333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-041",
+          "file": "IMG_5654.JPG",
+          "src": "assets/photos/yunnan-041.webp",
+          "thumb": "assets/thumbs/yunnan-041.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "阳光照亮玉龙雪山",
+          "placeId": "lijiang",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-042",
+          "file": "IMG_5653.JPG",
+          "src": "assets/photos/yunnan-042.webp",
+          "thumb": "assets/thumbs/yunnan-042.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "草甸、松林与远处雪山",
+          "placeId": "lijiang",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-043",
+          "file": "IMG_5648.JPG",
+          "src": "assets/photos/yunnan-043.webp",
+          "thumb": "assets/thumbs/yunnan-043.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "山谷里的草地，雪峰藏在云下",
+          "placeId": "lijiang",
+          "location": [
+            27.143388833333333,
+            100.23168833333334
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-044",
+          "file": "IMG_5651.JPG",
+          "src": "assets/photos/yunnan-044.webp",
+          "thumb": "assets/thumbs/yunnan-044.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "雪山前，和同行的人一起留影",
+          "placeId": "lijiang",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-045",
+          "file": "dfb5c2398ae8b0f9c7cdae9e530697f4.jpg",
+          "src": "assets/photos/yunnan-045.webp",
+          "thumb": "assets/thumbs/yunnan-045.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "在雪山前再拍一张合影",
+          "placeId": "lijiang",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "yunnan-046",
+          "file": "IMG_5664.JPG",
+          "src": "assets/photos/yunnan-046.webp",
+          "thumb": "assets/thumbs/yunnan-046.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "下山后，一锅热汤端上桌",
+          "placeId": "lijiang",
+          "location": [
+            26.870345,
+            100.23196333333334
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-047",
+          "file": "IMG_5666.JPG",
+          "src": "assets/photos/yunnan-047.webp",
+          "thumb": "assets/thumbs/yunnan-047.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "一盘热菜，给走了一天收尾",
+          "placeId": "lijiang",
+          "location": [
+            26.870438333333333,
+            100.23190333333334
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-048",
+          "file": "IMG_5669.JPG",
+          "src": "assets/photos/yunnan-048.webp",
+          "thumb": "assets/thumbs/yunnan-048.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "古城小店里，墙上挂满彩色饰物",
+          "placeId": "lijiang",
+          "location": [
+            26.87212,
+            100.23346666666667
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-049",
+          "file": "IMG_5671.JPG",
+          "src": "assets/photos/yunnan-049.webp",
+          "thumb": "assets/thumbs/yunnan-049.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "红色门楼后，古城安静下来",
+          "placeId": "lijiang",
+          "location": [
+            26.872755,
+            100.233895
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-050",
+          "file": "IMG_5673.JPG",
+          "src": "assets/photos/yunnan-050.webp",
+          "thumb": "assets/thumbs/yunnan-050.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "丽江古城的夜晚亮起彩灯",
+          "placeId": "lijiang",
+          "location": [
+            26.87443,
+            100.23435333333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-051",
+          "file": "IMG_5674.JPG",
+          "src": "assets/photos/yunnan-051.webp",
+          "thumb": "assets/thumbs/yunnan-051.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "“我在丽江等你”",
+          "placeId": "lijiang",
+          "location": [
+            26.87568,
+            100.23263666666666
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-052",
+          "file": "IMG_5675.JPG",
+          "src": "assets/photos/yunnan-052.webp",
+          "thumb": "assets/thumbs/yunnan-052.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-04",
+          "place": "丽江",
+          "caption": "夜里的古城街巷",
+          "placeId": "lijiang",
+          "location": [
+            26.876363333333334,
+            100.23323833333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-053",
+          "file": "IMG_5679.JPG",
+          "src": "assets/photos/yunnan-053.webp",
+          "thumb": "assets/thumbs/yunnan-053.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-05",
+          "place": "丽江",
+          "caption": "第二天，再看一眼丽江与远山",
+          "placeId": "lijiang",
+          "location": [
+            26.92252,
+            100.20347
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "yunnan-054",
+          "file": "IMG_5681.JPG",
+          "src": "assets/photos/yunnan-054.webp",
+          "thumb": "assets/thumbs/yunnan-054.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "中国 · 云南",
+          "date": "2024-05-05",
+          "place": "返程沿途",
+          "caption": "返程沿途，山谷里的水面",
+          "placeId": "road",
+          "location": [
+            26.474575,
+            99.94982833333333
+          ],
+          "evidence": "gps-and-visual-review"
+        }
+      ],
+      "map": {
+        "paths": [
+          "M409.99,278.81L411.32,277.87L411.91,277.81L412.58,278.62L412.95,277.98L415.65,278.78L416.09,278.46L415.67,277.58L416.78,276.58L416.25,275.04L416.65,273.91L417.47,274.08L417.72,273.15L417.07,272.64L417.92,271.5L418.67,272.27L419.47,272.35L422.21,274.04L423.69,275.39L424.99,275.68L425.5,276.31L426.86,276.42L426.03,277.11L426.53,277.63L425.18,278.6L426.14,279.19L428.8,277.81L429.16,276.47L430.01,276.43L432.44,274.45L433.05,273.46L432.53,273.05L433.43,271.46L433.11,271.17L434.59,268.21L434.24,267.7L434.75,266.45L434.07,265.38L434.49,264.86L433.97,263.36L434.2,261.15L433.79,260.57L432.17,260.73L431.04,260.14L430.57,262.12L429.32,261.31L428.25,262.98L427.12,262.9L424.92,260.02L424.78,258.49L425.8,257.71L425.89,255.97L425.54,254.76L424.51,253.81L424.69,253.44L423.25,252.53L423.21,251.73L423.82,251.26L425.23,251.16L426.98,249.5L425.9,248.76L426.37,247.81L425.63,247.21L425.71,245.88L423.61,245.48L423.14,245.9L423.03,247.37L421.84,246.75L419.67,246.81L419.54,247.96L418.9,247.6L418.92,246.22L417.97,245.75L418.37,244.71L416.57,244.18L417.26,242.18L418.2,242.01L418.04,240.9L418.56,240.69L418.63,239.57L419.24,238.87L418.18,238.89L417.18,238.13L418.61,234.99L420.28,234.06L421.52,232.65L420.98,231.73L421.44,230.9L422.59,231.26L423.96,231.01L424.27,229.68L423.67,228.77L424.26,227.78L423.61,226.85L424.34,226.57L424.92,227.33L426.56,227.7L427.89,226.77L428.71,226.88L429.23,226.28L428.29,225.02L427.4,225.2L426.85,224.37L426.91,222.97L427.98,221.6L427.69,220.78L428.62,219.63L427.89,218.81L428.0,218.01L429.74,216.72L429.03,215.64L429.17,214.89L427.87,215.43L427.34,214.29L426.2,214.94L425.72,214.59L425.99,212.97L425.49,212.56L424.62,213.05L423.63,214.29L422.18,213.81L422.41,213.02L421.14,213.52L420.55,212.97L419.66,212.93L419.21,213.8L418.44,212.96L417.97,211.38L418.69,210.13L418.63,208.75L418.0,208.5L418.05,207.28L417.63,205.89L418.67,203.61L418.36,202.84L417.03,201.49L416.34,199.99L416.47,198.89L415.66,198.4L416.42,197.56L415.95,196.79L414.53,195.5L413.54,195.39L413.53,196.13L412.71,195.99L412.58,195.16L411.86,195.1L411.76,193.89L410.99,194.08L409.92,193.27L410.24,191.58L409.49,190.1L409.62,188.31L408.87,185.81L408.77,184.17L407.8,180.94L407.92,179.89L407.58,179.54L407.49,180.87L406.58,182.22L404.73,182.43L405.09,184.01L404.66,186.02L405.09,187.83L404.52,189.11L403.92,189.38L400.52,189.46L399.85,188.15L399.32,189.44L397.82,191.02L395.69,191.39L394.79,192.43L393.69,192.87L392.97,193.99L392.8,195.33L390.81,195.95L390.13,195.18L388.41,193.99L387.57,193.83L388.01,192.2L389.22,190.97L388.81,189.54L386.24,188.29L385.38,188.31L384.95,189.46L380.37,191.34L378.52,191.46L376.44,194.04L373.52,195.23L372.4,195.24L371.84,195.69L371.47,196.95L372.0,198.3L372.66,199.01L372.51,199.76L374.02,200.58L374.92,201.66L376.39,202.28L376.64,203.0L376.2,204.81L375.71,205.76L375.86,206.47L375.23,207.73L375.26,208.66L376.06,209.5L375.53,209.77L375.62,210.94L375.26,211.44L375.56,213.15L376.58,213.43L377.7,214.36L377.44,215.66L377.76,216.34L377.03,216.58L376.79,219.74L377.99,220.94L377.82,222.5L377.18,223.63L377.77,224.08L377.9,225.0L379.64,226.03L380.02,226.8L380.96,226.37L380.81,228.69L381.5,229.08L381.35,230.27L382.11,230.8L382.18,232.66L381.23,233.84L381.22,234.38L380.05,235.32L380.25,236.15L378.41,236.76L377.71,235.75L376.85,236.67L376.44,237.71L377.3,238.35L377.03,239.6L377.53,240.13L377.73,241.59L378.97,241.22L379.28,242.52L379.02,244.59L378.28,244.45L377.51,245.45L376.89,247.28L377.22,249.16L376.55,250.37L376.15,251.87L374.28,251.5L373.45,252.38L371.41,253.16L371.36,252.26L369.89,251.55L369.9,250.57L369.32,250.67L368.59,252.17L369.08,252.77L368.94,253.85L370.03,255.17L371.1,254.74L371.96,255.66L371.89,256.49L371.17,257.68L371.05,259.11L372.65,258.66L372.64,260.15L373.92,260.66L374.12,262.09L373.75,263.36L374.08,264.37L373.63,264.45L374.15,266.7L373.9,269.54L373.52,270.04L373.93,271.32L373.01,271.62L373.73,273.08L374.1,274.68L373.57,276.24L372.83,276.23L372.09,277.55L371.2,277.85L370.32,278.79L369.77,278.69L370.2,280.08L370.56,279.98L371.8,281.19L372.06,282.12L372.58,282.03L374.56,283.2L373.95,283.69L374.79,284.7L375.86,284.03L376.93,284.09L377.51,282.26L376.79,281.88L377.54,281.49L377.82,280.03L378.9,279.29L379.6,280.24L381.04,278.47L382.64,279.12L383.45,277.96L384.87,278.49L385.99,277.28L387.49,277.45L387.95,278.47L386.97,278.97L388.08,279.57L390.61,278.98L391.34,279.6L391.19,280.5L391.73,280.98L393.82,279.85L394.75,280.23L395.26,279.28L397.04,278.57L396.26,278.13L395.86,276.54L396.41,275.15L396.25,274.58L397.01,273.73L396.59,272.88L397.33,272.29L397.56,270.9L398.85,269.05L398.12,267.03L399.48,267.14L401.42,266.05L400.92,264.35L401.25,261.84L401.89,262.25L402.46,261.6L403.38,261.48L403.63,260.45L404.4,260.49L405.18,259.79L405.2,258.68L405.96,259.77L406.53,261.39L406.23,264.48L405.9,264.69L405.86,266.35L406.36,266.72L407.03,265.88L408.57,266.74L407.81,268.8L407.24,269.41L406.62,272.26L407.12,274.15L407.03,275.82L407.5,276.43L408.97,276.55L410.07,275.93L409.99,278.81Z",
+          "M422.16,170.15L422.41,170.08L422.57,170.21L422.58,170.3L422.88,171.45L421.62,171.07L421.29,170.12L420.12,171.15L419.65,171.14L418.47,170.11L418.12,170.63L417.03,170.46L415.62,170.82L415.76,172.09L414.77,173.34L415.11,174.04L414.45,174.71L414.46,175.44L412.85,176.18L410.45,174.9L409.94,175.68L408.38,176.18L407.92,179.89L407.8,180.94L408.77,184.17L408.87,185.81L409.62,188.31L409.49,190.1L410.24,191.58L409.92,193.27L410.99,194.08L411.76,193.89L411.86,195.1L412.58,195.16L412.71,195.99L413.53,196.13L413.54,195.39L414.53,195.5L415.95,196.79L416.42,197.56L415.66,198.4L416.47,198.89L416.34,199.99L417.03,201.49L418.36,202.84L418.67,203.61L417.63,205.89L418.05,207.28L418.0,208.5L418.63,208.75L418.69,210.13L417.97,211.38L418.44,212.96L419.21,213.8L419.66,212.93L420.55,212.97L421.14,213.52L422.41,213.02L422.18,213.81L423.63,214.29L424.62,213.05L425.49,212.56L425.99,212.97L425.72,214.59L426.2,214.94L427.34,214.29L427.87,215.43L429.17,214.89L429.03,215.64L429.74,216.72L428.0,218.01L427.89,218.81L428.62,219.63L427.69,220.78L427.98,221.6L426.91,222.97L426.85,224.37L427.4,225.2L428.29,225.02L429.23,226.28L428.71,226.88L427.89,226.77L426.56,227.7L424.92,227.33L424.34,226.57L423.61,226.85L424.26,227.78L423.67,228.77L424.27,229.68L423.96,231.01L422.59,231.26L421.44,230.9L420.98,231.73L421.52,232.65L420.28,234.06L418.61,234.99L417.18,238.13L418.18,238.89L419.24,238.87L418.63,239.57L418.56,240.69L418.04,240.9L418.2,242.01L417.26,242.18L416.57,244.18L418.37,244.71L417.97,245.75L418.92,246.22L418.9,247.6L419.54,247.96L419.67,246.81L421.84,246.75L423.03,247.37L423.14,245.9L423.61,245.48L425.71,245.88L425.63,247.21L426.37,247.81L425.9,248.76L426.98,249.5L425.23,251.16L423.82,251.26L423.21,251.73L423.25,252.53L424.69,253.44L424.51,253.81L425.54,254.76L425.89,255.97L425.8,257.71L424.78,258.49L424.92,260.02L427.12,262.9L428.25,262.98L429.32,261.31L430.57,262.12L431.04,260.14L432.17,260.73L433.79,260.57L434.2,261.15L433.97,263.36L434.49,264.86L434.07,265.38L434.75,266.45L434.24,267.7L434.59,268.21L434.99,267.53L435.76,267.61L436.42,266.76L437.54,266.88L438.42,266.39L437.86,267.92L437.44,267.61L436.93,268.68L438.73,269.78L440.01,267.79L440.26,268.29L441.06,267.99L442.19,269.61L443.55,270.12L444.57,270.95L446.2,271.0L446.14,271.92L447.29,272.39L447.95,271.39L449.07,273.24L448.07,274.72L448.72,275.17L449.33,276.48L449.9,276.57L450.54,277.88L451.02,277.89L450.98,279.46L449.71,279.98L450.23,281.39L449.77,281.63L451.82,282.99L455.27,281.31L455.64,281.75L457.11,281.33L458.0,282.18L459.37,284.33L458.54,285.21L458.84,286.06L460.18,286.23L461.24,285.65L462.04,286.37L464.66,285.7L465.06,285.04L467.67,284.82L467.81,282.94L469.96,282.07L471.62,281.98L472.61,282.31L472.48,281.38L473.72,281.4L474.34,280.48L473.46,279.69L473.58,278.26L472.91,277.44L472.3,277.44L472.06,276.01L471.5,274.72L471.62,272.97L470.29,272.07L471.36,270.91L472.27,268.06L473.25,266.67L473.14,263.83L475.63,260.39L477.36,259.44L477.5,258.74L478.62,257.14L478.59,256.55L479.63,255.98L479.66,255.34L480.78,254.94L480.23,252.99L479.49,252.08L476.66,251.8L478.93,251.5L479.61,251.04L480.02,248.81L481.01,247.88L481.75,246.26L481.29,245.21L482.24,244.35L483.17,244.78L483.62,245.66L484.83,246.87L485.64,246.4L485.0,245.47L485.32,245.08L484.94,243.83L485.86,243.19L485.39,242.02L484.47,242.39L483.74,241.58L482.6,241.3L481.79,241.69L480.63,241.01L480.52,240.27L478.94,240.44L478.53,240.86L477.6,240.37L477.82,237.35L476.5,236.97L474.37,235.1L474.03,235.53L473.17,235.11L473.89,229.19L473.49,229.55L472.46,229.06L470.58,230.64L469.16,230.61L468.5,231.72L467.79,230.4L468.56,229.37L468.47,227.66L467.99,227.26L467.92,226.24L466.48,225.71L465.6,226.3L465.1,225.47L464.09,225.58L463.92,224.73L463.12,223.88L463.07,223.19L463.59,220.44L463.53,219.02L463.83,217.66L465.78,219.07L466.88,217.61L467.11,215.81L468.33,214.68L468.01,213.67L468.82,212.36L468.48,211.09L467.78,211.21L467.61,210.37L468.66,209.5L468.91,207.93L469.72,206.66L470.08,205.51L469.72,204.53L470.18,203.38L469.47,202.46L469.61,201.79L471.54,202.43L472.56,201.08L472.21,199.5L472.24,197.77L472.65,197.43L473.58,195.43L473.23,193.63L473.82,192.63L474.93,191.68L475.43,190.51L476.76,189.93L478.42,189.61L478.37,188.69L479.35,188.21L479.37,187.5L478.68,186.65L478.66,184.76L477.65,184.56L477.21,183.93L477.5,182.65L476.46,181.15L475.49,180.48L474.5,180.39L474.9,178.26L473.87,177.18L473.25,177.45L471.41,177.23L470.83,177.71L469.77,176.91L469.54,176.19L469.96,174.52L468.85,173.17L468.81,172.46L467.9,171.24L466.91,171.45L466.89,172.52L466.08,174.32L465.42,174.62L464.71,175.76L463.11,176.08L462.1,175.07L461.29,175.76L460.3,175.4L459.46,175.74L458.3,175.41L457.74,174.82L457.01,174.99L456.4,174.42L454.65,174.86L453.45,176.88L452.33,178.01L452.15,178.64L452.49,180.65L451.63,181.24L451.19,180.89L449.69,181.01L449.35,180.62L447.33,180.53L445.63,180.94L444.35,180.73L443.38,180.99L442.28,180.03L441.34,180.11L441.14,178.97L438.9,177.39L439.19,176.83L438.21,175.53L438.76,174.32L438.69,172.35L439.31,171.0L439.04,170.07L438.27,170.56L437.19,169.74L436.97,168.38L436.32,167.21L436.42,165.49L437.05,164.44L439.34,163.69L438.95,161.25L439.48,160.37L439.38,159.59L438.46,159.0L437.42,156.17L436.3,154.8L434.99,154.67L434.03,156.08L432.29,156.93L432.24,157.58L431.49,157.8L429.67,156.96L428.03,157.56L426.52,156.88L425.36,157.84L423.94,156.98L423.63,157.35L424.67,158.36L424.57,159.67L423.5,162.12L422.72,161.96L423.26,163.25L422.32,164.72L422.22,166.2L421.44,168.18L422.36,169.01L422.16,170.15Z",
+          "M422.41,170.08L422.16,170.15L422.58,170.3L422.57,170.21L422.41,170.08Z",
+          "M371.05,259.11L370.8,259.45L368.73,259.01L368.15,258.03L366.54,257.08L366.43,258.37L365.93,259.22L364.79,259.83L364.46,261.25L363.3,261.49L361.26,260.98L360.88,261.54L361.47,262.69L360.89,264.1L360.43,263.96L360.29,264.95L358.56,266.16L358.08,268.8L358.35,270.4L358.97,270.33L357.78,271.77L356.77,272.48L357.61,273.21L358.22,272.69L358.75,274.85L357.52,275.31L356.8,275.09L356.26,275.81L357.22,276.92L356.84,277.64L357.52,278.42L357.67,279.55L358.47,279.44L358.71,280.96L359.83,281.21L361.58,280.53L361.12,281.33L361.78,282.53L361.12,283.63L362.3,284.51L362.44,285.69L361.32,286.46L361.49,287.24L361.06,289.16L359.75,290.28L359.0,290.11L358.05,291.14L356.88,290.77L356.84,291.28L354.86,291.41L354.06,291.79L353.62,291.32L352.91,291.7L352.65,289.72L353.41,288.64L352.19,288.39L351.83,289.68L351.01,289.61L351.02,288.93L349.96,287.92L347.48,286.76L346.38,285.19L345.62,285.66L344.69,287.79L343.33,289.56L342.39,291.65L341.02,291.95L339.6,292.78L338.52,292.51L338.04,291.57L338.22,290.39L337.58,289.57L337.66,288.79L336.9,287.11L336.55,285.12L336.72,284.71L335.14,283.93L334.38,282.96L333.58,284.05L333.93,285.0L333.75,285.93L332.83,286.83L330.25,287.8L329.18,288.45L329.13,289.26L330.48,291.35L330.87,292.4L332.06,293.82L332.23,295.64L332.66,296.69L333.83,297.29L333.86,298.74L335.08,300.2L334.98,301.58L336.47,302.29L336.98,303.75L338.15,304.81L338.61,306.05L339.53,306.35L340.42,307.54L339.07,308.55L338.84,309.35L337.32,311.37L336.56,310.79L334.59,312.0L335.55,312.87L335.62,314.34L334.84,314.97L335.11,315.89L335.7,316.14L335.89,317.26L337.18,316.85L337.56,315.44L338.2,315.38L338.85,314.39L339.86,314.61L340.34,314.17L341.11,314.7L342.0,316.25L341.83,317.13L340.76,317.29L340.51,318.77L341.64,319.61L342.23,318.69L343.12,320.02L344.0,320.61L344.22,321.46L345.27,320.53L347.25,319.62L348.22,320.37L347.37,321.26L347.15,322.07L346.37,321.83L346.35,322.74L347.28,322.67L347.33,323.5L348.05,324.58L349.06,324.74L348.38,326.38L349.19,327.38L349.81,327.12L350.64,327.95L351.43,329.52L351.69,330.82L350.8,331.98L349.8,331.85L349.88,333.06L350.52,333.75L351.64,333.42L353.3,334.23L353.14,335.22L354.21,335.25L355.47,336.37L355.51,335.82L356.91,334.73L359.65,335.08L360.5,335.92L361.65,335.44L362.25,336.18L363.49,336.67L364.07,336.22L365.25,336.97L366.77,336.53L367.73,335.47L368.0,333.64L369.31,331.42L370.6,332.31L370.88,331.63L373.18,331.67L373.8,332.06L375.13,332.13L375.82,329.87L376.96,328.84L376.73,326.93L375.07,325.43L375.21,324.25L374.14,323.17L373.94,321.77L372.03,319.98L370.98,318.56L369.97,318.17L368.09,318.32L367.57,317.13L368.07,315.87L369.24,315.06L367.05,311.8L368.1,309.75L369.91,309.02L370.89,308.2L372.11,308.0L372.7,308.41L373.53,307.15L372.74,307.07L372.69,305.34L372.17,305.04L370.96,303.15L371.22,302.4L373.0,301.95L374.79,301.84L375.67,301.35L375.5,300.59L374.49,300.68L374.09,299.58L375.1,298.85L377.68,299.29L379.51,300.26L379.18,300.68L379.97,301.14L381.75,300.9L382.73,300.37L383.82,302.12L385.25,301.53L386.0,302.13L387.22,301.87L388.07,301.25L388.66,301.65L388.01,302.27L389.09,302.42L389.57,303.21L389.05,303.85L389.73,304.7L389.13,305.89L389.42,307.11L390.1,307.92L390.79,307.23L391.46,307.32L391.49,306.17L392.42,305.11L393.35,304.89L394.01,302.65L395.65,302.67L397.65,301.26L398.17,301.43L397.88,302.35L398.47,302.84L398.86,304.15L400.09,303.84L399.77,303.03L400.73,302.9L401.43,301.59L402.51,300.74L403.71,300.24L405.87,301.91L406.61,301.96L406.84,301.56L406.65,301.09L407.48,299.6L408.77,298.96L409.62,296.44L411.22,295.2L411.12,293.73L411.84,293.03L411.76,292.07L410.72,291.36L411.29,288.83L410.55,288.6L410.13,287.69L409.54,287.8L409.13,286.93L409.54,283.82L408.15,283.45L407.91,282.44L409.08,282.01L409.91,280.45L409.99,278.81L410.07,275.93L408.97,276.55L407.5,276.43L407.03,275.82L407.12,274.15L406.62,272.26L407.24,269.41L407.81,268.8L408.57,266.74L407.03,265.88L406.36,266.72L405.86,266.35L405.9,264.69L406.23,264.48L406.53,261.39L405.96,259.77L405.2,258.68L405.18,259.79L404.4,260.49L403.63,260.45L403.38,261.48L402.46,261.6L401.89,262.25L401.25,261.84L400.92,264.35L401.42,266.05L399.48,267.14L398.12,267.03L398.85,269.05L397.56,270.9L397.33,272.29L396.59,272.88L397.01,273.73L396.25,274.58L396.41,275.15L395.86,276.54L396.26,278.13L397.04,278.57L395.26,279.28L394.75,280.23L393.82,279.85L391.73,280.98L391.19,280.5L391.34,279.6L390.61,278.98L388.08,279.57L386.97,278.97L387.95,278.47L387.49,277.45L385.99,277.28L384.87,278.49L383.45,277.96L382.64,279.12L381.04,278.47L379.6,280.24L378.9,279.29L377.82,280.03L377.54,281.49L376.79,281.88L377.51,282.26L376.93,284.09L375.86,284.03L374.79,284.7L373.95,283.69L374.56,283.2L372.58,282.03L372.06,282.12L371.8,281.19L370.56,279.98L370.2,280.08L369.77,278.69L370.32,278.79L371.2,277.85L372.09,277.55L372.83,276.23L373.57,276.24L374.1,274.68L373.73,273.08L373.01,271.62L373.93,271.32L373.52,270.04L373.9,269.54L374.15,266.7L373.63,264.45L374.08,264.37L373.75,263.36L374.12,262.09L373.92,260.66L372.64,260.15L372.65,258.66L371.05,259.11Z",
+          "M223.68,223.79L222.84,223.91L223.67,225.01L222.9,227.89L220.72,227.5L219.54,227.91L218.33,227.66L217.71,226.38L218.31,224.0L217.92,222.6L218.38,221.46L217.45,220.42L217.79,219.67L217.02,218.63L217.33,217.15L216.3,216.59L215.92,215.35L216.65,214.08L215.65,212.98L214.53,214.09L214.4,214.94L213.81,214.91L212.76,215.79L211.22,215.18L209.56,213.71L207.83,213.74L205.63,216.5L205.72,217.7L204.84,218.89L205.11,220.48L204.69,221.44L202.83,222.01L202.49,222.91L202.56,224.51L202.24,225.76L201.36,225.71L200.87,226.28L198.9,227.13L198.37,228.26L196.61,225.93L195.41,225.11L193.08,224.85L192.01,224.49L192.85,227.0L192.71,227.7L191.71,229.17L190.29,229.87L191.45,232.45L191.18,234.88L190.54,236.14L188.95,235.81L188.88,237.48L188.43,238.36L189.11,238.98L189.38,240.4L190.01,240.98L191.22,241.1L191.52,241.93L192.98,242.8L192.69,243.9L192.97,244.56L191.89,246.38L192.41,247.9L193.22,248.12L194.82,249.86L195.86,249.59L196.38,250.64L195.7,251.48L195.47,252.73L194.42,254.44L194.25,256.61L195.07,257.31L194.89,258.14L195.59,258.75L196.52,257.84L197.21,257.84L198.51,256.82L199.02,257.4L199.23,259.24L200.5,259.75L203.76,259.62L204.14,260.87L205.0,260.18L206.2,260.11L207.08,259.54L208.04,260.04L208.09,261.59L209.02,263.17L208.59,264.54L206.48,264.03L205.15,265.4L203.55,265.64L203.06,266.33L204.33,268.15L203.87,269.24L204.43,270.63L202.82,271.91L202.79,272.49L203.93,272.58L204.81,273.65L204.85,274.43L205.57,274.91L205.93,275.87L205.48,276.54L205.88,277.12L206.75,276.58L207.6,276.87L208.62,276.54L210.04,275.56L211.69,275.2L213.6,276.0L214.99,276.05L215.29,276.95L214.62,277.25L215.86,279.36L216.57,279.72L214.71,281.83L215.21,282.95L214.93,283.39L215.97,284.51L216.48,285.71L215.97,286.97L216.35,287.43L215.37,289.7L215.52,291.24L216.16,291.91L216.54,293.48L214.93,294.47L215.04,295.52L214.64,297.01L215.8,297.62L216.11,297.31L217.93,297.47L220.61,297.02L222.24,297.16L223.18,296.14L224.62,294.68L226.24,294.36L227.8,293.5L229.38,293.14L229.72,292.3L230.83,292.42L231.86,291.93L232.64,292.02L235.29,289.8L236.98,287.49L238.17,286.66L238.1,285.28L239.57,283.51L240.38,281.96L241.98,281.64L243.25,283.17L244.2,286.26L244.22,287.25L244.94,288.21L244.55,289.47L244.56,291.72L247.33,292.29L248.29,291.57L248.91,291.77L249.96,290.84L249.93,289.76L250.77,288.06L252.92,287.6L254.67,286.15L255.27,283.67L256.71,281.5L257.34,281.27L258.52,281.64L258.79,280.47L258.33,279.62L258.94,279.43L258.11,275.75L257.1,275.25L257.98,274.46L258.82,274.39L259.62,272.78L260.85,272.72L260.67,270.85L261.47,270.84L262.92,269.6L264.24,269.43L264.65,267.6L264.0,266.12L262.62,265.56L262.66,265.17L264.1,264.24L264.32,263.54L265.61,263.08L264.38,262.05L264.63,261.11L265.66,260.95L266.84,259.39L265.89,258.04L266.22,257.23L267.91,256.13L268.45,255.17L269.33,255.06L270.05,254.28L271.32,254.21L272.48,253.16L273.42,253.01L274.82,252.19L274.05,250.62L274.47,249.91L273.72,249.48L272.52,249.53L271.93,249.95L271.81,248.98L270.97,247.37L270.15,246.84L269.53,245.68L269.61,244.79L268.15,245.47L267.42,245.47L266.29,246.25L266.55,247.21L265.06,249.4L265.04,250.5L261.94,250.6L261.04,251.19L261.18,251.8L259.24,252.26L258.55,251.52L257.54,251.46L256.34,250.21L253.09,249.03L252.6,248.35L250.97,248.96L249.03,247.1L247.6,245.1L245.75,243.24L244.46,240.71L243.78,240.75L242.51,238.95L242.08,237.9L241.21,236.93L241.67,236.46L241.23,234.08L243.42,234.88L243.86,234.64L243.68,233.38L244.2,232.33L243.01,230.55L243.18,229.68L241.51,229.37L239.76,228.1L238.24,228.45L236.95,229.66L235.46,229.38L235.74,230.46L234.07,231.58L232.53,231.98L231.55,230.52L232.1,229.26L231.11,227.22L228.73,227.38L229.1,224.07L226.6,223.61L224.87,224.16L223.68,223.79Z",
+          "M407.58,179.54L407.92,179.89L408.38,176.18L409.94,175.68L410.45,174.9L412.85,176.18L414.46,175.44L414.45,174.71L415.11,174.04L414.77,173.34L415.76,172.09L415.62,170.82L417.03,170.46L418.12,170.63L418.47,170.11L419.65,171.14L420.12,171.15L421.29,170.12L421.62,171.07L422.88,171.45L422.58,170.3L422.16,170.15L422.36,169.01L421.44,168.18L422.22,166.2L422.32,164.72L423.26,163.25L422.72,161.96L423.5,162.12L424.57,159.67L424.67,158.36L423.63,157.35L423.94,156.98L425.36,157.84L426.52,156.88L428.03,157.56L429.67,156.96L431.49,157.8L432.24,157.58L432.29,156.93L432.9,156.41L432.7,155.47L431.72,154.16L432.45,153.3L434.29,153.99L434.01,152.68L432.56,152.48L432.74,151.72L434.95,150.8L435.9,151.02L438.26,146.89L438.92,146.85L440.54,144.96L440.59,144.16L441.58,144.31L442.49,143.17L443.37,143.45L443.75,141.08L444.27,141.06L445.04,140.13L445.11,138.43L446.04,137.01L446.33,135.54L447.39,136.44L448.99,136.72L449.98,136.25L450.08,138.44L450.63,139.24L451.86,139.85L453.03,141.05L454.33,140.71L455.23,141.47L455.12,142.24L457.0,144.36L457.72,143.16L458.98,143.54L458.62,142.7L460.36,142.98L460.78,142.15L460.25,140.79L461.25,139.59L462.37,138.92L462.94,137.33L463.54,137.3L464.43,135.91L464.0,135.53L464.9,134.42L467.41,134.86L467.7,135.95L469.93,136.99L471.28,137.12L470.98,137.59L472.14,137.66L471.72,138.29L473.12,141.11L474.48,141.01L475.56,142.01L476.29,142.22L477.15,141.69L479.33,141.6L479.59,140.86L481.21,140.49L481.78,140.87L482.61,140.35L483.34,141.71L484.14,141.53L485.02,139.89L485.77,140.01L487.11,140.97L486.85,142.35L487.76,143.01L489.22,142.27L489.63,141.24L490.97,140.29L493.98,138.65L494.84,137.67L496.55,136.75L497.74,137.1L498.81,136.78L500.11,137.44L500.83,137.25L501.6,138.05L501.51,139.26L502.86,137.63L503.72,135.91L503.43,135.68L504.0,134.28L503.86,133.27L504.4,133.07L504.93,131.85L504.34,130.6L503.81,130.85L504.83,128.72L506.88,127.35L506.47,126.32L507.12,125.24L506.75,123.89L506.94,122.66L506.27,122.44L506.16,120.98L506.38,119.57L505.54,118.4L507.32,117.22L505.56,117.33L504.09,116.67L504.49,115.98L503.72,113.64L504.4,112.68L505.11,112.73L505.85,111.87L505.96,110.37L505.31,109.24L505.4,108.62L504.43,108.02L502.96,108.87L501.59,108.59L500.84,107.26L501.56,106.45L501.64,105.64L500.79,104.9L499.82,105.16L498.22,104.46L496.9,104.35L496.06,103.63L493.94,105.16L492.4,105.48L492.35,107.45L491.11,108.67L491.11,109.36L490.32,109.15L489.17,110.35L489.97,111.26L488.8,111.59L488.46,112.66L487.2,113.17L484.41,113.27L483.15,114.04L482.14,113.19L479.28,114.16L477.28,115.69L476.14,115.33L474.95,116.12L473.94,115.6L473.95,114.85L472.56,113.81L471.8,114.38L471.21,113.44L469.97,112.93L469.26,112.01L467.02,110.74L466.24,109.94L466.03,108.72L465.03,107.51L463.73,107.17L462.5,106.28L462.73,105.94L464.38,105.59L465.93,105.86L466.88,105.06L466.99,103.95L467.91,103.67L468.46,102.86L469.22,102.74L468.94,100.51L467.25,99.96L467.07,98.52L468.55,98.21L469.65,96.5L468.91,95.77L469.05,95.19L467.33,95.25L466.68,94.27L466.29,92.31L465.12,91.88L464.36,92.19L463.17,93.46L462.11,93.06L462.64,92.39L461.6,91.51L460.56,88.41L461.12,87.9L460.71,86.31L461.22,85.57L460.84,84.87L461.08,83.92L460.29,83.56L460.27,82.64L460.87,82.22L462.01,82.44L463.59,82.01L463.92,81.11L465.06,81.31L465.57,79.83L466.42,79.2L467.73,79.24L468.08,77.84L467.18,77.16L465.82,76.74L464.49,77.15L463.21,78.38L462.39,77.47L461.21,77.43L460.46,76.19L459.97,76.18L459.51,77.4L457.71,77.48L456.83,77.05L454.84,77.33L453.87,78.84L453.27,78.95L451.94,77.8L446.77,79.0L446.52,78.04L445.33,77.62L444.73,78.18L443.78,77.86L443.74,76.57L442.74,75.87L442.02,78.06L442.05,80.0L440.54,81.01L440.51,82.38L439.76,82.73L440.94,84.25L441.82,86.05L441.76,86.96L442.74,88.57L443.12,89.71L442.84,91.01L443.82,92.7L443.52,93.76L441.76,94.51L441.06,95.48L439.86,96.02L439.19,97.02L437.83,96.9L437.01,98.56L436.16,98.71L435.83,97.33L433.84,95.88L433.09,95.73L432.45,96.53L430.47,97.15L429.56,99.09L428.7,100.19L425.93,102.45L425.26,102.38L425.19,104.14L424.28,104.89L424.19,106.24L425.45,107.37L426.32,106.76L427.07,107.32L427.19,109.19L427.93,110.1L429.08,110.05L430.03,109.51L429.74,110.6L429.09,110.68L427.37,112.72L427.24,114.39L427.62,116.26L426.78,118.3L425.47,119.26L424.95,120.36L423.75,120.95L422.52,122.59L421.51,122.63L420.61,124.1L419.06,125.23L417.55,127.05L418.35,127.87L418.22,129.54L417.47,129.79L415.6,129.37L414.8,129.77L414.2,131.38L413.57,131.66L411.55,135.22L411.48,136.61L410.1,137.63L408.68,137.81L407.63,137.22L406.31,138.54L404.52,139.27L403.52,138.17L403.2,137.13L402.74,137.17L401.26,140.17L400.76,141.7L399.97,142.89L400.01,144.55L400.78,145.62L400.86,147.64L401.35,150.36L400.71,153.47L400.11,154.29L399.55,156.09L400.53,157.12L400.27,159.55L400.61,161.52L401.17,161.94L402.85,164.79L403.53,164.97L404.81,168.19L404.45,168.63L405.63,171.76L405.4,172.78L406.38,173.65L406.25,174.7L406.48,176.63L406.03,176.98L406.79,178.88L407.58,179.54Z",
+          "M312.92,197.83L313.87,196.04L316.31,193.78L317.89,192.91L319.26,191.23L321.22,190.34L322.38,189.47L324.32,189.34L325.42,188.36L326.9,188.81L328.02,188.44L328.96,188.59L331.43,187.72L331.87,187.81L333.97,186.81L336.06,186.99L336.27,186.04L337.56,185.48L337.96,184.18L336.88,183.36L337.35,182.43L337.14,181.81L336.33,181.01L336.25,179.71L335.56,180.04L334.84,178.84L334.38,177.1L334.56,176.46L336.85,176.66L337.3,176.36L337.25,174.72L338.14,173.14L336.94,172.26L336.96,171.65L337.76,170.78L338.92,170.26L338.62,169.56L339.44,169.17L339.52,168.43L338.84,168.39L337.23,167.6L336.58,168.21L337.16,169.52L337.07,170.38L336.14,169.85L335.49,170.62L334.1,170.7L334.12,169.39L332.69,168.38L333.66,167.61L333.32,166.93L334.52,164.91L333.43,163.76L333.03,162.87L331.17,162.65L330.65,161.93L329.87,162.26L328.72,161.93L328.18,160.91L328.57,159.36L326.92,159.2L326.93,157.96L322.96,156.1L323.82,152.51L323.31,152.13L324.42,148.65L324.42,147.65L322.13,147.02L320.2,147.73L319.56,147.52L318.77,146.38L318.77,145.15L318.14,144.19L318.22,142.82L317.35,141.96L317.79,140.39L316.75,139.88L316.69,139.23L314.78,136.4L315.03,135.73L314.11,134.31L313.42,134.2L312.54,135.08L312.55,133.48L313.02,131.75L311.08,128.32L310.46,128.09L310.51,126.77L309.31,127.16L310.36,125.81L309.49,125.47L310.21,124.48L309.68,123.94L307.59,123.81L307.25,123.36L307.02,121.1L306.19,119.79L304.07,118.24L303.83,117.27L304.52,115.33L303.75,114.9L303.79,113.83L302.83,112.21L301.64,112.78L300.77,112.54L299.64,114.45L299.66,115.24L297.47,117.0L296.87,117.75L296.44,116.97L295.32,116.82L295.02,115.63L294.64,115.99L293.67,115.26L292.32,114.94L291.06,116.22L290.94,117.37L290.1,118.78L289.4,119.36L289.3,120.39L288.24,120.32L287.96,121.37L287.22,122.05L285.98,121.29L285.72,122.54L285.06,123.58L285.68,123.94L285.83,124.8L284.16,127.01L284.5,127.91L283.38,128.35L283.62,129.81L282.64,130.62L281.09,132.69L280.58,134.2L281.32,135.25L282.16,137.47L281.85,138.0L283.05,139.99L283.33,141.78L283.07,142.33L281.85,142.6L280.36,144.75L279.36,145.67L277.36,148.66L275.52,149.52L275.21,151.81L276.23,154.91L275.76,155.53L276.17,156.29L275.28,159.13L275.42,160.26L274.92,160.54L274.27,162.03L271.61,163.67L271.03,163.36L271.2,162.46L270.69,161.86L270.99,160.98L270.63,159.38L271.25,159.08L270.52,158.02L270.5,157.37L269.58,156.48L269.14,155.31L268.34,154.69L268.17,153.54L266.49,152.67L265.96,150.99L264.92,149.77L263.88,149.08L263.79,148.28L262.68,147.24L261.43,146.81L260.38,145.13L259.69,145.01L259.43,144.26L257.76,143.08L257.85,142.46L256.9,141.48L257.69,140.23L256.85,138.75L255.82,138.12L255.51,136.96L254.9,136.47L255.4,135.31L254.49,135.09L253.69,134.15L253.33,132.95L253.69,131.54L252.92,130.81L252.95,129.7L250.79,130.72L250.6,132.42L250.04,133.14L248.03,133.47L246.76,134.0L247.02,135.49L246.47,136.29L247.05,137.28L247.06,138.98L248.08,140.27L247.41,141.03L246.17,143.39L247.07,146.05L245.54,146.77L246.79,147.87L246.63,148.61L247.08,149.66L247.8,149.93L248.11,151.73L247.37,151.6L247.74,152.49L247.52,153.5L248.06,155.24L249.37,156.18L249.69,157.42L250.21,157.9L250.38,159.06L250.57,159.96L251.73,161.66L253.3,162.08L253.04,163.1L253.35,164.08L253.96,164.29L253.53,165.3L254.18,165.49L253.84,167.17L255.07,170.44L255.19,171.65L256.11,171.97L257.02,172.95L257.91,173.03L259.12,173.92L259.67,175.53L260.73,175.74L261.77,175.05L263.48,174.56L265.14,175.69L268.14,175.73L268.09,174.57L268.96,174.7L270.1,175.56L270.42,176.21L272.44,176.93L273.47,177.55L275.13,176.95L275.24,174.57L276.32,174.84L277.64,176.55L278.72,176.5L279.7,175.86L281.54,172.52L283.44,172.03L283.48,174.68L285.85,174.15L285.85,175.12L286.36,175.52L288.01,175.53L287.73,176.79L288.56,176.11L289.09,177.34L288.82,178.47L290.64,178.56L291.13,179.89L292.66,179.82L292.35,181.05L293.5,182.35L292.21,182.33L291.59,182.81L292.33,184.43L292.39,185.39L293.23,185.1L294.56,185.79L294.58,186.68L292.74,186.55L291.94,188.76L292.65,188.72L291.64,190.14L290.66,190.61L290.18,191.42L290.95,192.11L291.84,195.59L292.42,196.13L291.13,197.11L291.44,198.98L292.68,199.72L293.47,199.32L294.46,200.46L293.82,201.02L294.07,204.05L294.45,205.22L295.7,205.33L296.07,204.74L297.8,205.51L297.93,206.7L300.34,205.93L302.29,206.04L301.57,203.96L301.33,201.33L303.11,199.77L303.97,198.75L305.46,198.38L306.43,197.77L306.77,196.87L307.57,197.0L309.1,196.35L309.3,197.28L310.33,197.72L310.97,198.49L312.27,198.56L312.92,197.83Z",
+          "M329.13,289.26L328.1,289.08L325.93,287.01L324.63,286.64L324.11,285.3L323.28,284.54L322.36,283.07L320.63,281.67L320.39,280.5L319.41,279.85L318.85,278.9L318.51,276.34L317.94,275.95L317.0,274.46L315.62,271.58L314.5,270.68L314.41,267.97L312.93,268.05L312.71,267.01L311.23,268.26L308.83,267.79L308.2,268.29L306.68,267.03L306.53,265.93L305.38,265.28L303.47,264.71L303.21,264.12L301.17,263.44L300.62,265.18L300.3,267.17L297.71,269.2L296.2,268.91L295.49,268.42L295.4,267.62L292.27,267.8L291.3,268.98L290.77,269.03L290.6,270.22L291.44,270.78L291.31,271.51L293.25,274.58L293.9,274.63L294.57,275.86L294.77,278.11L296.12,278.68L296.87,280.3L296.63,280.95L295.48,281.81L295.17,282.95L295.26,285.25L295.01,286.8L295.3,287.42L295.49,289.64L295.16,290.93L295.64,291.49L295.98,294.25L295.79,295.84L294.73,299.22L293.95,299.84L291.52,300.5L290.1,300.1L288.95,301.04L289.62,302.55L289.45,303.66L290.03,304.68L290.22,306.41L291.07,307.64L290.6,309.71L289.59,309.8L289.29,310.58L288.65,310.28L288.25,311.11L288.87,311.46L288.35,312.53L288.68,314.95L288.11,315.68L289.47,316.51L289.84,317.34L289.93,318.83L292.03,320.03L290.1,321.26L288.85,322.42L286.32,322.13L285.5,321.06L284.02,321.34L283.32,322.63L282.2,322.05L281.01,322.47L279.65,328.64L279.13,329.91L277.57,331.54L277.3,332.38L277.61,333.55L276.4,335.19L276.24,336.5L276.79,338.56L276.41,340.28L274.66,341.69L272.87,341.27L271.5,341.22L270.21,340.14L267.7,339.85L265.81,341.84L263.9,342.62L263.13,341.95L260.74,340.88L258.08,340.2L257.82,341.05L255.72,343.13L256.82,345.01L255.85,345.04L255.6,344.38L254.74,344.02L252.41,345.68L252.49,346.12L250.83,347.12L251.31,348.75L251.93,349.12L251.99,350.07L251.44,351.99L252.17,354.2L252.67,354.33L253.48,355.95L253.09,356.85L252.08,357.34L250.95,357.06L248.34,355.5L247.9,356.53L249.05,359.89L248.13,359.89L247.15,360.74L246.33,360.8L245.7,362.65L245.67,363.91L243.04,364.44L242.52,365.14L243.59,366.5L244.01,368.29L244.56,368.8L245.04,371.76L245.66,373.12L244.5,374.98L244.5,375.7L245.46,376.55L243.34,379.34L242.42,379.75L241.96,380.76L241.08,381.52L239.72,381.91L239.82,382.54L240.83,383.42L240.88,384.27L239.85,385.01L238.94,386.63L239.03,388.87L237.81,389.77L236.31,392.42L236.92,393.14L235.61,393.02L236.11,393.96L236.9,394.28L238.35,395.68L239.93,395.63L240.64,396.2L241.55,395.7L241.9,396.2L244.28,396.43L244.73,396.02L246.27,396.21L248.42,395.57L249.45,394.71L250.13,394.82L251.42,396.24L253.45,395.57L254.03,396.49L254.76,395.61L255.68,396.52L257.26,396.19L258.49,397.44L259.35,397.8L259.09,398.89L260.06,399.29L260.46,398.14L262.3,397.79L265.03,398.99L265.46,399.73L267.02,399.66L267.08,397.83L271.54,398.51L272.28,397.33L272.64,395.59L273.42,395.67L274.79,394.74L275.71,393.28L276.87,389.31L277.54,389.07L279.08,389.78L280.44,389.4L280.86,388.7L281.65,388.63L281.38,387.62L281.76,386.83L284.42,387.07L284.95,387.83L288.04,389.24L289.15,388.33L289.44,386.44L289.96,385.04L289.99,382.93L289.65,381.49L290.46,381.12L291.04,379.76L292.47,380.31L292.54,379.75L293.51,379.01L296.12,378.56L298.31,378.72L298.92,379.54L300.0,378.91L299.73,378.28L300.22,377.2L301.8,376.82L301.85,375.76L303.51,375.84L304.68,375.57L306.22,373.24L308.59,372.82L308.51,372.1L310.08,372.65L310.67,372.53L311.57,373.85L311.7,374.83L312.56,375.44L313.51,375.3L315.12,374.02L316.75,373.88L316.61,372.61L317.18,373.15L318.14,372.31L321.18,374.25L322.41,374.49L324.67,374.16L325.99,375.0L328.14,374.58L330.5,375.07L332.33,373.83L333.2,373.79L334.64,372.99L336.58,372.59L336.93,374.41L337.59,375.26L338.47,377.72L338.66,379.05L339.24,379.82L339.4,381.37L340.39,382.52L341.75,382.99L341.26,385.02L343.65,384.52L345.5,384.92L345.54,383.39L346.55,382.91L345.52,381.56L346.34,379.99L346.82,377.82L348.47,377.77L350.64,376.4L351.42,376.64L351.88,377.56L353.28,378.81L353.22,380.28L354.98,382.11L356.68,382.35L357.11,381.73L356.97,379.77L358.22,379.68L360.09,380.23L363.08,378.76L364.91,379.67L366.83,380.08L366.69,380.75L367.45,381.69L368.42,380.34L368.95,380.1L371.47,380.28L372.96,380.63L372.34,378.79L375.27,374.07L373.96,373.17L373.26,371.24L372.0,371.52L370.42,370.68L369.81,371.16L369.07,370.64L367.86,370.61L364.51,369.09L363.62,367.04L363.63,365.72L362.43,364.66L361.59,363.21L360.67,362.36L359.66,362.32L357.6,361.06L356.38,362.28L355.48,362.03L353.24,360.1L352.22,358.34L353.89,356.66L354.34,356.87L354.93,355.27L354.47,353.6L355.32,353.17L355.71,351.54L356.77,351.34L357.1,351.84L359.39,351.31L359.58,352.63L361.71,352.87L363.54,350.39L363.63,349.66L363.0,348.66L364.09,347.61L362.97,347.04L362.68,346.09L360.93,345.33L361.16,344.72L359.76,343.93L358.85,343.78L358.36,345.22L357.42,344.54L355.91,345.06L353.74,344.3L353.43,343.71L354.09,341.94L353.25,340.45L354.49,339.49L355.6,339.44L356.28,338.12L355.5,337.55L355.47,336.37L354.21,335.25L353.14,335.22L353.3,334.23L351.64,333.42L350.52,333.75L349.88,333.06L349.8,331.85L350.8,331.98L351.69,330.82L351.43,329.52L350.64,327.95L349.81,327.12L349.19,327.38L348.38,326.38L349.06,324.74L348.05,324.58L347.33,323.5L347.28,322.67L346.35,322.74L346.37,321.83L347.15,322.07L347.37,321.26L348.22,320.37L347.25,319.62L345.27,320.53L344.22,321.46L344.0,320.61L343.12,320.02L342.23,318.69L341.64,319.61L340.51,318.77L340.76,317.29L341.83,317.13L342.0,316.25L341.11,314.7L340.34,314.17L339.86,314.61L338.85,314.39L338.2,315.38L337.56,315.44L337.18,316.85L335.89,317.26L335.7,316.14L335.11,315.89L334.84,314.97L335.62,314.34L335.55,312.87L334.59,312.0L336.56,310.79L337.32,311.37L338.84,309.35L339.07,308.55L340.42,307.54L339.53,306.35L338.61,306.05L338.15,304.81L336.98,303.75L336.47,302.29L334.98,301.58L335.08,300.2L333.86,298.74L333.83,297.29L332.66,296.69L332.23,295.64L332.06,293.82L330.87,292.4L330.48,291.35L329.13,289.26Z",
+          "M290.77,269.03L289.79,268.0L289.09,268.09L288.25,266.93L287.69,267.15L286.95,266.56L285.76,266.59L283.27,267.35L281.15,267.49L280.29,268.31L278.83,269.14L278.35,271.17L277.1,271.0L276.94,268.8L278.56,267.75L278.74,266.32L279.51,264.87L279.42,263.63L280.73,261.51L280.68,260.72L281.51,259.19L282.03,256.38L280.94,256.03L280.82,255.54L279.2,255.72L277.22,255.33L276.08,255.82L275.44,257.33L273.88,257.02L273.41,253.95L272.48,253.16L271.32,254.21L270.05,254.28L269.33,255.06L268.45,255.17L267.91,256.13L266.22,257.23L265.89,258.04L266.84,259.39L265.66,260.95L264.63,261.11L264.38,262.05L265.61,263.08L264.32,263.54L264.1,264.24L262.66,265.17L262.62,265.56L264.0,266.12L264.65,267.6L264.24,269.43L262.92,269.6L261.47,270.84L260.67,270.85L260.85,272.72L259.62,272.78L258.82,274.39L257.98,274.46L257.1,275.25L258.11,275.75L258.94,279.43L258.33,279.62L258.79,280.47L258.52,281.64L257.34,281.27L256.71,281.5L255.27,283.67L254.67,286.15L252.92,287.6L250.77,288.06L249.93,289.76L249.96,290.84L248.91,291.77L248.29,291.57L247.33,292.29L244.56,291.72L244.55,289.47L244.94,288.21L244.22,287.25L244.2,286.26L243.25,283.17L241.98,281.64L240.38,281.96L239.57,283.51L238.1,285.28L238.17,286.66L236.98,287.49L235.29,289.8L232.64,292.02L231.86,291.93L230.83,292.42L229.72,292.3L229.38,293.14L227.8,293.5L226.24,294.36L224.62,294.68L223.18,296.14L224.2,298.22L222.74,299.6L222.45,300.39L220.73,301.5L220.12,302.31L218.64,302.45L217.44,304.35L216.6,304.98L215.43,304.44L214.2,305.46L215.43,306.15L214.84,307.34L215.1,309.11L214.98,310.82L215.44,311.62L214.0,313.26L214.71,313.19L215.16,314.03L217.0,313.9L217.65,314.45L219.19,314.2L220.86,316.83L220.32,318.02L221.39,318.97L221.88,321.49L223.41,322.07L223.42,323.28L221.76,324.08L219.96,325.95L219.95,326.89L220.93,329.39L222.96,328.68L224.14,329.95L224.04,330.79L224.76,331.52L224.53,333.18L225.12,335.05L223.97,335.07L223.01,336.23L223.41,336.53L224.51,336.14L225.84,337.19L225.32,337.85L225.54,339.3L224.67,340.17L224.68,341.05L223.77,341.97L223.79,343.71L224.52,343.27L226.49,343.69L228.74,344.5L231.16,344.3L230.76,346.72L233.32,348.09L234.08,347.57L236.86,347.41L237.47,346.99L238.18,347.95L239.9,348.51L241.07,347.38L242.2,347.4L242.98,346.9L242.98,345.86L244.01,346.04L245.42,347.44L248.07,348.45L249.7,348.27L251.31,348.75L250.83,347.12L252.49,346.12L252.41,345.68L254.74,344.02L255.6,344.38L255.85,345.04L256.82,345.01L255.72,343.13L257.82,341.05L258.08,340.2L260.74,340.88L263.13,341.95L263.9,342.62L265.81,341.84L267.7,339.85L270.21,340.14L271.5,341.22L272.87,341.27L274.66,341.69L276.41,340.28L276.79,338.56L276.24,336.5L276.4,335.19L277.61,333.55L277.3,332.38L277.57,331.54L279.13,329.91L279.65,328.64L281.01,322.47L282.2,322.05L283.32,322.63L284.02,321.34L285.5,321.06L286.32,322.13L288.85,322.42L290.1,321.26L292.03,320.03L289.93,318.83L289.84,317.34L289.47,316.51L288.11,315.68L288.68,314.95L288.35,312.53L288.87,311.46L288.25,311.11L288.65,310.28L289.29,310.58L289.59,309.8L290.6,309.71L291.07,307.64L290.22,306.41L290.03,304.68L289.45,303.66L289.62,302.55L288.95,301.04L290.1,300.1L291.52,300.5L293.95,299.84L294.73,299.22L295.79,295.84L295.98,294.25L295.64,291.49L295.16,290.93L295.49,289.64L295.3,287.42L295.01,286.8L295.26,285.25L295.17,282.95L295.48,281.81L296.63,280.95L296.87,280.3L296.12,278.68L294.77,278.11L294.57,275.86L293.9,274.63L293.25,274.58L291.31,271.51L291.44,270.78L290.6,270.22L290.77,269.03Z",
+          "M371.05,259.11L371.17,257.68L371.89,256.49L371.96,255.66L371.1,254.74L370.03,255.17L368.94,253.85L369.08,252.77L368.59,252.17L369.32,250.67L369.9,250.57L369.89,251.55L371.36,252.26L371.41,253.16L373.45,252.38L374.28,251.5L376.15,251.87L376.55,250.37L377.22,249.16L376.89,247.28L377.51,245.45L378.28,244.45L379.02,244.59L379.28,242.52L378.97,241.22L377.73,241.59L377.53,240.13L377.03,239.6L377.3,238.35L376.44,237.71L376.85,236.67L377.71,235.75L378.41,236.76L380.25,236.15L380.05,235.32L381.22,234.38L381.23,233.84L382.18,232.66L382.11,230.8L381.35,230.27L381.5,229.08L380.81,228.69L380.96,226.37L380.02,226.8L379.64,226.03L377.9,225.0L377.77,224.08L377.18,223.63L377.82,222.5L377.99,220.94L376.79,219.74L377.03,216.58L377.76,216.34L377.44,215.66L377.7,214.36L376.58,213.43L375.56,213.15L375.26,211.44L375.62,210.94L375.53,209.77L376.06,209.5L375.26,208.66L375.23,207.73L375.86,206.47L375.71,205.76L376.2,204.81L376.64,203.0L376.39,202.28L374.92,201.66L374.02,200.58L372.51,199.76L372.66,199.01L372.0,198.3L371.47,196.95L369.85,198.24L368.76,198.8L367.76,200.63L367.08,200.69L366.81,201.73L366.13,201.82L365.79,202.65L364.76,202.8L363.36,202.29L361.95,201.28L359.04,201.86L357.63,200.71L356.61,201.13L354.77,203.57L353.77,203.74L353.97,201.96L353.07,201.73L352.06,200.37L352.17,198.81L352.54,198.35L351.02,197.77L349.37,195.25L348.01,195.03L347.35,194.19L346.54,194.66L345.58,194.55L344.72,195.01L344.07,193.67L343.14,193.22L342.77,192.33L343.27,191.17L344.31,190.71L345.45,191.09L346.04,190.81L345.16,190.42L346.06,189.06L344.95,188.53L345.04,187.0L344.22,186.63L344.27,186.04L342.86,185.2L341.78,183.75L340.29,183.18L339.27,181.6L337.14,181.81L337.35,182.43L336.88,183.36L337.96,184.18L337.56,185.48L336.27,186.04L336.06,186.99L333.97,186.81L331.87,187.81L331.43,187.72L328.96,188.59L328.02,188.44L326.9,188.81L325.42,188.36L324.32,189.34L322.38,189.47L321.22,190.34L319.26,191.23L317.89,192.91L316.31,193.78L313.87,196.04L312.92,197.83L313.34,198.57L313.12,203.36L314.12,203.87L314.29,204.52L313.37,205.25L312.68,206.34L313.41,207.57L314.42,207.42L315.22,208.61L314.7,210.92L313.21,211.91L314.02,212.8L312.02,214.63L312.42,215.27L313.55,215.64L314.64,217.35L314.02,218.58L315.72,218.41L315.38,219.22L313.96,220.62L314.97,221.75L314.61,222.69L316.34,222.74L316.96,226.08L316.99,227.34L315.01,227.44L314.59,229.11L314.31,231.65L315.03,232.33L314.8,233.27L315.99,234.05L316.06,234.65L317.66,234.6L318.47,235.08L318.09,236.69L318.44,237.76L316.72,237.93L316.58,238.58L315.55,238.91L315.76,239.82L315.17,240.05L316.37,241.75L316.06,242.53L314.43,242.1L313.98,242.92L312.82,243.0L311.97,242.36L310.2,241.99L309.35,241.26L308.89,241.52L309.41,243.4L308.86,243.63L308.94,245.36L308.14,244.9L307.15,244.93L306.97,245.9L305.9,247.52L306.27,248.55L305.89,249.75L306.85,251.76L305.73,252.49L307.2,254.51L305.53,255.21L304.56,256.04L305.35,256.95L305.58,257.99L306.22,257.99L306.35,259.85L305.29,261.21L305.57,262.7L306.26,262.96L306.42,263.72L305.57,263.85L305.75,265.28L305.38,265.28L306.53,265.93L306.68,267.03L308.2,268.29L308.83,267.79L311.23,268.26L312.71,267.01L312.93,268.05L314.41,267.97L314.5,270.68L315.62,271.58L317.0,274.46L317.94,275.95L318.51,276.34L318.85,278.9L319.41,279.85L320.39,280.5L320.63,281.67L322.36,283.07L323.28,284.54L324.11,285.3L324.63,286.64L325.93,287.01L328.1,289.08L329.13,289.26L329.18,288.45L330.25,287.8L332.83,286.83L333.75,285.93L333.93,285.0L333.58,284.05L334.38,282.96L335.14,283.93L336.72,284.71L336.55,285.12L336.9,287.11L337.66,288.79L337.58,289.57L338.22,290.39L338.04,291.57L338.52,292.51L339.6,292.78L341.02,291.95L342.39,291.65L343.33,289.56L344.69,287.79L345.62,285.66L346.38,285.19L347.48,286.76L349.96,287.92L351.02,288.93L351.01,289.61L351.83,289.68L352.19,288.39L353.41,288.64L352.65,289.72L352.91,291.7L353.62,291.32L354.06,291.79L354.86,291.41L356.84,291.28L356.88,290.77L358.05,291.14L359.0,290.11L359.75,290.28L361.06,289.16L361.49,287.24L361.32,286.46L362.44,285.69L362.3,284.51L361.12,283.63L361.78,282.53L361.12,281.33L361.58,280.53L359.83,281.21L358.71,280.96L358.47,279.44L357.67,279.55L357.52,278.42L356.84,277.64L357.22,276.92L356.26,275.81L356.8,275.09L357.52,275.31L358.75,274.85L358.22,272.69L357.61,273.21L356.77,272.48L357.78,271.77L358.97,270.33L358.35,270.4L358.08,268.8L358.56,266.16L360.29,264.95L360.43,263.96L360.89,264.1L361.47,262.69L360.88,261.54L361.26,260.98L363.3,261.49L364.46,261.25L364.79,259.83L365.93,259.22L366.43,258.37L366.54,257.08L368.15,258.03L368.73,259.01L370.8,259.45L371.05,259.11Z",
+          "M409.99,278.81L409.91,280.45L409.08,282.01L407.91,282.44L408.15,283.45L409.54,283.82L409.13,286.93L409.54,287.8L410.13,287.69L410.55,288.6L411.29,288.83L410.72,291.36L411.76,292.07L411.84,293.03L411.12,293.73L411.22,295.2L409.62,296.44L408.77,298.96L407.48,299.6L406.65,301.09L406.84,301.56L407.52,301.75L406.76,302.41L406.61,301.96L405.87,301.91L403.71,300.24L402.51,300.74L401.43,301.59L400.73,302.9L399.77,303.03L400.09,303.84L398.86,304.15L398.47,302.84L397.88,302.35L398.17,301.43L397.65,301.26L395.65,302.67L394.01,302.65L393.35,304.89L392.42,305.11L391.49,306.17L391.46,307.32L390.79,307.23L390.1,307.92L389.42,307.11L389.13,305.89L389.73,304.7L389.05,303.85L389.57,303.21L389.09,302.42L388.01,302.27L388.66,301.65L388.07,301.25L387.22,301.87L386.0,302.13L385.25,301.53L383.82,302.12L382.73,300.37L381.75,300.9L379.97,301.14L379.18,300.68L379.51,300.26L377.68,299.29L375.1,298.85L374.09,299.58L374.49,300.68L375.5,300.59L375.67,301.35L374.79,301.84L373.0,301.95L371.22,302.4L370.96,303.15L372.17,305.04L372.69,305.34L372.74,307.07L373.53,307.15L372.7,308.41L372.11,308.0L370.89,308.2L369.91,309.02L368.1,309.75L367.05,311.8L369.24,315.06L368.07,315.87L367.57,317.13L368.09,318.32L369.97,318.17L370.98,318.56L372.03,319.98L373.94,321.77L374.14,323.17L375.21,324.25L375.07,325.43L376.73,326.93L376.96,328.84L375.82,329.87L375.13,332.13L373.8,332.06L373.18,331.67L370.88,331.63L370.6,332.31L369.31,331.42L368.0,333.64L367.73,335.47L366.77,336.53L365.25,336.97L364.07,336.22L363.49,336.67L362.25,336.18L361.65,335.44L360.5,335.92L359.65,335.08L356.91,334.73L355.51,335.82L355.47,336.37L355.5,337.55L356.28,338.12L355.6,339.44L354.49,339.49L353.25,340.45L354.09,341.94L353.43,343.71L353.74,344.3L355.91,345.06L357.42,344.54L358.36,345.22L358.85,343.78L359.76,343.93L361.16,344.72L360.93,345.33L362.68,346.09L362.97,347.04L364.09,347.61L363.0,348.66L363.63,349.66L363.54,350.39L361.71,352.87L359.58,352.63L359.39,351.31L357.1,351.84L356.77,351.34L355.71,351.54L355.32,353.17L354.47,353.6L354.93,355.27L354.34,356.87L353.89,356.66L352.22,358.34L353.24,360.1L355.48,362.03L356.38,362.28L357.6,361.06L359.66,362.32L360.67,362.36L361.59,363.21L362.43,364.66L363.63,365.72L363.62,367.04L364.51,369.09L367.86,370.61L369.07,370.64L369.81,371.16L370.42,370.68L372.0,371.52L373.26,371.24L373.96,373.17L375.27,374.07L376.78,373.6L376.37,372.55L377.67,372.13L378.9,370.37L379.52,369.97L378.85,369.62L378.01,367.94L379.03,367.83L380.3,366.97L381.17,365.43L381.33,363.88L383.02,363.16L383.63,363.38L386.01,366.08L386.21,366.94L387.84,365.45L390.05,367.53L391.59,366.97L393.57,368.65L394.17,368.57L394.5,369.36L395.78,369.8L396.39,370.83L397.38,370.7L398.95,371.47L399.88,372.47L399.64,373.24L400.41,375.0L401.83,376.53L402.03,377.5L404.52,377.76L404.88,378.61L405.6,378.71L406.51,379.56L408.35,379.37L408.78,378.94L408.35,377.28L408.86,376.3L410.42,375.82L411.33,374.86L412.13,374.82L413.29,373.89L412.44,372.79L412.53,371.39L413.82,369.47L414.73,369.7L416.13,368.63L417.65,368.0L417.99,366.68L417.88,365.43L419.36,363.14L419.44,361.69L421.73,362.32L422.42,363.1L423.49,363.37L424.64,364.37L424.28,365.35L424.4,367.01L425.5,368.08L425.4,368.98L427.64,371.78L428.73,372.15L429.66,370.17L430.48,369.78L430.77,368.5L430.24,366.91L430.98,365.56L432.21,364.19L432.56,362.86L433.57,362.34L434.5,362.94L435.44,364.5L436.43,365.08L437.9,366.62L438.48,367.6L439.14,367.57L441.67,371.15L443.29,372.61L443.95,373.61L444.44,373.46L446.23,375.0L447.73,376.57L449.67,375.87L449.99,374.65L449.71,373.16L450.68,370.52L450.91,368.58L450.7,367.69L451.31,365.58L452.27,364.32L453.43,363.34L454.49,361.64L455.37,361.93L456.75,361.11L459.2,360.79L460.85,360.02L461.41,360.71L461.78,360.02L461.5,358.99L460.69,358.51L459.91,358.91L458.94,358.61L457.71,359.92L457.07,359.76L457.22,358.52L456.24,359.08L455.36,357.25L454.55,357.46L453.73,358.41L452.85,360.3L452.29,360.93L451.43,360.75L451.23,360.14L450.31,361.01L451.05,362.22L449.91,364.69L449.38,364.56L449.39,365.65L448.86,366.51L447.7,366.96L446.43,366.6L445.93,367.53L444.76,366.99L444.41,365.84L445.13,365.09L444.5,362.91L444.76,362.12L444.28,361.15L445.21,361.18L445.65,360.21L445.68,357.53L445.24,356.41L446.53,354.66L447.01,354.59L447.46,352.03L446.42,350.29L446.95,347.95L446.56,347.45L446.58,344.88L445.28,342.59L445.45,341.0L446.52,339.97L445.5,337.45L444.14,336.36L442.97,336.11L441.82,335.18L441.18,335.81L440.85,334.85L441.18,334.22L440.64,332.54L441.34,331.42L440.43,330.57L440.78,329.36L439.98,329.22L440.5,328.35L439.06,327.89L437.47,328.21L437.61,327.41L436.95,326.88L437.74,326.04L437.16,325.47L436.36,325.88L435.83,327.04L435.18,326.64L434.02,327.64L433.1,327.56L432.64,326.8L431.46,325.98L431.09,324.17L432.28,323.83L433.83,321.64L434.42,320.46L433.81,319.44L433.89,317.47L433.01,315.84L433.62,315.06L433.97,312.07L434.52,310.86L434.34,310.07L436.41,308.93L435.55,307.43L436.12,306.99L435.86,306.33L435.14,306.5L434.05,305.38L433.18,304.99L433.46,304.31L432.63,303.07L430.84,301.17L430.55,299.33L431.24,297.89L432.76,296.83L433.38,295.14L434.79,294.42L435.74,294.45L435.94,293.54L437.33,293.86L439.32,293.59L439.84,292.85L439.87,291.47L440.94,290.98L441.31,290.31L441.31,288.84L442.26,288.28L443.3,286.0L445.18,285.02L446.92,282.56L447.91,282.04L448.82,282.31L449.77,281.63L450.23,281.39L449.71,279.98L450.98,279.46L451.02,277.89L450.54,277.88L449.9,276.57L449.33,276.48L448.72,275.17L448.07,274.72L449.07,273.24L447.95,271.39L447.29,272.39L446.14,271.92L446.2,271.0L444.57,270.95L443.55,270.12L442.19,269.61L441.06,267.99L440.26,268.29L440.01,267.79L438.73,269.78L436.93,268.68L437.44,267.61L437.86,267.92L438.42,266.39L437.54,266.88L436.42,266.76L435.76,267.61L434.99,267.53L434.59,268.21L433.11,271.17L433.43,271.46L432.53,273.05L433.05,273.46L432.44,274.45L430.01,276.43L429.16,276.47L428.8,277.81L426.14,279.19L425.18,278.6L426.53,277.63L426.03,277.11L426.86,276.42L425.5,276.31L424.99,275.68L423.69,275.39L422.21,274.04L419.47,272.35L418.67,272.27L417.92,271.5L417.07,272.64L417.72,273.15L417.47,274.08L416.65,273.91L416.25,275.04L416.78,276.58L415.67,277.58L416.09,278.46L415.65,278.78L412.95,277.98L412.58,278.62L411.91,277.81L411.32,277.87L409.99,278.81Z",
+          "M407.52,301.75L406.84,301.56L406.61,301.96L406.76,302.41L407.52,301.75Z",
+          "M474.34,280.48L473.72,281.4L472.48,281.38L472.61,282.31L471.62,281.98L469.96,282.07L467.81,282.94L467.67,284.82L465.06,285.04L464.66,285.7L462.04,286.37L461.24,285.65L460.18,286.23L458.84,286.06L458.54,285.21L459.37,284.33L458.0,282.18L457.11,281.33L455.64,281.75L455.27,281.31L451.82,282.99L449.77,281.63L448.82,282.31L447.91,282.04L446.92,282.56L445.18,285.02L443.3,286.0L442.26,288.28L441.31,288.84L441.31,290.31L440.94,290.98L439.87,291.47L439.84,292.85L439.32,293.59L437.33,293.86L435.94,293.54L435.74,294.45L434.79,294.42L433.38,295.14L432.76,296.83L431.24,297.89L430.55,299.33L430.84,301.17L432.63,303.07L433.46,304.31L433.18,304.99L434.05,305.38L435.14,306.5L435.86,306.33L436.12,306.99L435.55,307.43L436.41,308.93L434.34,310.07L434.52,310.86L433.97,312.07L433.62,315.06L433.01,315.84L433.89,317.47L433.81,319.44L434.42,320.46L433.83,321.64L432.28,323.83L431.09,324.17L431.46,325.98L432.64,326.8L433.1,327.56L434.02,327.64L435.18,326.64L435.83,327.04L436.36,325.88L437.16,325.47L437.74,326.04L436.95,326.88L437.61,327.41L437.47,328.21L439.06,327.89L440.5,328.35L439.98,329.22L440.78,329.36L440.43,330.57L441.34,331.42L440.64,332.54L441.18,334.22L440.85,334.85L441.18,335.81L441.82,335.18L442.97,336.11L444.14,336.36L445.5,337.45L446.52,339.97L445.45,341.0L445.28,342.59L446.58,344.88L446.56,347.45L446.95,347.95L446.42,350.29L447.46,352.03L447.01,354.59L446.53,354.66L445.24,356.41L445.68,357.53L445.65,360.21L445.21,361.18L444.28,361.15L444.76,362.12L444.5,362.91L445.13,365.09L444.41,365.84L444.76,366.99L445.93,367.53L446.43,366.6L447.7,366.96L448.86,366.51L449.39,365.65L449.38,364.56L449.91,364.69L451.05,362.22L450.31,361.01L451.23,360.14L451.43,360.75L452.29,360.93L452.85,360.3L453.73,358.41L454.55,357.46L455.36,357.25L456.24,359.08L457.22,358.52L457.07,359.76L457.71,359.92L458.94,358.61L459.91,358.91L460.69,358.51L461.5,358.99L461.78,360.02L461.41,360.71L460.64,363.35L461.32,365.07L462.55,365.56L463.55,365.54L464.35,366.01L464.52,366.73L465.91,367.43L467.09,366.84L467.97,365.24L469.47,364.62L471.45,363.21L472.52,361.94L472.61,361.38L474.0,360.69L474.89,359.81L475.59,359.82L476.45,361.43L476.69,360.37L478.34,360.57L479.07,361.23L481.87,360.8L481.65,359.53L482.9,359.02L483.41,357.51L486.66,355.91L487.34,355.24L487.28,353.73L486.27,352.59L485.54,350.75L485.37,348.76L484.97,348.38L484.82,346.95L487.11,346.3L487.9,346.3L488.44,344.08L489.59,343.74L489.94,344.32L491.19,344.89L491.63,343.12L492.29,342.69L493.33,342.75L493.61,341.93L495.04,341.36L495.89,340.35L497.56,339.58L498.22,340.32L498.84,340.23L501.48,338.71L503.96,339.43L504.23,338.21L504.93,336.81L504.98,335.82L505.78,335.76L507.82,333.29L508.87,334.33L509.13,335.64L509.92,336.82L510.82,337.28L511.8,338.48L512.85,337.85L513.75,339.66L514.45,340.15L515.39,341.55L515.6,342.43L517.4,343.33L517.56,342.56L516.68,340.88L516.92,340.21L518.18,339.77L518.59,338.54L519.63,337.07L522.89,335.4L523.09,336.39L524.37,336.3L523.2,335.32L524.09,334.59L522.97,333.39L522.03,332.9L523.1,332.38L524.34,332.74L526.02,331.31L526.93,329.9L529.03,329.52L529.37,327.82L531.07,326.61L532.82,326.72L533.74,327.96L534.75,327.49L535.82,328.21L536.98,328.44L537.47,329.19L537.22,330.45L538.05,330.08L539.18,328.77L540.77,328.14L541.39,326.75L542.32,326.28L542.91,325.04L543.83,324.53L543.1,323.74L542.92,322.79L543.65,321.48L544.19,319.86L544.53,316.99L543.99,316.01L543.63,313.52L544.46,312.62L546.07,312.08L545.21,310.28L546.06,310.25L546.08,309.44L544.45,308.71L543.73,307.39L543.23,305.64L541.57,303.59L541.85,302.66L540.92,302.15L539.98,301.11L539.9,299.43L538.66,298.5L538.11,298.68L537.51,297.48L535.99,298.12L534.64,297.5L533.62,297.93L533.27,298.69L533.52,300.15L532.83,301.57L531.37,300.77L530.59,302.03L528.6,302.38L528.29,301.61L528.84,300.99L528.34,300.13L527.23,299.94L526.08,300.64L524.36,300.34L523.26,301.68L522.11,301.92L521.85,300.43L521.18,298.49L521.19,297.36L519.72,296.81L517.53,297.51L516.3,298.82L516.32,299.84L515.73,301.37L515.93,302.32L515.29,302.66L513.8,302.09L511.68,301.64L510.96,300.38L508.72,299.33L507.53,297.82L506.4,298.02L505.51,299.01L506.38,299.89L504.93,300.55L503.82,299.88L502.3,298.4L501.48,297.06L501.52,295.39L503.58,295.45L504.18,293.45L503.72,292.84L502.95,293.05L502.33,291.43L501.39,291.22L500.88,289.99L501.02,288.92L502.13,287.59L501.74,286.6L499.83,285.21L498.6,285.41L497.99,284.89L498.26,283.42L495.86,282.11L494.3,282.14L492.56,283.39L490.35,283.49L489.65,282.74L486.24,281.75L483.96,281.89L483.21,281.13L482.54,281.33L482.54,282.27L480.97,281.94L480.37,282.98L481.14,286.95L480.6,287.86L479.49,287.41L478.48,286.19L476.28,285.14L477.11,284.13L476.51,282.96L474.82,283.04L474.34,280.48Z",
+          "M345.5,384.92L343.65,384.52L341.26,385.02L341.75,382.99L340.39,382.52L339.4,381.37L339.24,379.82L338.66,379.05L338.47,377.72L337.59,375.26L336.93,374.41L336.58,372.59L334.64,372.99L333.2,373.79L332.33,373.83L330.5,375.07L328.14,374.58L325.99,375.0L324.67,374.16L322.41,374.49L321.18,374.25L318.14,372.31L317.18,373.15L316.61,372.61L316.75,373.88L315.12,374.02L313.51,375.3L312.56,375.44L311.7,374.83L311.57,373.85L310.67,372.53L310.08,372.65L308.51,372.1L308.59,372.82L306.22,373.24L304.68,375.57L303.51,375.84L301.85,375.76L301.8,376.82L300.22,377.2L299.73,378.28L300.0,378.91L298.92,379.54L298.31,378.72L296.12,378.56L293.51,379.01L292.54,379.75L292.47,380.31L291.04,379.76L290.46,381.12L289.65,381.49L289.99,382.93L289.96,385.04L289.44,386.44L289.15,388.33L288.04,389.24L284.95,387.83L284.42,387.07L281.76,386.83L281.38,387.62L281.65,388.63L280.86,388.7L280.44,389.4L279.08,389.78L277.54,389.07L276.87,389.31L275.71,393.28L274.79,394.74L273.42,395.67L272.64,395.59L272.28,397.33L271.54,398.51L270.95,399.28L271.25,400.4L272.44,401.76L272.67,402.65L271.93,404.27L271.94,405.08L270.99,405.63L271.17,406.68L270.38,407.85L270.29,409.81L270.95,411.07L272.04,414.93L272.39,415.56L274.24,416.12L274.11,416.98L274.79,417.21L277.06,415.51L278.01,415.56L279.27,416.35L280.22,417.49L280.26,418.37L279.54,418.3L278.72,419.8L277.68,420.64L277.55,421.4L278.18,422.21L278.06,423.39L278.36,425.09L280.21,426.32L280.71,424.79L281.87,425.03L282.9,426.86L283.68,427.26L285.16,426.34L285.68,426.61L286.73,426.02L288.25,424.06L289.96,424.34L291.44,423.51L292.05,423.88L293.25,426.53L294.07,427.48L296.0,426.9L297.39,427.9L298.31,427.83L301.2,426.34L302.32,426.1L303.3,424.96L305.01,424.57L306.02,422.79L307.35,422.2L308.27,420.12L309.59,418.97L310.05,418.94L311.22,417.07L311.93,416.46L313.11,416.6L314.29,415.87L315.48,415.95L317.56,415.39L317.76,414.75L320.88,412.13L322.34,412.23L321.82,413.36L322.21,415.33L322.07,416.1L322.91,417.12L323.59,417.19L323.99,418.47L324.22,421.15L323.49,421.23L323.31,422.5L324.82,422.8L326.12,422.69L326.18,425.05L326.85,425.39L325.41,426.75L325.51,429.14L325.1,429.6L323.2,429.92L325.0,433.55L327.92,435.4L327.78,436.43L326.99,437.4L326.7,438.44L329.71,441.18L331.95,440.27L334.0,438.86L336.58,438.78L337.93,438.09L340.41,437.57L343.45,438.51L343.41,439.51L342.88,440.53L343.63,441.47L345.04,440.52L346.58,440.37L347.64,441.64L347.92,442.75L349.59,442.96L350.65,442.67L351.37,441.49L351.99,439.72L353.77,439.73L353.69,437.56L352.37,436.97L351.84,435.94L350.73,435.91L349.81,435.38L349.13,433.44L349.56,430.33L350.0,429.91L349.61,426.32L350.99,424.84L350.21,423.43L350.39,422.42L349.8,422.06L350.23,421.35L351.73,421.95L352.42,421.7L353.46,419.78L352.55,418.45L351.32,418.62L350.93,417.66L350.78,414.94L349.88,414.27L350.43,412.48L350.47,411.26L351.19,409.54L349.57,408.64L349.34,407.16L348.42,406.86L347.81,406.12L347.97,404.56L347.25,403.9L346.14,404.23L345.78,403.71L343.66,402.67L344.54,400.8L344.11,399.43L342.82,397.28L342.23,395.48L343.51,394.66L343.22,393.24L341.07,389.82L341.8,387.95L343.58,387.89L344.51,387.31L344.95,385.74L345.5,384.92Z",
+          "M223.68,223.79L224.87,224.16L226.6,223.61L229.1,224.07L228.73,227.38L231.11,227.22L232.1,229.26L231.55,230.52L232.53,231.98L234.07,231.58L235.74,230.46L235.46,229.38L236.95,229.66L238.24,228.45L239.76,228.1L241.51,229.37L243.18,229.68L243.01,230.55L244.2,232.33L243.68,233.38L243.86,234.64L243.42,234.88L241.23,234.08L241.67,236.46L241.21,236.93L242.08,237.9L242.51,238.95L243.78,240.75L244.46,240.71L245.75,243.24L247.6,245.1L249.03,247.1L250.97,248.96L252.6,248.35L253.09,249.03L256.34,250.21L257.54,251.46L258.55,251.52L259.24,252.26L261.18,251.8L261.04,251.19L261.94,250.6L265.04,250.5L265.06,249.4L266.55,247.21L266.29,246.25L267.42,245.47L268.15,245.47L269.61,244.79L269.53,245.68L270.15,246.84L270.97,247.37L271.81,248.98L271.93,249.95L272.52,249.53L273.72,249.48L274.47,249.91L274.05,250.62L274.82,252.19L273.42,253.01L272.48,253.16L273.41,253.95L273.88,257.02L275.44,257.33L276.08,255.82L277.22,255.33L279.2,255.72L280.82,255.54L280.94,256.03L282.03,256.38L281.51,259.19L280.68,260.72L280.73,261.51L279.42,263.63L279.51,264.87L278.74,266.32L278.56,267.75L276.94,268.8L277.1,271.0L278.35,271.17L278.83,269.14L280.29,268.31L281.15,267.49L283.27,267.35L285.76,266.59L286.95,266.56L287.69,267.15L288.25,266.93L289.09,268.09L289.79,268.0L290.77,269.03L291.3,268.98L292.27,267.8L295.4,267.62L295.49,268.42L296.2,268.91L297.71,269.2L300.3,267.17L300.62,265.18L301.17,263.44L303.21,264.12L303.47,264.71L305.38,265.28L305.75,265.28L305.57,263.85L306.42,263.72L306.26,262.96L305.57,262.7L305.29,261.21L306.35,259.85L306.22,257.99L305.58,257.99L305.35,256.95L304.56,256.04L305.53,255.21L307.2,254.51L305.73,252.49L306.85,251.76L305.89,249.75L306.27,248.55L305.9,247.52L306.97,245.9L307.15,244.93L308.14,244.9L308.94,245.36L308.86,243.63L309.41,243.4L308.89,241.52L309.35,241.26L310.2,241.99L311.97,242.36L312.82,243.0L313.98,242.92L314.43,242.1L316.06,242.53L316.37,241.75L315.17,240.05L315.76,239.82L315.55,238.91L316.58,238.58L316.72,237.93L318.44,237.76L318.09,236.69L318.47,235.08L317.66,234.6L316.06,234.65L315.99,234.05L314.8,233.27L315.03,232.33L314.31,231.65L314.59,229.11L315.01,227.44L316.99,227.34L316.96,226.08L316.34,222.74L314.61,222.69L314.97,221.75L313.96,220.62L315.38,219.22L315.72,218.41L314.02,218.58L314.64,217.35L313.55,215.64L312.42,215.27L312.02,214.63L314.02,212.8L313.21,211.91L314.7,210.92L315.22,208.61L314.42,207.42L313.41,207.57L312.68,206.34L313.37,205.25L314.29,204.52L314.12,203.87L313.12,203.36L313.34,198.57L312.92,197.83L312.27,198.56L310.97,198.49L310.33,197.72L309.3,197.28L309.1,196.35L307.57,197.0L306.77,196.87L306.43,197.77L305.46,198.38L303.97,198.75L303.11,199.77L301.33,201.33L301.57,203.96L302.29,206.04L300.34,205.93L297.93,206.7L297.8,205.51L296.07,204.74L295.7,205.33L294.45,205.22L294.07,204.05L293.82,201.02L294.46,200.46L293.47,199.32L292.68,199.72L291.44,198.98L291.13,197.11L292.42,196.13L291.84,195.59L290.95,192.11L290.18,191.42L290.66,190.61L291.64,190.14L292.65,188.72L291.94,188.76L292.74,186.55L294.58,186.68L294.56,185.79L293.23,185.1L292.39,185.39L292.33,184.43L291.59,182.81L292.21,182.33L293.5,182.35L292.35,181.05L292.66,179.82L291.13,179.89L290.64,178.56L288.82,178.47L289.09,177.34L288.56,176.11L287.73,176.79L288.01,175.53L286.36,175.52L285.85,175.12L285.85,174.15L283.48,174.68L283.44,172.03L281.54,172.52L279.7,175.86L278.72,176.5L277.64,176.55L276.32,174.84L275.24,174.57L275.13,176.95L273.47,177.55L272.44,176.93L270.42,176.21L270.1,175.56L268.96,174.7L268.09,174.57L268.14,175.73L265.14,175.69L263.48,174.56L261.77,175.05L260.73,175.74L259.67,175.53L259.12,173.92L257.91,173.03L257.02,172.95L256.35,173.39L255.86,175.58L254.87,175.55L253.95,176.24L251.29,177.47L250.28,178.12L250.89,180.85L250.62,182.74L251.62,184.09L251.23,185.21L250.02,186.4L249.84,186.99L248.82,187.68L247.59,189.21L245.7,188.98L244.04,190.69L242.85,190.41L241.94,192.65L242.99,193.33L242.37,194.26L241.58,194.68L240.57,194.6L240.09,195.07L237.52,196.39L236.29,197.88L235.64,198.15L236.3,199.68L237.6,200.23L237.32,200.75L234.55,199.32L233.23,199.76L233.05,198.58L230.71,198.29L229.77,198.93L229.74,199.54L228.91,200.44L228.54,202.85L229.07,204.33L228.74,205.73L229.01,207.95L229.97,208.07L231.13,207.55L231.63,208.13L232.56,210.15L232.79,211.5L233.71,213.67L234.68,216.49L233.0,216.32L231.8,216.82L231.29,215.81L231.59,215.26L229.78,214.85L229.8,216.13L229.4,216.47L230.68,217.85L230.8,218.68L229.84,218.48L229.57,219.13L228.66,219.38L227.02,218.85L225.97,217.88L224.7,217.7L224.52,216.69L222.85,216.87L222.65,217.84L223.76,218.73L223.14,219.49L223.05,220.8L223.68,223.79Z",
+          "M188.43,238.36L187.71,238.69L187.6,239.49L186.2,240.03L185.53,239.71L184.68,240.53L184.8,241.06L182.21,244.03L180.72,244.45L180.25,244.2L178.9,242.12L177.41,241.56L176.53,243.41L175.52,247.08L174.64,248.79L173.24,250.85L172.13,250.82L172.47,252.62L172.06,254.15L171.97,255.82L172.64,257.33L172.55,259.22L174.07,260.67L174.99,260.76L175.55,262.27L174.13,263.33L171.7,262.86L171.3,262.45L170.36,263.19L169.12,264.95L166.33,266.15L165.56,266.12L164.5,267.49L165.25,268.13L165.48,270.59L165.39,273.96L165.12,275.78L164.85,279.45L163.74,281.98L163.82,282.49L165.81,281.99L166.34,282.28L169.91,281.45L170.3,282.13L170.27,283.59L170.84,284.73L171.88,285.28L171.93,286.2L170.54,287.07L169.58,286.99L169.71,289.08L171.17,289.34L172.17,289.11L173.43,289.74L174.22,290.9L172.56,292.46L172.51,294.58L173.2,294.63L173.63,295.54L172.78,296.24L172.59,298.08L170.89,298.99L170.15,300.09L168.41,301.2L168.09,303.3L165.62,304.37L165.41,305.14L163.72,306.33L163.68,307.13L165.6,307.81L166.76,308.69L168.29,309.36L168.9,311.29L169.41,310.12L169.63,310.76L170.4,310.33L170.54,309.53L171.73,310.29L172.49,308.63L174.06,308.06L174.15,307.07L175.47,305.87L176.1,306.3L177.39,304.93L178.44,304.57L179.93,304.72L179.34,303.77L180.16,302.84L181.76,302.69L183.83,301.97L184.28,301.28L186.98,299.79L187.74,299.84L189.36,299.01L193.19,298.74L194.2,298.0L197.3,298.58L198.98,298.5L200.39,298.81L200.64,298.1L204.86,297.39L205.85,297.56L208.8,297.45L209.0,298.23L210.52,299.09L210.69,299.61L213.09,298.34L214.52,298.67L215.8,297.62L214.64,297.01L215.04,295.52L214.93,294.47L216.54,293.48L216.16,291.91L215.52,291.24L215.37,289.7L216.35,287.43L215.97,286.97L216.48,285.71L215.97,284.51L214.93,283.39L215.21,282.95L214.71,281.83L216.57,279.72L215.86,279.36L214.62,277.25L215.29,276.95L214.99,276.05L213.6,276.0L211.69,275.2L210.04,275.56L208.62,276.54L207.6,276.87L206.75,276.58L205.88,277.12L205.48,276.54L205.93,275.87L205.57,274.91L204.85,274.43L204.81,273.65L203.93,272.58L202.79,272.49L202.82,271.91L204.43,270.63L203.87,269.24L204.33,268.15L203.06,266.33L203.55,265.64L205.15,265.4L206.48,264.03L208.59,264.54L209.02,263.17L208.09,261.59L208.04,260.04L207.08,259.54L206.2,260.11L205.0,260.18L204.14,260.87L203.76,259.62L200.5,259.75L199.23,259.24L199.02,257.4L198.51,256.82L197.21,257.84L196.52,257.84L195.59,258.75L194.89,258.14L195.07,257.31L194.25,256.61L194.42,254.44L195.47,252.73L195.7,251.48L196.38,250.64L195.86,249.59L194.82,249.86L193.22,248.12L192.41,247.9L191.89,246.38L192.97,244.56L192.69,243.9L192.98,242.8L191.52,241.93L191.22,241.1L190.01,240.98L189.38,240.4L189.11,238.98L188.43,238.36Z",
+          "M257.02,172.95L256.11,171.97L255.19,171.65L255.07,170.44L253.84,167.17L254.18,165.49L253.53,165.3L253.96,164.29L253.35,164.08L253.04,163.1L253.3,162.08L251.73,161.66L250.57,159.96L250.38,159.06L248.9,159.1L248.26,158.67L247.41,159.26L246.96,158.52L245.88,159.66L247.07,160.61L245.16,161.65L244.4,160.11L244.46,159.22L242.75,155.64L241.74,153.93L239.98,153.54L239.86,153.95L240.66,155.99L238.83,157.75L237.94,158.07L236.55,157.58L235.47,157.65L235.16,157.09L233.75,157.28L233.08,156.8L232.45,157.44L230.65,157.91L228.63,157.38L228.48,155.84L229.28,156.0L229.5,155.07L228.66,155.32L227.8,154.79L227.95,154.34L227.21,153.21L227.72,152.1L227.62,150.74L227.91,149.27L227.08,149.05L227.18,147.62L227.82,147.21L228.19,146.11L228.03,144.54L228.87,143.62L228.96,142.8L228.39,140.99L227.08,141.2L225.95,140.5L225.02,140.85L225.19,139.43L224.31,137.81L224.84,136.66L224.71,134.44L223.82,133.19L224.57,131.62L223.82,129.71L223.31,129.36L223.73,128.28L225.03,126.4L223.76,124.65L221.5,122.77L221.31,121.84L222.77,121.12L222.88,119.76L222.48,118.36L221.85,117.55L221.98,116.31L220.49,116.62L219.72,115.68L219.95,114.65L219.45,114.29L219.15,112.63L219.58,109.01L219.53,107.15L218.93,105.8L217.52,105.21L218.05,104.92L217.69,103.85L216.86,103.79L216.5,102.14L215.6,101.71L215.5,100.4L214.71,99.19L215.21,97.9L213.18,98.65L212.14,100.34L210.32,99.57L209.18,99.49L207.69,100.1L206.88,101.38L204.98,101.04L204.74,101.99L203.41,103.32L202.14,103.31L201.67,102.82L201.71,100.4L200.83,99.45L201.16,98.28L201.14,96.42L200.08,94.13L199.44,93.98L198.53,92.58L198.69,91.5L197.9,90.9L197.73,89.59L196.9,89.2L196.55,89.84L194.85,90.36L194.63,91.48L193.74,90.92L193.64,92.3L194.93,93.33L195.28,94.83L196.18,96.71L194.56,97.41L194.06,98.03L193.36,97.7L191.94,98.45L192.19,100.43L191.11,100.83L190.67,101.5L191.06,102.92L191.57,103.56L191.15,105.64L190.63,106.31L190.86,107.54L190.33,109.24L190.69,110.76L191.32,111.41L192.79,111.39L193.54,113.8L193.18,114.65L192.5,114.63L191.96,115.69L192.26,116.58L193.7,117.52L194.31,117.56L194.06,119.38L194.38,120.53L195.33,121.34L194.37,121.83L194.25,122.52L194.82,123.51L196.13,124.43L196.26,125.1L197.03,125.33L197.21,126.34L198.18,128.73L198.01,130.18L198.49,131.85L199.38,132.37L200.92,132.43L201.71,131.98L202.22,130.85L203.43,130.42L203.82,126.81L203.46,125.31L204.09,124.75L205.44,126.25L206.78,126.33L206.88,126.73L208.11,126.91L208.21,126.19L209.05,125.69L210.38,128.66L212.94,129.66L213.82,128.58L214.75,129.7L215.55,129.83L215.3,131.08L215.6,131.96L214.72,133.46L215.56,134.57L214.96,135.37L214.81,136.45L215.5,137.07L215.68,139.53L216.82,140.05L217.18,141.08L216.92,143.18L216.06,144.63L216.76,145.24L216.14,145.89L216.38,146.44L215.2,146.95L215.99,150.38L215.94,153.5L217.18,153.7L218.27,154.71L218.14,156.31L216.83,157.05L217.25,157.83L216.98,158.74L217.67,161.18L217.91,162.97L216.74,164.45L218.12,167.02L217.89,169.59L217.31,171.26L217.47,172.04L218.5,172.33L218.13,173.7L218.97,175.7L218.96,176.66L218.39,178.15L217.74,178.69L217.84,181.62L217.42,184.29L217.57,185.23L217.27,187.19L216.7,187.57L216.84,188.93L215.71,190.21L214.66,190.99L214.18,194.27L215.97,194.7L216.95,197.03L216.74,197.94L215.77,198.81L216.28,199.73L215.44,200.59L213.71,201.72L213.92,200.32L213.38,199.11L212.19,198.93L211.16,199.7L210.54,199.17L209.88,200.23L211.02,203.18L211.02,204.61L211.6,207.5L212.61,207.36L213.66,208.15L214.79,209.59L215.52,211.18L215.65,212.98L216.65,214.08L215.92,215.35L216.3,216.59L217.33,217.15L217.02,218.63L217.79,219.67L217.45,220.42L218.38,221.46L217.92,222.6L218.31,224.0L217.71,226.38L218.33,227.66L219.54,227.91L220.72,227.5L222.9,227.89L223.67,225.01L222.84,223.91L223.68,223.79L223.05,220.8L223.14,219.49L223.76,218.73L222.65,217.84L222.85,216.87L224.52,216.69L224.7,217.7L225.97,217.88L227.02,218.85L228.66,219.38L229.57,219.13L229.84,218.48L230.8,218.68L230.68,217.85L229.4,216.47L229.8,216.13L229.78,214.85L231.59,215.26L231.29,215.81L231.8,216.82L233.0,216.32L234.68,216.49L233.71,213.67L232.79,211.5L232.56,210.15L231.63,208.13L231.13,207.55L229.97,208.07L229.01,207.95L228.74,205.73L229.07,204.33L228.54,202.85L228.91,200.44L229.74,199.54L229.77,198.93L230.71,198.29L233.05,198.58L233.23,199.76L234.55,199.32L237.32,200.75L237.6,200.23L236.3,199.68L235.64,198.15L236.29,197.88L237.52,196.39L240.09,195.07L240.57,194.6L241.58,194.68L242.37,194.26L242.99,193.33L241.94,192.65L242.85,190.41L244.04,190.69L245.7,188.98L247.59,189.21L248.82,187.68L249.84,186.99L250.02,186.4L251.23,185.21L251.62,184.09L250.62,182.74L250.89,180.85L250.28,178.12L251.29,177.47L253.95,176.24L254.87,175.55L255.86,175.58L256.35,173.39L257.02,172.95Z",
+          "M285.98,121.29L286.31,120.68L286.13,118.54L285.38,117.88L286.38,116.69L286.4,115.29L285.77,114.78L284.14,115.0L282.05,114.4L280.26,112.92L281.42,111.47L278.81,108.57L278.1,107.5L276.57,106.92L276.2,106.38L275.25,103.64L274.51,102.04L273.69,101.22L274.23,99.41L274.98,99.55L275.58,98.97L276.82,99.52L277.6,98.49L279.52,98.26L280.18,97.65L279.98,97.03L281.07,96.08L279.27,94.33L280.21,93.96L280.38,92.75L278.78,91.34L275.65,90.36L275.15,90.04L275.45,88.62L276.05,87.72L275.45,86.58L274.76,86.65L272.8,85.74L271.98,83.87L272.18,82.83L271.19,82.09L271.06,81.02L269.17,79.19L267.48,78.77L267.16,77.6L265.45,77.78L265.77,76.55L263.69,74.31L262.01,74.25L260.98,73.32L261.13,72.58L260.52,71.54L260.56,68.87L260.3,67.13L258.56,68.89L256.23,68.68L256.1,69.62L255.36,70.78L255.8,72.21L255.15,72.98L253.06,73.76L252.09,75.25L252.57,75.7L252.49,78.0L251.49,78.47L250.55,78.35L250.56,79.01L249.19,80.13L249.08,81.62L247.46,81.33L246.4,81.79L246.04,82.85L246.4,83.33L246.08,84.36L246.89,85.16L247.45,86.34L246.47,86.75L247.06,88.09L247.67,88.14L247.92,88.97L247.2,90.42L246.58,90.96L246.67,92.23L245.97,92.92L246.89,94.13L247.06,95.4L246.53,95.62L245.75,97.91L245.76,99.47L246.38,101.06L245.21,99.59L244.56,99.58L243.3,97.85L242.16,97.31L241.84,95.78L241.05,95.73L241.4,94.46L241.01,93.88L239.15,92.95L238.81,91.39L237.49,90.64L237.55,90.14L236.32,88.74L235.92,87.71L236.88,86.96L236.72,85.35L237.08,84.18L236.22,81.82L236.13,80.84L236.73,79.69L235.95,79.35L236.24,78.47L235.88,77.54L235.12,77.14L234.91,75.41L234.22,74.29L234.53,72.57L233.68,71.2L233.82,70.4L233.23,68.69L233.21,67.35L234.08,64.99L234.43,62.1L234.05,59.71L234.24,58.71L233.86,57.99L233.65,56.1L233.83,54.64L233.42,52.87L233.7,52.09L233.29,51.49L233.88,49.93L233.64,48.84L232.75,48.74L231.92,49.36L230.28,49.5L229.69,50.43L227.58,49.66L227.48,50.78L226.9,51.36L227.18,53.37L228.24,54.47L228.91,55.83L229.3,57.56L226.85,59.45L226.53,60.26L225.36,60.68L224.98,63.74L224.97,65.1L227.46,66.22L227.09,66.88L227.39,67.71L225.2,68.26L225.19,69.06L224.05,69.41L223.12,68.99L222.09,69.46L221.03,68.34L221.08,67.15L220.58,64.71L220.74,63.49L220.28,63.07L220.48,62.13L219.16,60.24L219.16,59.69L218.29,59.35L216.35,60.54L215.71,61.32L213.43,60.76L212.32,60.96L212.45,62.54L213.48,63.19L212.9,64.82L213.33,66.59L213.98,67.27L213.27,68.61L213.78,70.08L214.45,70.77L214.57,72.76L213.91,73.67L212.64,74.25L212.48,74.8L210.71,75.11L210.71,75.75L211.88,78.17L211.57,78.57L212.38,80.77L212.44,82.49L211.85,83.46L212.28,84.65L214.23,85.06L215.06,87.35L215.68,88.28L215.61,89.23L216.89,90.44L217.75,91.98L217.44,92.74L216.22,93.28L215.83,94.32L215.93,97.22L215.21,97.9L214.71,99.19L215.5,100.4L215.6,101.71L216.5,102.14L216.86,103.79L217.69,103.85L218.05,104.92L217.52,105.21L218.93,105.8L219.53,107.15L219.58,109.01L219.15,112.63L219.45,114.29L219.95,114.65L219.72,115.68L220.49,116.62L221.98,116.31L221.85,117.55L222.48,118.36L222.88,119.76L222.77,121.12L221.31,121.84L221.5,122.77L223.76,124.65L225.03,126.4L223.73,128.28L223.31,129.36L223.82,129.71L224.57,131.62L223.82,133.19L224.71,134.44L224.84,136.66L224.31,137.81L225.19,139.43L225.02,140.85L225.95,140.5L227.08,141.2L228.39,140.99L228.96,142.8L228.87,143.62L228.03,144.54L228.19,146.11L227.82,147.21L227.18,147.62L227.08,149.05L227.91,149.27L227.62,150.74L227.72,152.1L227.21,153.21L227.95,154.34L227.8,154.79L228.66,155.32L229.5,155.07L229.28,156.0L228.48,155.84L228.63,157.38L230.65,157.91L232.45,157.44L233.08,156.8L233.75,157.28L235.16,157.09L235.47,157.65L236.55,157.58L237.94,158.07L238.83,157.75L240.66,155.99L239.86,153.95L239.98,153.54L241.74,153.93L242.75,155.64L244.46,159.22L244.4,160.11L245.16,161.65L247.07,160.61L245.88,159.66L246.96,158.52L247.41,159.26L248.26,158.67L248.9,159.1L250.38,159.06L250.21,157.9L249.69,157.42L249.37,156.18L248.06,155.24L247.52,153.5L247.74,152.49L247.37,151.6L248.11,151.73L247.8,149.93L247.08,149.66L246.63,148.61L246.79,147.87L245.54,146.77L247.07,146.05L246.17,143.39L247.41,141.03L248.08,140.27L247.06,138.98L247.05,137.28L246.47,136.29L247.02,135.49L246.76,134.0L248.03,133.47L250.04,133.14L250.6,132.42L250.79,130.72L252.95,129.7L252.92,130.81L253.69,131.54L253.33,132.95L253.69,134.15L254.49,135.09L255.4,135.31L254.9,136.47L255.51,136.96L255.82,138.12L256.85,138.75L257.69,140.23L256.9,141.48L257.85,142.46L257.76,143.08L259.43,144.26L259.69,145.01L260.38,145.13L261.43,146.81L262.68,147.24L263.79,148.28L263.88,149.08L264.92,149.77L265.96,150.99L266.49,152.67L268.17,153.54L268.34,154.69L269.14,155.31L269.58,156.48L270.5,157.37L270.52,158.02L271.25,159.08L270.63,159.38L270.99,160.98L270.69,161.86L271.2,162.46L271.03,163.36L271.61,163.67L274.27,162.03L274.92,160.54L275.42,160.26L275.28,159.13L276.17,156.29L275.76,155.53L276.23,154.91L275.21,151.81L275.52,149.52L277.36,148.66L279.36,145.67L280.36,144.75L281.85,142.6L283.07,142.33L283.33,141.78L283.05,139.99L281.85,138.0L282.16,137.47L281.32,135.25L280.58,134.2L281.09,132.69L282.64,130.62L283.62,129.81L283.38,128.35L284.5,127.91L284.16,127.01L285.83,124.8L285.68,123.94L285.06,123.58L285.72,122.54L285.98,121.29Z"
+        ],
+        "points": [
+          {
+            "id": "kunming",
+            "x": 392.37,
+            "y": 252.8
+          },
+          {
+            "id": "dali",
+            "x": 280.26,
+            "y": 221.1
+          },
+          {
+            "id": "lijiang",
+            "x": 282.91,
+            "y": 163.54
+          },
+          {
+            "id": "road",
+            "x": 270.55,
+            "y": 183.05
+          }
+        ],
+        "note": "地点依据照片GPS与画面整理。连线为浏览顺序示意。"
+      }
+    }
+  ]
+}

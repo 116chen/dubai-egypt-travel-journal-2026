@@ -49,7 +49,7 @@ export default function TripStory({ trip, editorial, onPhotos, onPlace, onDay }:
         })}
       </div>
       <section className="trip-day-collection" aria-labelledby="trip-day-collection-title">
-        <div className="atlas-section-heading"><div><p className="atlas-kicker">DAY BY DAY</p><h2 id="trip-day-collection-title">每一天，都留下一页。</h2></div><p><BookOpen size={13} /> {trip.days} 天的照片短记</p></div>
+        <div className="atlas-section-heading"><div><p className="atlas-kicker">DAY BY DAY</p><h2 id="trip-day-collection-title">每个有照片的日子，都留下一页。</h2></div><p><BookOpen size={13} /> {editorial.days.length} 篇照片短记</p></div>
         <div className="trip-day-cards">{editorial.days.map((day, index) => {
           const photo = byId.get(day.coverId)!;
           const count = trip.photos.filter((photo) => photo.date === day.date).length;

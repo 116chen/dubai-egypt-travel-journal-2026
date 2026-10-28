@@ -4,6 +4,21 @@ export type TripMemories = { title: string; entries: TripMemory[] };
 // Personal recollections supplied by the author. Keep uncertain details as
 // recollections, without assigning unprovided dates, currencies or identities.
 export const tripMemories: Record<string, TripMemories> = {
+  indonesia: {
+    title: '第一次出国',
+    entries: [
+      {
+        id: 'first-time-abroad',
+        title: '第一次出国，有点慌乱',
+        text: '第一次出国，有点慌乱。',
+      },
+      {
+        id: 'locked-visa-card',
+        title: 'Visa 卡被锁了',
+        text: 'Visa 卡被锁了，身上没有现金，也不会英语。最后只能拿工卡抵押还钱。',
+      },
+    ],
+  },
   xinjiang: {
     title: '新疆',
     entries: [

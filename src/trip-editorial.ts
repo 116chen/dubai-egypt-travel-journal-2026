@@ -1,4 +1,6 @@
 import { chinaEditorial } from './china-editorial';
+import { indonesiaEditorial } from './indonesia-editorial';
+import { yunnanEditorial } from './yunnan-editorial';
 
 export type TripChapter = {
   id: string;
@@ -21,6 +23,8 @@ const photos = (trip: string, ...numbers: number[]) => numbers.map((number) => `
 
 export const tripEditorial: Record<string, TripEditorial> = {
   ...chinaEditorial,
+  ...indonesiaEditorial,
+  ...yunnanEditorial,
   'new-zealand': {
     lead: '湖面上的蓝、山坡上的金色，还有海水里的动物。十天的照片从奥克兰展开，穿过南岛，再回到城市与机场。',
     chapterHeading: '把南岛，收进三段风景。',

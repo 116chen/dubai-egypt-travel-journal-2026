@@ -1,0 +1,512 @@
+{
+  "trips": [
+    {
+      "id": "indonesia",
+      "country": "印度尼西亚 · 雅加达",
+      "countryCode": "id",
+      "english": "INDONESIA",
+      "title": "第一次出国，城市在窗外展开。",
+      "subtitle": "从夜航抵达，到轨道、街道与饭桌，再从同一座机场返程。",
+      "start": "2024-04-15",
+      "end": "2024-04-30",
+      "days": 16,
+      "coverId": "indonesia-019",
+      "secondaryId": "indonesia-004",
+      "tags": [
+        "第一次出国",
+        "城市",
+        "日常"
+      ],
+      "places": [
+        {
+          "id": "arrival",
+          "name": "抵达与返程",
+          "description": "去程的云、夜航下的城市，以及返程机场。",
+          "coordinates": [
+            -6.1256,
+            106.6559
+          ],
+          "photoIds": [
+            "indonesia-001",
+            "indonesia-002",
+            "indonesia-003",
+            "indonesia-004",
+            "indonesia-025",
+            "indonesia-026"
+          ]
+        },
+        {
+          "id": "jakarta",
+          "name": "雅加达",
+          "description": "城市窗景、轨道交通、街道、饭桌与住处。",
+          "coordinates": [
+            -6.2126,
+            106.8207
+          ],
+          "photoIds": [
+            "indonesia-005",
+            "indonesia-006",
+            "indonesia-007",
+            "indonesia-008",
+            "indonesia-009",
+            "indonesia-010",
+            "indonesia-011",
+            "indonesia-012",
+            "indonesia-013",
+            "indonesia-014",
+            "indonesia-015",
+            "indonesia-016",
+            "indonesia-017",
+            "indonesia-018",
+            "indonesia-019",
+            "indonesia-020",
+            "indonesia-021",
+            "indonesia-022",
+            "indonesia-023",
+            "indonesia-024"
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "id": "indonesia-001",
+          "file": "IMG_5473.JPG",
+          "src": "assets/photos/indonesia-001.webp",
+          "thumb": "assets/thumbs/indonesia-001.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "印度尼西亚",
+          "date": "2024-04-15",
+          "place": "抵达与返程",
+          "caption": "从舷窗开始，第一次出国",
+          "placeId": "arrival",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-002",
+          "file": "IMG_0027.HEIC",
+          "src": "assets/photos/indonesia-002.webp",
+          "thumb": "assets/thumbs/indonesia-002.webp",
+          "width": 2200,
+          "height": 2200,
+          "country": "印度尼西亚",
+          "date": "2024-04-15",
+          "place": "抵达与返程",
+          "caption": "云层铺在机翼下面",
+          "placeId": "arrival",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-003",
+          "file": "IMG_5475.JPG",
+          "src": "assets/photos/indonesia-003.webp",
+          "thumb": "assets/thumbs/indonesia-003.webp",
+          "width": 720,
+          "height": 1280,
+          "country": "印度尼西亚",
+          "date": "2024-04-15",
+          "place": "抵达与返程",
+          "caption": "傍晚，飞机停在窗外",
+          "placeId": "arrival",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-004",
+          "file": "IMG_5480.JPG",
+          "src": "assets/photos/indonesia-004.webp",
+          "thumb": "assets/thumbs/indonesia-004.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-15",
+          "place": "抵达与返程",
+          "caption": "夜里的雅加达，从空中亮起来",
+          "placeId": "arrival",
+          "location": [
+            -6.177961666666667,
+            106.45655833333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-005",
+          "file": "efc1a75ccca7bc8f2328044b109bb4fd.jpg",
+          "src": "assets/photos/indonesia-005.webp",
+          "thumb": "assets/thumbs/indonesia-005.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "印度尼西亚",
+          "date": "2024-04-16",
+          "place": "雅加达",
+          "caption": "抵达之后，在电梯里留一张照片",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-006",
+          "file": "IMG_5490.JPG",
+          "src": "assets/photos/indonesia-006.webp",
+          "thumb": "assets/thumbs/indonesia-006.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-16",
+          "place": "雅加达",
+          "caption": "从高处看雅加达的楼群与街区",
+          "placeId": "jakarta",
+          "location": [
+            -6.212566666666667,
+            106.820695
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-007",
+          "file": "IMG_5493.JPG",
+          "src": "assets/photos/indonesia-007.webp",
+          "thumb": "assets/thumbs/indonesia-007.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-16",
+          "place": "雅加达",
+          "caption": "旅途中，一个熟悉的绿色手提袋",
+          "placeId": "jakarta",
+          "location": [
+            -6.221238333333333,
+            106.81952
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-008",
+          "file": "IMG_5496.JPG",
+          "src": "assets/photos/indonesia-008.webp",
+          "thumb": "assets/thumbs/indonesia-008.webp",
+          "width": 720,
+          "height": 1280,
+          "country": "印度尼西亚",
+          "date": "2024-04-17",
+          "place": "雅加达",
+          "caption": "午后的一杯青柠饮料",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-009",
+          "file": "IMG_5499.JPG",
+          "src": "assets/photos/indonesia-009.webp",
+          "thumb": "assets/thumbs/indonesia-009.webp",
+          "width": 1080,
+          "height": 1920,
+          "country": "印度尼西亚",
+          "date": "2024-04-18",
+          "place": "雅加达",
+          "caption": "一份热腾腾的鸡肉饭",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-010",
+          "file": "IMG_5502.JPG",
+          "src": "assets/photos/indonesia-010.webp",
+          "thumb": "assets/thumbs/indonesia-010.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "印度尼西亚",
+          "date": "2024-04-18",
+          "place": "雅加达",
+          "caption": "回到住处，在电梯里拍一张",
+          "placeId": "jakarta",
+          "location": [
+            -6.21307,
+            106.82139666666667
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-011",
+          "file": "IMG_5506.JPG",
+          "src": "assets/photos/indonesia-011.webp",
+          "thumb": "assets/thumbs/indonesia-011.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-19",
+          "place": "雅加达",
+          "caption": "傍晚，从窗边看城市",
+          "placeId": "jakarta",
+          "location": [
+            -6.22117,
+            106.819655
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-012",
+          "file": "IMG_5507.JPG",
+          "src": "assets/photos/indonesia-012.webp",
+          "thumb": "assets/thumbs/indonesia-012.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-19",
+          "place": "雅加达",
+          "caption": "一桌饭菜，和同行的人坐在一起",
+          "placeId": "jakarta",
+          "location": [
+            -6.225603333333333,
+            106.82350333333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-013",
+          "file": "IMG_5566.JPG",
+          "src": "assets/photos/indonesia-013.webp",
+          "thumb": "assets/thumbs/indonesia-013.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "印度尼西亚",
+          "date": "2024-04-21",
+          "place": "雅加达",
+          "caption": "夜色里，列车穿过站台",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-014",
+          "file": "IMG_5564.JPG",
+          "src": "assets/photos/indonesia-014.webp",
+          "thumb": "assets/thumbs/indonesia-014.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "印度尼西亚",
+          "date": "2024-04-21",
+          "place": "雅加达",
+          "caption": "轨道旁的高楼亮起灯",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-015",
+          "file": "IMG_5562.JPG",
+          "src": "assets/photos/indonesia-015.webp",
+          "thumb": "assets/thumbs/indonesia-015.webp",
+          "width": 339,
+          "height": 634,
+          "country": "印度尼西亚",
+          "date": "2024-04-21",
+          "place": "雅加达",
+          "caption": "坐在路边，短暂休息",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-016",
+          "file": "IMG_5567.JPG",
+          "src": "assets/photos/indonesia-016.webp",
+          "thumb": "assets/thumbs/indonesia-016.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-21",
+          "place": "雅加达",
+          "caption": "雨后的雅加达街头",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-017",
+          "file": "IMG_5558.JPG",
+          "src": "assets/photos/indonesia-017.webp",
+          "thumb": "assets/thumbs/indonesia-017.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-21",
+          "place": "雅加达",
+          "caption": "隔着玻璃，看夕阳落在楼群之间",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-018",
+          "file": "IMG_5514.JPG",
+          "src": "assets/photos/indonesia-018.webp",
+          "thumb": "assets/thumbs/indonesia-018.webp",
+          "width": 1650,
+          "height": 2200,
+          "country": "印度尼西亚",
+          "date": "2024-04-21",
+          "place": "雅加达",
+          "caption": "日常的一张电梯自拍",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-019",
+          "file": "IMG_5515.JPG",
+          "src": "assets/photos/indonesia-019.webp",
+          "thumb": "assets/thumbs/indonesia-019.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-23",
+          "place": "雅加达",
+          "caption": "密集屋顶一直铺到远处高楼",
+          "placeId": "jakarta",
+          "location": [
+            -6.212211666666667,
+            106.820455
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-020",
+          "file": "IMG_5518.JPG",
+          "src": "assets/photos/indonesia-020.webp",
+          "thumb": "assets/thumbs/indonesia-020.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-24",
+          "place": "雅加达",
+          "caption": "城市从窗边延伸出去",
+          "placeId": "jakarta",
+          "location": [
+            -6.214028333333333,
+            106.82093
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-021",
+          "file": "IMG_5521.JPG",
+          "src": "assets/photos/indonesia-021.webp",
+          "thumb": "assets/thumbs/indonesia-021.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "印度尼西亚",
+          "date": "2024-04-25",
+          "place": "雅加达",
+          "caption": "夜里的站台与写字楼",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-022",
+          "file": "IMG_5524.JPG",
+          "src": "assets/photos/indonesia-022.webp",
+          "thumb": "assets/thumbs/indonesia-022.webp",
+          "width": 1080,
+          "height": 1620,
+          "country": "印度尼西亚",
+          "date": "2024-04-28",
+          "place": "雅加达",
+          "caption": "一栋楼留在晚霞里",
+          "placeId": "jakarta",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-023",
+          "file": "IMG_5525.JPG",
+          "src": "assets/photos/indonesia-023.webp",
+          "thumb": "assets/thumbs/indonesia-023.webp",
+          "width": 1620,
+          "height": 1080,
+          "country": "印度尼西亚",
+          "date": "2024-04-29",
+          "place": "雅加达",
+          "caption": "列车驶进弧形站台",
+          "placeId": "jakarta",
+          "location": [
+            -6.212633333333334,
+            106.82434666666667
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-024",
+          "file": "IMG_5531.JPG",
+          "src": "assets/photos/indonesia-024.webp",
+          "thumb": "assets/thumbs/indonesia-024.webp",
+          "width": 2200,
+          "height": 1650,
+          "country": "印度尼西亚",
+          "date": "2024-04-30",
+          "place": "雅加达",
+          "caption": "住了半个月的房间",
+          "placeId": "jakarta",
+          "location": [
+            -6.206363333333333,
+            106.82698833333333
+          ],
+          "evidence": "gps-and-visual-review"
+        },
+        {
+          "id": "indonesia-025",
+          "file": "IMG_5533.JPG",
+          "src": "assets/photos/indonesia-025.webp",
+          "thumb": "assets/thumbs/indonesia-025.webp",
+          "width": 1280,
+          "height": 720,
+          "country": "印度尼西亚",
+          "date": "2024-04-30",
+          "place": "抵达与返程",
+          "caption": "返程机场，跟着指示牌去登机",
+          "placeId": "arrival",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        },
+        {
+          "id": "indonesia-026",
+          "file": "IMG_5534.JPG",
+          "src": "assets/photos/indonesia-026.webp",
+          "thumb": "assets/thumbs/indonesia-026.webp",
+          "width": 1920,
+          "height": 1080,
+          "country": "印度尼西亚",
+          "date": "2024-04-30",
+          "place": "抵达与返程",
+          "caption": "候机厅外，飞机在夜色里停着",
+          "placeId": "arrival",
+          "location": null,
+          "evidence": "visual-review-and-adjacent-geotagged-captures"
+        }
+      ],
+      "map": {
+        "paths": [
+          "M239.8,192.3L245.6,213.8L351.0,219.6L362.7,194.3L462.2,223.5L481.7,260.6L563.7,270.4L630.0,305.5L567.6,327.0L509.0,303.5L460.2,305.5L403.7,301.6L352.9,291.8L290.5,268.4L249.5,262.6L228.0,270.4L128.5,247.0L118.8,221.6L70.0,217.7L107.1,163.0L173.4,165.0L216.3,188.4L239.8,192.3Z"
+        ],
+        "points": [
+          {
+            "id": "arrival",
+            "x": 128,
+            "y": 250
+          },
+          {
+            "id": "jakarta",
+            "x": 203,
+            "y": 236
+          }
+        ],
+        "note": "两处点位用于区分机场往返与雅加达市区。连线为浏览顺序示意。"
+      }
+    }
+  ]
+}

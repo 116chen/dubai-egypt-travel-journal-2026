@@ -1,6 +1,8 @@
 import atlasJson from './data/atlas.json';
 import chinaJson from './data/china.json';
+import indonesiaJson from './data/indonesia.json';
 import worldJson from './data/world.json';
+import yunnanJson from './data/yunnan.json';
 import { journal, photoById, type Photo } from './data';
 
 export type AtlasPhoto = Photo & { placeId: string; location: number[] | null; evidence: string };
@@ -32,7 +34,12 @@ export type TripCard = Omit<AtlasTrip, 'map' | 'places' | 'photos'> & { photos: 
 const sourceAtlas = atlasJson as unknown as { trips: AtlasTrip[] };
 const arrivalIds = new Set(['japan-summer-001', 'japan-summer-007', 'japan-summer-008']);
 export const atlas = {
-  trips: [...sourceAtlas.trips, ...chinaJson.trips as unknown as AtlasTrip[]].map((trip): AtlasTrip => {
+  trips: [
+    ...sourceAtlas.trips,
+    ...chinaJson.trips as unknown as AtlasTrip[],
+    ...indonesiaJson.trips as unknown as AtlasTrip[],
+    ...yunnanJson.trips as unknown as AtlasTrip[],
+  ].map((trip): AtlasTrip => {
     if (trip.id !== 'japan-summer') return trip;
     // IMG_7048/7049 GPS: 34.4302 N, 135.2386 E (Kansai Airport).
     // Keep the source snapshot; correct the earlier nearest-city grouping here.
@@ -51,7 +58,7 @@ export const atlas = {
   }),
 };
 export const world = worldJson as { name: string; code: string; path: string }[];
-export const trips: TripCard[] = [
+const unsortedTrips: TripCard[] = [
   {
     id: 'egypt-dubai', country: '埃及 · 阿联酋', countryCode: 'eg', english: 'EGYPT & DUBAI',
     title: '从尼罗河，到另一片海。',
@@ -62,6 +69,12 @@ export const trips: TripCard[] = [
   },
   ...atlas.trips,
 ];
+export const trips = [...unsortedTrips].sort(
+  (left, right) =>
+    right.start.localeCompare(left.start) ||
+    right.end.localeCompare(left.end) ||
+    left.id.localeCompare(right.id),
+);
 export const allPhotos = new Map<string, Photo>([
   ...photoById,
   ...atlas.trips.flatMap((trip) => trip.photos.map((photo) => [photo.id, photo] as const)),
@@ -75,6 +88,7 @@ export const countries = [
   { id: 'all', name: '全部旅程', english: 'ALL', coordinate: [0, 0] },
   { id: 'eg', name: '埃及与迪拜', english: 'EGYPT & DUBAI', coordinate: [31, 29] },
   { id: 'cn', name: '中国', english: 'CHINA', coordinate: [103, 39] },
+  { id: 'id', name: '印度尼西亚', english: 'INDONESIA', coordinate: [106.8, -6.2] },
   { id: 'nz', name: '新西兰', english: 'NEW ZEALAND', coordinate: [171, -42] },
   { id: 'kr', name: '韩国', english: 'SOUTH KOREA', coordinate: [126.5, 33.4] },
   { id: 'jp', name: '日本', english: 'JAPAN', coordinate: [138, 36] },

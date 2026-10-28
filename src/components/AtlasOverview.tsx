@@ -17,7 +17,7 @@ export default function AtlasOverview({ country, onCountry, onTrip }: Props) {
         <div className="atlas-hero-copy">
           <p className="atlas-kicker"><span /> A PERSONAL TRAVEL ATLAS</p>
           <h1 id="atlas-title">去过的地方，<br />都有故事。</h1>
-          <p className="atlas-lead">从新疆湖山到呼伦贝尔，从尼罗河到南半球。<br />把照片铺开，再走一遍。</p>
+          <p className="atlas-lead">从雅加达窗景到云南雪山，从尼罗河到南半球。<br />把照片铺开，再走一遍。</p>
           <div className="atlas-stats">
             <span><strong>{String(totalCountries).padStart(2, '0')}</strong> 个国家</span>
             <span><strong>{String(trips.length).padStart(2, '0')}</strong> 段旅程</span>

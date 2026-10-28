@@ -27,6 +27,7 @@ const mapLabels: Record<string, Record<string, [number, number]>> = {
     yili: [251, 357], nalati: [283, 411], tianshan: [328, 351],
   },
   hulunbuir: { erguna: [443, 250], heishantou: [369, 260] },
+  yunnan: { lijiang: [307, 148], road: [253, 177] },
 };
 type Props = { trip: Trip };
 export default function AtlasTrip({ trip }: Props) {

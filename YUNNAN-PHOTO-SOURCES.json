@@ -1,0 +1,766 @@
+{
+  "library": "Apple Photos",
+  "selectionDate": "2026-10-28",
+  "datePolicy": "Capture timestamps converted to Asia/Shanghai.",
+  "selectionPolicy": "Visual review of May 1–5 captures; excluded screenshots, tickets, payment images, videos and near-duplicate bursts.",
+  "locationPolicy": "Original GPS retained. Unlocated images are grouped by visible landmark and adjacent geotagged captures. Map points are browsing anchors.",
+  "mapSource": "https://geo.datav.aliyun.com/areas_v3/bound/530000_full.json",
+  "photos": [
+    {
+      "galleryId": "yunnan-001",
+      "photosId": "17F11F95-4C4B-4950-A733-741284CF6F64/L0/001",
+      "candidate": "yunnan-001",
+      "filename": "IMG_5536.JPG",
+      "dateUTC": "2024-05-01T05:02:05.000Z",
+      "dateLocal": "2024-05-01T13:02:05+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-002",
+      "photosId": "57E8EBAA-429C-48A2-8116-FFB54F980F12/L0/001",
+      "candidate": "yunnan-002",
+      "filename": "IMG_5537.JPG",
+      "dateUTC": "2024-05-01T06:33:18.000Z",
+      "dateLocal": "2024-05-01T14:33:18+08:00",
+      "location": [
+        24.961361666666665,
+        102.65727166666667
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-003",
+      "photosId": "7E1CEAC3-9C34-4484-9A1C-088DE81F98E7/L0/001",
+      "candidate": "yunnan-008",
+      "filename": "IMG_5553.JPG",
+      "dateUTC": "2024-05-01T07:07:59.000Z",
+      "dateLocal": "2024-05-01T15:07:59+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-004",
+      "photosId": "542CE67D-9533-469F-94AB-FB4F4210ECBD/L0/001",
+      "candidate": "yunnan-010",
+      "filename": "IMG_5540.JPG",
+      "dateUTC": "2024-05-01T07:09:22.000Z",
+      "dateLocal": "2024-05-01T15:09:22+08:00",
+      "location": [
+        24.94412,
+        102.659225
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-005",
+      "photosId": "7F025700-63E3-4ED4-B5F1-D6EA504C3C76/L0/001",
+      "candidate": "yunnan-013",
+      "filename": "IMG_5543.JPG",
+      "dateUTC": "2024-05-01T07:09:57.000Z",
+      "dateLocal": "2024-05-01T15:09:57+08:00",
+      "location": [
+        24.94327,
+        102.65961333333334
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-006",
+      "photosId": "CA52CC26-D55D-4FB1-A463-055AA0758FE4/L0/001",
+      "candidate": "yunnan-017",
+      "filename": "IMG_5548.JPG",
+      "dateUTC": "2024-05-01T08:31:55.000Z",
+      "dateLocal": "2024-05-01T16:31:55+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-007",
+      "photosId": "B21A0664-4D06-441B-9FB4-95222BE14EC5/L0/001",
+      "candidate": "yunnan-018",
+      "filename": "IMG_5547.JPG",
+      "dateUTC": "2024-05-01T08:32:03.000Z",
+      "dateLocal": "2024-05-01T16:32:03+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-008",
+      "photosId": "D6605276-F0C2-423B-BBBC-2BD2CBB8D3EE/L0/001",
+      "candidate": "yunnan-020",
+      "filename": "IMG_5569.JPG",
+      "dateUTC": "2024-05-02T02:03:36.000Z",
+      "dateLocal": "2024-05-02T10:03:36+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-009",
+      "photosId": "6BA18174-FBF4-41D1-8E0E-C32AAFE183F5/L0/001",
+      "candidate": "yunnan-021",
+      "filename": "IMG_5570.JPG",
+      "dateUTC": "2024-05-02T02:17:29.000Z",
+      "dateLocal": "2024-05-02T10:17:29+08:00",
+      "location": [
+        25.058827833333332,
+        102.69602166666667
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-010",
+      "photosId": "8C7D443B-B7A0-4539-88AC-F55D69A26EF1/L0/001",
+      "candidate": "yunnan-022",
+      "filename": "IMG_5580.JPG",
+      "dateUTC": "2024-05-02T02:30:47.000Z",
+      "dateLocal": "2024-05-02T10:30:47+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-011",
+      "photosId": "50139E2E-8E84-4640-BD73-A35D8917B0BC/L0/001",
+      "candidate": "yunnan-023",
+      "filename": "IMG_5581.JPG",
+      "dateUTC": "2024-05-02T03:12:38.000Z",
+      "dateLocal": "2024-05-02T11:12:38+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-012",
+      "photosId": "8899F4C1-8543-4A04-8544-D7ED975F6F1D/L0/001",
+      "candidate": "yunnan-028",
+      "filename": "IMG_5578.JPG",
+      "dateUTC": "2024-05-02T04:20:44.000Z",
+      "dateLocal": "2024-05-02T12:20:44+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-013",
+      "photosId": "F5579836-6CAB-4321-A93F-9F3BAAC0800B/L0/001",
+      "candidate": "yunnan-030",
+      "filename": "IMG_5575.JPG",
+      "dateUTC": "2024-05-02T04:33:34.000Z",
+      "dateLocal": "2024-05-02T12:33:34+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "kunming",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-014",
+      "photosId": "8901A50F-3FDC-4DB0-8D7F-415F3C08AEDB/L0/001",
+      "candidate": "yunnan-034",
+      "filename": "IMG_5582.JPG",
+      "dateUTC": "2024-05-02T12:05:20.000Z",
+      "dateLocal": "2024-05-02T20:05:20+08:00",
+      "location": [
+        25.475888333333334,
+        100.55595333333333
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-015",
+      "photosId": "13CD76EE-0B80-45CE-9C9D-201A5F41321D/L0/001",
+      "candidate": "yunnan-037",
+      "filename": "IMG_5585.JPG",
+      "dateUTC": "2024-05-02T12:24:59.000Z",
+      "dateLocal": "2024-05-02T20:24:59+08:00",
+      "location": [
+        25.47842,
+        100.55603
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-016",
+      "photosId": "438119D8-1340-4167-A99A-0B0CB8AAE170/L0/001",
+      "candidate": "yunnan-039",
+      "filename": "IMG_5587.JPG",
+      "dateUTC": "2024-05-02T12:28:19.000Z",
+      "dateLocal": "2024-05-02T20:28:19+08:00",
+      "location": [
+        25.478866666666665,
+        100.55603
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-017",
+      "photosId": "9813F3B5-007C-4B9F-9BEC-AD4FF7491703/L0/001",
+      "candidate": "yunnan-043",
+      "filename": "IMG_5594.JPG",
+      "dateUTC": "2024-05-03T02:19:40.000Z",
+      "dateLocal": "2024-05-03T10:19:40+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-018",
+      "photosId": "BAD52A9E-74E5-4A9D-B951-C8FEE9F1D2BF/L0/001",
+      "candidate": "yunnan-044",
+      "filename": "IMG_5595.JPG",
+      "dateUTC": "2024-05-03T02:21:16.000Z",
+      "dateLocal": "2024-05-03T10:21:16+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-019",
+      "photosId": "5F91875C-7B3B-41CB-BCF6-3419D8EE01A7/L0/001",
+      "candidate": "yunnan-046",
+      "filename": "55b25a4e7c7bf43b804151a30164743c.jpg",
+      "dateUTC": "2024-05-03T03:10:37.000Z",
+      "dateLocal": "2024-05-03T11:10:37+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-020",
+      "photosId": "4BBA4733-1A22-4C33-BCD3-89A6F14E11C3/L0/001",
+      "candidate": "yunnan-048",
+      "filename": "IMG_5592.JPG",
+      "dateUTC": "2024-05-03T03:19:28.000Z",
+      "dateLocal": "2024-05-03T11:19:28+08:00",
+      "location": [
+        25.696788333333334,
+        100.15840283333333
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-021",
+      "photosId": "C008C956-EFFB-419C-A64D-4A640BA18004/L0/001",
+      "candidate": "yunnan-049",
+      "filename": "IMG_5593.JPG",
+      "dateUTC": "2024-05-03T03:50:07.000Z",
+      "dateLocal": "2024-05-03T11:50:07+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-022",
+      "photosId": "E89A57F0-126C-461C-A7FE-516540CD56AC/L0/001",
+      "candidate": "yunnan-050",
+      "filename": "IMG_5599.JPG",
+      "dateUTC": "2024-05-03T05:48:06.000Z",
+      "dateLocal": "2024-05-03T13:48:06+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-023",
+      "photosId": "3D0585C5-AD58-4A59-B983-E2DC35E7B574/L0/001",
+      "candidate": "yunnan-053",
+      "filename": "IMG_5602.JPG",
+      "dateUTC": "2024-05-03T06:26:19.000Z",
+      "dateLocal": "2024-05-03T14:26:19+08:00",
+      "location": [
+        25.63601166666667,
+        100.19722833333333
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-024",
+      "photosId": "909F9F84-4E87-443D-83B6-57C415A39D26/L0/001",
+      "candidate": "yunnan-057",
+      "filename": "IMG_5606.JPG",
+      "dateUTC": "2024-05-03T08:47:29.000Z",
+      "dateLocal": "2024-05-03T16:47:29+08:00",
+      "location": [
+        25.69412,
+        100.25928666666667
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-025",
+      "photosId": "F7A8F36D-9939-439F-9355-7731BC3EA853/L0/001",
+      "candidate": "yunnan-059",
+      "filename": "IMG_5607.JPG",
+      "dateUTC": "2024-05-03T09:35:21.000Z",
+      "dateLocal": "2024-05-03T17:35:21+08:00",
+      "location": [
+        25.700408333333332,
+        100.26683833333334
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-026",
+      "photosId": "28F0CA23-E99D-4936-BE1C-E7C7BA3E405E/L0/001",
+      "candidate": "yunnan-060",
+      "filename": "IMG_5688.JPG",
+      "dateUTC": "2024-05-03T09:40:42.000Z",
+      "dateLocal": "2024-05-03T17:40:42+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-027",
+      "photosId": "C7AD3AE2-205E-48E2-AB9A-4BB7FCD2374E/L0/001",
+      "candidate": "yunnan-061",
+      "filename": "IMG_5685.JPG",
+      "dateUTC": "2024-05-03T09:48:07.000Z",
+      "dateLocal": "2024-05-03T17:48:07+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-028",
+      "photosId": "E8BAECD1-5514-4E31-A84E-4FED16C26CBC/L0/001",
+      "candidate": "yunnan-062",
+      "filename": "e3fd27d63e05a690e1671eb7195df5e7.jpg",
+      "dateUTC": "2024-05-03T10:02:23.000Z",
+      "dateLocal": "2024-05-03T18:02:23+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-029",
+      "photosId": "23843403-E3C0-4AFD-BAE4-E89B739A6D45/L0/001",
+      "candidate": "yunnan-064",
+      "filename": "E72EC217-5ADD-4128-9DFA-69AB4657B56D.jpeg",
+      "dateUTC": "2024-05-03T10:38:28.000Z",
+      "dateLocal": "2024-05-03T18:38:28+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-030",
+      "photosId": "17509BD1-9BF8-4B05-8694-C2009B4DBCC2/L0/001",
+      "candidate": "yunnan-067",
+      "filename": "IMG_5609.JPG",
+      "dateUTC": "2024-05-03T10:51:14.000Z",
+      "dateLocal": "2024-05-03T18:51:14+08:00",
+      "location": [
+        25.701078333333335,
+        100.26587833333333
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-031",
+      "photosId": "9ABBD21D-D6CE-4C35-B423-4314B588F0A7/L0/001",
+      "candidate": "yunnan-071",
+      "filename": "IMG_5689.JPG",
+      "dateUTC": "2024-05-03T11:28:12.000Z",
+      "dateLocal": "2024-05-03T19:28:12+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "dali",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-032",
+      "photosId": "E99804E7-51B6-43DD-A230-EB1B15D95B7C/L0/001",
+      "candidate": "yunnan-073",
+      "filename": "IMG_5616.JPG",
+      "dateUTC": "2024-05-04T01:45:01.000Z",
+      "dateLocal": "2024-05-04T09:45:01+08:00",
+      "location": [
+        26.604338333333335,
+        100.17424666666666
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-033",
+      "photosId": "E23BC387-A8C3-409B-9667-0904DD128328/L0/001",
+      "candidate": "yunnan-075",
+      "filename": "IMG_5690.JPG",
+      "dateUTC": "2024-05-04T02:04:52.000Z",
+      "dateLocal": "2024-05-04T10:04:52+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-034",
+      "photosId": "CFFDE899-D7D6-43CE-B6BB-3DE40F0A6B1B/L0/001",
+      "candidate": "yunnan-077",
+      "filename": "IMG_5618.JPG",
+      "dateUTC": "2024-05-04T02:40:38.000Z",
+      "dateLocal": "2024-05-04T10:40:38+08:00",
+      "location": [
+        26.605028333333333,
+        100.17118
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-035",
+      "photosId": "DD398005-E4DB-4170-A5F2-82A2351E010A/L0/001",
+      "candidate": "yunnan-083",
+      "filename": "IMG_5624.JPG",
+      "dateUTC": "2024-05-04T05:20:16.000Z",
+      "dateLocal": "2024-05-04T13:20:16+08:00",
+      "location": [
+        26.972671666666667,
+        100.23599166666666
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-036",
+      "photosId": "31DB49E0-12C5-4A54-81FD-9D2CDBC15554/L0/001",
+      "candidate": "yunnan-087",
+      "filename": "IMG_5628.JPG",
+      "dateUTC": "2024-05-04T05:23:41.000Z",
+      "dateLocal": "2024-05-04T13:23:41+08:00",
+      "location": [
+        26.99795,
+        100.24238666666666
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-037",
+      "photosId": "95A9BEE8-9050-4A74-98B1-F21DF2B53C57/L0/001",
+      "candidate": "yunnan-089",
+      "filename": "IMG_5630.JPG",
+      "dateUTC": "2024-05-04T05:27:21.000Z",
+      "dateLocal": "2024-05-04T13:27:21+08:00",
+      "location": [
+        27.024838833333334,
+        100.261245
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-038",
+      "photosId": "EBE875F4-EDAB-4634-990C-68D6556D3C29/L0/001",
+      "candidate": "yunnan-096",
+      "filename": "IMG_5637.JPG",
+      "dateUTC": "2024-05-04T05:38:03.000Z",
+      "dateLocal": "2024-05-04T13:38:03+08:00",
+      "location": [
+        27.0827445,
+        100.26467833333334
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-039",
+      "photosId": "96963431-9011-457D-830B-584AD6D436F6/L0/001",
+      "candidate": "yunnan-099",
+      "filename": "IMG_5642.JPG",
+      "dateUTC": "2024-05-04T06:05:28.000Z",
+      "dateLocal": "2024-05-04T14:05:28+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-040",
+      "photosId": "E18DAADC-EE49-4799-A1C8-B4B5589C8143/L0/001",
+      "candidate": "yunnan-101",
+      "filename": "IMG_5640.JPG",
+      "dateUTC": "2024-05-04T06:06:13.000Z",
+      "dateLocal": "2024-05-04T14:06:13+08:00",
+      "location": [
+        27.101591666666668,
+        100.25730833333333
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-041",
+      "photosId": "48974BE1-E58B-40AF-A933-EB0FF46CEF5D/L0/001",
+      "candidate": "yunnan-105",
+      "filename": "IMG_5654.JPG",
+      "dateUTC": "2024-05-04T08:00:23.000Z",
+      "dateLocal": "2024-05-04T16:00:23+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-042",
+      "photosId": "54501FC8-20DF-4EC7-96FD-EAC764C9CAA9/L0/001",
+      "candidate": "yunnan-107",
+      "filename": "IMG_5653.JPG",
+      "dateUTC": "2024-05-04T08:34:39.000Z",
+      "dateLocal": "2024-05-04T16:34:39+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-043",
+      "photosId": "8D59DC91-4660-495F-9F2E-15A8F7D80F7A/L0/001",
+      "candidate": "yunnan-110",
+      "filename": "IMG_5648.JPG",
+      "dateUTC": "2024-05-04T08:39:21.000Z",
+      "dateLocal": "2024-05-04T16:39:21+08:00",
+      "location": [
+        27.143388833333333,
+        100.23168833333334
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-044",
+      "photosId": "0BF2D237-A550-498B-99F8-A09755CEC207/L0/001",
+      "candidate": "yunnan-113",
+      "filename": "IMG_5651.JPG",
+      "dateUTC": "2024-05-04T08:40:09.000Z",
+      "dateLocal": "2024-05-04T16:40:09+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-045",
+      "photosId": "370BDFCA-A3D2-418C-B259-343BC5F1019F/L0/001",
+      "candidate": "yunnan-121",
+      "filename": "dfb5c2398ae8b0f9c7cdae9e530697f4.jpg",
+      "dateUTC": "2024-05-04T12:58:20.000Z",
+      "dateLocal": "2024-05-04T20:58:20+08:00",
+      "location": [
+        null,
+        null
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "visual-review-and-adjacent-geotagged-captures"
+    },
+    {
+      "galleryId": "yunnan-046",
+      "photosId": "CC77FF9A-1FE3-4172-9822-6BCAC256E036/L0/001",
+      "candidate": "yunnan-122",
+      "filename": "IMG_5664.JPG",
+      "dateUTC": "2024-05-04T13:37:31.000Z",
+      "dateLocal": "2024-05-04T21:37:31+08:00",
+      "location": [
+        26.870345,
+        100.23196333333334
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-047",
+      "photosId": "EAE428E9-6177-40AF-9FEE-E33DD89F949B/L0/001",
+      "candidate": "yunnan-124",
+      "filename": "IMG_5666.JPG",
+      "dateUTC": "2024-05-04T13:47:21.000Z",
+      "dateLocal": "2024-05-04T21:47:21+08:00",
+      "location": [
+        26.870438333333333,
+        100.23190333333334
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-048",
+      "photosId": "B8B6D87A-5F57-424D-A092-BFDF88DEA4A9/L0/001",
+      "candidate": "yunnan-126",
+      "filename": "IMG_5669.JPG",
+      "dateUTC": "2024-05-04T14:46:52.000Z",
+      "dateLocal": "2024-05-04T22:46:52+08:00",
+      "location": [
+        26.87212,
+        100.23346666666667
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-049",
+      "photosId": "5310418A-8FF6-47F6-9237-1EF910C8C2F3/L0/001",
+      "candidate": "yunnan-128",
+      "filename": "IMG_5671.JPG",
+      "dateUTC": "2024-05-04T14:52:40.000Z",
+      "dateLocal": "2024-05-04T22:52:40+08:00",
+      "location": [
+        26.872755,
+        100.233895
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-050",
+      "photosId": "916A04F1-E98A-4574-A405-DA6065B37296/L0/001",
+      "candidate": "yunnan-130",
+      "filename": "IMG_5673.JPG",
+      "dateUTC": "2024-05-04T15:01:21.000Z",
+      "dateLocal": "2024-05-04T23:01:21+08:00",
+      "location": [
+        26.87443,
+        100.23435333333333
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-051",
+      "photosId": "12E8B62F-907C-4B69-B0F3-A880E66F3576/L0/001",
+      "candidate": "yunnan-131",
+      "filename": "IMG_5674.JPG",
+      "dateUTC": "2024-05-04T15:06:59.000Z",
+      "dateLocal": "2024-05-04T23:06:59+08:00",
+      "location": [
+        26.87568,
+        100.23263666666666
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-052",
+      "photosId": "9D80CCE1-4880-4792-BBAE-688482662690/L0/001",
+      "candidate": "yunnan-132",
+      "filename": "IMG_5675.JPG",
+      "dateUTC": "2024-05-04T15:14:24.000Z",
+      "dateLocal": "2024-05-04T23:14:24+08:00",
+      "location": [
+        26.876363333333334,
+        100.23323833333333
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-053",
+      "photosId": "7B79C1A4-CDDB-41D8-8F09-CFA8292C1303/L0/001",
+      "candidate": "yunnan-133",
+      "filename": "IMG_5679.JPG",
+      "dateUTC": "2024-05-05T02:42:44.000Z",
+      "dateLocal": "2024-05-05T10:42:44+08:00",
+      "location": [
+        26.92252,
+        100.20347
+      ],
+      "displayPlaceId": "lijiang",
+      "evidence": "gps-and-visual-review"
+    },
+    {
+      "galleryId": "yunnan-054",
+      "photosId": "5D214463-68A4-4DBC-B64E-6CD354AF9D5D/L0/001",
+      "candidate": "yunnan-134",
+      "filename": "IMG_5681.JPG",
+      "dateUTC": "2024-05-05T07:47:17.000Z",
+      "dateLocal": "2024-05-05T15:47:17+08:00",
+      "location": [
+        26.474575,
+        99.94982833333333
+      ],
+      "displayPlaceId": "road",
+      "evidence": "gps-and-visual-review"
+    }
+  ]
+}

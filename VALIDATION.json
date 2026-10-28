@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-25",
-  "totalPhotos": 792,
-  "newPhotos": 597,
+  "date": "2026-10-28",
+  "totalPhotos": 872,
+  "newPhotos": 677,
   "tripPhotoCounts": {
     "egypt-dubai": 195,
     "new-zealand": 166,
@@ -9,7 +9,9 @@
     "japan-spring": 90,
     "japan-summer": 91,
     "xinjiang": 100,
-    "hulunbuir": 81
+    "hulunbuir": 81,
+    "indonesia": 26,
+    "yunnan": 54
   },
   "dataChecks": [
     "Four new trips contain exactly 416 curated photographs",
@@ -994,9 +996,9 @@
       "status": "success"
     }
   },
-  "totalCountries": 6,
-  "totalTrips": 7,
-  "totalDays": 53,
+  "totalCountries": 7,
+  "totalTrips": 9,
+  "totalDays": 74,
   "yearRange": "2024—2026",
   "chinaTripsRevision": {
     "date": "2026-10-25",
@@ -1212,5 +1214,74 @@
       "errors": [],
       "status": "success"
     }
+  },
+  "indonesiaTripRevision": {
+    "date": "2026-10-28",
+    "photos": 26,
+    "responsiveAssets": 78,
+    "chapters": 3,
+    "dailyStories": 12,
+    "places": 2,
+    "memories": 2,
+    "checks": [
+      "Indonesia country filter shows the Jakarta volume",
+      "Homepage totals are 7 countries, 8 trips and 818 photos",
+      "All 26 selected photo IDs are unique",
+      "All 26 photographs have source provenance",
+      "All 78 responsive WebP files decode and match recorded dimensions",
+      "Three editorial chapters render",
+      "Twelve photographed-date stories render",
+      "Airport and Jakarta map places render and select correctly",
+      "April 15 gallery filter returns four photographs",
+      "Full-size viewer advances with the keyboard",
+      "Both supplied recollections render",
+      "Markdown export contains both recollections",
+      "Existing saved supplement and pending draft remain unchanged",
+      "Export includes authored notes, saved supplement and pending draft",
+      "Indonesia page fits at 390px and 320px",
+      "Xinjiang, Japan and Egypt authored memories remain complete",
+      "Production build passes",
+      "No runtime exceptions or missing local resources"
+    ],
+    "errors": [],
+    "provenance": "INDONESIA-PHOTO-SOURCES.json",
+    "contentPolicy": "Personal recollections supplied by the author; no unprovided date, amount or person assigned."
+  },
+  "yunnanTripRevision": {
+    "date": "2026-10-28",
+    "photos": 54,
+    "responsiveAssets": 162,
+    "chapters": 3,
+    "dailyStories": 5,
+    "places": 4,
+    "checks": [
+      "China filter shows Xinjiang, Hulunbuir and Yunnan",
+      "Homepage totals are 7 countries, 9 trips and 872 photos",
+      "All 54 selected Yunnan photo IDs are unique",
+      "All 54 photographs have source provenance",
+      "All 162 responsive WebP files decode and match recorded dimensions",
+      "Three Yunnan editorial chapters render",
+      "Five Yunnan daily stories render",
+      "Kunming, Dali, Lijiang and return-road map places render",
+      "Production build passes",
+      "No prior photo layout records are changed"
+    ],
+    "errors": [],
+    "provenance": "YUNNAN-PHOTO-SOURCES.json",
+    "contentPolicy": "Captions and editorial text are limited to visible scenes, GPS-supported cities and broad route groupings."
+  },
+  "chronologicalOrderingRevision": {
+    "date": "2026-10-28",
+    "direction": "newest-first",
+    "checks": [
+      "All nine homepage cards are ordered by trip start date",
+      "China-filtered cards are ordered Hulunbuir, Xinjiang, Yunnan",
+      "Trip switcher uses the same chronological ordering",
+      "Newest trip is Egypt and Dubai starting 2026-09-30",
+      "Oldest trip is Jakarta starting 2024-04-15",
+      "Production build passes",
+      "No broken images or desktop horizontal overflow"
+    ],
+    "errors": []
   }
 }

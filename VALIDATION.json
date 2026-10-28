@@ -1301,5 +1301,20 @@
     ],
     "errors": [],
     "status": "success"
+  },
+  "xinjiangNationalDayDateRevision": {
+    "date": "2026-10-28",
+    "authorConfirmedPeriod": "National Day holiday",
+    "previousDisplayRange": "2024-09-04—2024-09-12",
+    "displayRange": "2024-10-01—2024-10-09",
+    "checks": [
+      "Xinjiang trip range is October 1–9, 2024",
+      "All 100 Xinjiang photos map to nine October display dates",
+      "All nine daily stories use matching October dates",
+      "Date filters expose October 1–9 only",
+      "Original Photos timestamps remain in CHINA-PHOTO-SOURCES.json",
+      "Source provenance records the author-confirmed display correction"
+    ],
+    "errors": []
   }
 }

@@ -1,7 +1,7 @@
 {
   "library": "Apple Photos",
   "selectionDate": "2026-10-25",
-  "datePolicy": "Photos capture timestamp converted to Asia/Shanghai; only dates with selected travel photographs are included.",
+  "datePolicy": "Original Photos timestamps remain recorded per source item. Xinjiang display dates use the author-confirmed National Day period; Hulunbuir display dates use Asia/Shanghai capture dates.",
   "selectionPolicy": "Contact-sheet visual review; prefer JPEG over matching RAW; retain one of identical filename/timestamp copies; exclude screenshots, tickets, later collages and repeated captures.",
   "locationPolicy": "Original photo GPS retained. Unlocated photographs grouped by visible landmarks and adjacent geotagged captures. Flight photographs grouped with arrival without replacing their GPS. Broad road/forest groups and map anchors are regional references, not exact capture coordinates.",
   "uncertainties": [
@@ -28,8 +28,8 @@
       "crop": [
         116.3,
         48.6,
-        122.0,
-        52.0
+        122,
+        52
       ]
     }
   ],
@@ -2748,6 +2748,26 @@
       "galleryId": "hulunbuir-151",
       "displayPlaceId": "manzhouli",
       "evidence": "gps-and-visual-review"
+    }
+  ],
+  "displayCorrections": [
+    {
+      "trip": "xinjiang",
+      "reason": "Author confirmed the journey took place during the National Day holiday; September display dates were incorrect.",
+      "originalMetadataRange": "2024-09-04—2024-09-12",
+      "displayRange": "2024-10-01—2024-10-09",
+      "mapping": {
+        "2024-09-04": "2024-10-01",
+        "2024-09-05": "2024-10-02",
+        "2024-09-06": "2024-10-03",
+        "2024-09-07": "2024-10-04",
+        "2024-09-08": "2024-10-05",
+        "2024-09-09": "2024-10-06",
+        "2024-09-10": "2024-10-07",
+        "2024-09-11": "2024-10-08",
+        "2024-09-12": "2024-10-09"
+      },
+      "scope": "Displayed trip range, photo dates, day stories and date filters. Original source timestamps are retained below."
     }
   ]
 }

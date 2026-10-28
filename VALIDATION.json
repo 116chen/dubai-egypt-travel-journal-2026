@@ -1315,6 +1315,23 @@
       "Original Photos timestamps remain in CHINA-PHOTO-SOURCES.json",
       "Source provenance records the author-confirmed display correction"
     ],
-    "errors": []
+    "errors": [],
+    "publication": {
+      "sourceCommit": "4a4cbbaf1156edf5898a8266a3c4d3099fcd4c8d",
+      "deploymentCommit": "ec471ad1522d1ab68fa73d983f80fe8425e8efad",
+      "base": "https://116chen.github.io/dubai-egypt-travel-journal-2026/?trip=xinjiang",
+      "workflowRun": "https://github.com/116chen/dubai-egypt-travel-journal-2026/actions/runs/40665807275",
+      "checks": [
+        "Public trip range is October 1–9, 2024",
+        "Public nine-day directory uses October 1–9",
+        "Public trip switcher labels Xinjiang as 2024.10",
+        "Public date filter contains October 1–9 only",
+        "Public final-day reader opens October 9 with eleven photographs",
+        "Public images load without failures",
+        "Public console has no runtime errors"
+      ],
+      "errors": [],
+      "status": "success"
+    }
   }
 }
